@@ -1,7 +1,7 @@
 @extends('layouts.desktop')
 @section('content')
-<div id="marcas" >
-    <img src="{{url()}}/img/marcas/elige-tu-marca.jpg" width="1788" height="930" class="img-responsive center-block" alt="Elige tu Marca" />
+<div id="marcas">
+	<img src="{{url()}}/img/marcas/elige-tu-marca.jpg" width="1788" height="930" class="img-responsive center-block" alt="Elige tu Marca" />
 	<img src="{{url()}}/img/marcas/1.jpg" width="1788" height="1434" usemap="#Map" class="maped img-responsive" alt="Elige tu Marca" />
 	<map name="Map" id="Map">
 		<area shape="rect" coords="3,3,1084,1431" href="{{url()}}/marcas/marquis" />
