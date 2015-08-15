@@ -16,7 +16,7 @@ switch ($id) {
     	$sku="cod.9372832222";
     	$precio='<span>PRECIO NORMAL </span><span class="red">$ 579.90</span>';
         break;
-}
+} 
 
 
 ?>
