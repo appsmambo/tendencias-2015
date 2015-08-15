@@ -28,7 +28,7 @@
                             <a href="{{url()}}/accesorios/5" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/5.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="{{url()}}/accesorios/6" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/6.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <img src="{{url()}}/img/accesorios/6.jpg" class="img-responsive" alt="Accesorios" />
                         </div>
                         <div class="col-sm-4">
                             <a href="{{url()}}/accesorios/7" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/7.jpg" class="img-responsive" alt="Accesorios" /></a>
