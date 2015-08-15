@@ -1,6 +1,6 @@
 @extends('layouts.desktop')
 @section('content')
-<a href="{{url()}}/sarah-jessica-parker" title="Sarah Jessica Parker">
+<a href="{{url()}}/sjp" title="Sarah Jessica Parker">
 	<img src="{{url()}}/img/home/1.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
 </a>
 <a href="{{url()}}/marcas.php" title="Marcas">

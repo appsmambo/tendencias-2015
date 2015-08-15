@@ -135,7 +135,7 @@ footer{
 	padding: 12px 0;
 	background: #000;
 	position: relative;
-	z-index: 2;
+	z-index:12;
 }
 footer a{
 	margin-right: 20px;
@@ -149,7 +149,6 @@ footer a{
     padding-left:0;
 }
 .menu-list{
-	display: none;
 	margin:0 0 0 17px;
 }
 .navs{
@@ -162,13 +161,14 @@ footer a{
 	background: #ffed00;
 	left: 0;
 	width:65px;
-	z-index: 2;
+	z-index:11;
 	overflow:hidden;
 }
 .navs.red{
 	background: #e51229;
 	right: 0;
 	width:65px;
+	z-index:11
 }
 .redes{
 	width: 34px;
@@ -662,5 +662,21 @@ footer a{
 	margin: 0 0 40px 0;
 }
 .video-contenedor {
-	cursor:pointer
+	position:relative
+}
+.video-contenedor a.play {
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	display:block;
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index:10
+}
+.embed-responsive {
+	z-index:1
 }
