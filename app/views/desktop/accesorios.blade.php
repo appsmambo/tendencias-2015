@@ -19,34 +19,34 @@
                             <a href="{{url()}}/accesorios/2" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/2.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-3" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/3.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/3" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/3.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-4" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/4.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/4" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/4.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-5" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/5.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/5" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/5.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-6" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/6.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/6" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/6.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-7" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/7.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/7" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/7.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-8" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/8.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/8" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/8.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-9" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/9.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/9" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/9.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-10" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/10.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/10" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/10.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-11" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/11.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/11" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/11.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <a href="accesorios-detalle/accesorios-12" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/12.jpg" class="img-responsive" alt="Accesorios" /></a>
+                            <a href="{{url()}}/accesorios/12" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/12.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
 </div>
 @stop

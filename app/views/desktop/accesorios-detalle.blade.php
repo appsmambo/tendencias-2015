@@ -1,15 +1,21 @@
 <?php
 
-if($id==1){
-    $nombre="<p>Vestido a rayas<br/> frunce</p>";
-    $sku="cod.93728639";
-    $precio='<span>PRECIO NORMAL </span><span class="red">$ 79.90</span>';
-}
-
-if($id==2){
-    $nombre="<p>Vestido a rayitas<br/> frunce</p>";
-    $sku="cod.9372832222";
-    $precio='<span>PRECIO NORMAL </span><span class="red">$ 579.90</span>';
+switch ($id) {
+    case 1:
+        $nombre="<p>Vestido a rayas<br/> frunce</p>";
+         $sku="cod.93728639";
+    	$precio='<span>PRECIO NORMAL </span><span class="red">$ 79.90</span>';
+        break;
+    case 2:
+        $nombre="<p>Vestido a rayitas<br/> frunce</p>";
+    	$sku="cod.9372832222";
+    	$precio='<span>PRECIO NORMAL </span><span class="red">$ 579.90</span>';
+        break;
+    case 3:
+        $nombre="<p>Vestido a rayitas<br/> frunce</p>";
+    	$sku="cod.9372832222";
+    	$precio='<span>PRECIO NORMAL </span><span class="red">$ 579.90</span>';
+        break;
 }
 
 
