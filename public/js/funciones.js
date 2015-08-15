@@ -35,10 +35,11 @@ $(document).ready(function () {
 		}
 	);
 	
-	var div_alto = parseInt($(".marca-right").height());
-	var div_alto_2 = parseInt($(".video-marca iframe").height());
+	var div_alto = $(".marca-right").height();
+	var div_alto_2 = $(".video-marca").height();
+
 	var altototal = div_alto - div_alto_2;
-	$(".fondo-marcas").height(altototal);
+	$(".content-tendencias").height(altototal);
 
 	$('#marcas .col-sm-12 img[usemap]').rwdImageMaps();
 	
