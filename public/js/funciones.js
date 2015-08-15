@@ -41,9 +41,14 @@ $(document).ready(function () {
 	var altototal = div_alto - div_alto_2;
 	$(".content-tendencias").height(altototal);
 
-	$('#marcas .col-sm-12 img[usemap]').rwdImageMaps();
+	$('.maped').rwdImageMaps();
 	
-	
+	$('.play').click(function() {
+		$(this).fadeTo('slow', 0, function() {
+			$(this).hide();
+		});
+		return false;
+	});
 
 	$(".fancybox").fancybox({
 		maxWidth: 800,

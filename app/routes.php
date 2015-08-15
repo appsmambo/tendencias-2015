@@ -15,7 +15,7 @@ Route::get('/', array('as' => 'home', function () {
 	return  View::make(defineFolder() . 'home');
 }));
 
-Route::get('/sarah-jessica-parker',array('as' => 'sarah', function () {
+Route::get('/sjp',array('as' => 'sarah', function () {
 	return  View::make(defineFolder() . 'sarah');
 }));
 
@@ -23,31 +23,31 @@ Route::get('/marcas',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas');
 }));
 
-Route::get('/marcas-marquis',array('as' => 'marcas', function () {
+Route::get('/marcas/marquis',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-marquis')->with('itemactive',1);
 }));
 
-Route::get('/marcas-navigata',array('as' => 'marcas',function () {
+Route::get('/marcas/navigata',array('as' => 'marcas',function () {
 	return  View::make(defineFolder() . 'marcas-navigata')->with('itemactive',2);
 }));
 
-Route::get('/marcas-tatienne',array('as' => 'marcas', function () {
+Route::get('/marcas/tatienne',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-tatienne')->with('itemactive',3);
 }));
 
-Route::get('/marcas-cacharel',array('as' => 'marcas', function () {
+Route::get('/marcas/cacharel',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-cacharel')->with('itemactive',4);
 }));
 
-Route::get('/marcas-index', array('as' => 'marcas',function () {
+Route::get('/marcas/index', array('as' => 'marcas',function () {
 	return  View::make(defineFolder() . 'marcas-index')->with('itemactive',5);
 }));
 
-Route::get('/marcas-barbados',array('as' => 'marcas', function () {
+Route::get('/marcas/barbados',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-barbados')->with('itemactive',6);
 }));
 
-Route::get('/marcas-pepe-jeans',array('as' => 'marcas', function () {
+Route::get('/marcas/pepejeans',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-pepe-jeans')->with('itemactive',7);
 }));
 
@@ -65,8 +65,8 @@ Route::get('/lookbook/{name}', array('as' => 'detallelook', 'uses' => 'LookbookC
 
 function defineFolder(){
 	$isMobile=Agent::isMobile();
-    $folder='desktop/';
-	 if ($isMobile)
+	$folder='desktop/';
+	if ($isMobile)
 		$folder='mobile/';
 
 	return $folder;
