@@ -456,12 +456,8 @@ footer a{
 .sociales-marcas a{
 	margin-left: 3px;
 }
-.fondo-marcas{
-	width: 100%;
-	background: url("../img/marcas/navigata/1.jpg") no-repeat center top;
-}
- .fondo-negro{
-	background-color: #000;
+ .fondo-blanco{
+	background-color: #fff;
 }
 .precio-marca{
 	position: relative;
@@ -474,6 +470,7 @@ footer a{
 	height: 90%;
 	width: 90%;
 	background: #fff;
+	display: none;
 }
 .imagen-precio-detalle{
 	width:54%;
@@ -497,8 +494,16 @@ footer a{
 	padding: 9px;
 	text-transform: uppercase;
 }
-.content-tendencias{
+.content-tendencias, .content-tendencias-2{
 	position: relative;
+}
+.content-tendencias{
+	border: 24px solid #ffed00;
+}
+.content-tendencias.otras-marcas.navigata{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/navigata/2.jpg') no-repeat center top;
 }
 .content-tendencias-listas{
 	position: absolute;
@@ -521,7 +526,7 @@ footer a{
 	list-style: none;
 	width: 33%;
 	font-family: 'bentonsans_bookregular';
-	font-size: 22px;
+	font-size: 26px;
 }
 .content-tendencias-a ul li {
 	margin: 0 0 2% 0;
@@ -529,14 +534,31 @@ footer a{
 .content-tendencias-a ul li.flecha{
 	margin-bottom: 6%;
 }
+.content-tendencias-a ul li.flecha.dos{
+	margin-top: 8px;
+}
 .content-tendencias-a ul li.kimono{
 	font-family: 'bentonsansbold';
 }
+.content-tendencias-a ul hr{
+	height: 9px;
+	width: 47px;
+	margin:0 auto;
+	border: 0;
+}
+.content-tendencias-a ul hr.raya-amarilla{
+	background: #ffed00;
+}
+.content-tendencias-a ul hr.raya-negra{
+	background: #000;
+}
+.content-tendencias-a ul hr.raya-turquesa{
+	background: #a7cdda;
+}
 .content-tendencias-a ul li.spring{
-	font-size: 18px;
 }
 .content-tendencias-a ul li.items{
-	font-size: 15px;
+	
 }
 .content-tendencias-a ul li:last-child{
 	margin: 0;
@@ -662,7 +684,119 @@ footer a{
 	margin: 0 0 40px 0;
 }
 .video-contenedor {
-	position:relative
+	cursor:pointer
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
 }
 .video-contenedor a.play {
 	background-position:left top;
