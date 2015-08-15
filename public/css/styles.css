@@ -1,0 +1,666 @@
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('../fonts/bentonsans-bold-webfont.eot');
+    src: url('../fonts/bentonsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bentonsans-bold-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-bold-webfont.svg#bentonsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bentonsans_bookregular';
+    src: url('../fonts/bentonsans-book-webfont.eot');
+    src: url('../fonts/bentonsans-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-book-webfont.woff2') format('woff2'),
+         url('../fonts/bentonsans-book-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-book-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-book-webfont.svg#bentonsans_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bentonsansregular';
+    src: url('../fonts/bentonsans-regular-webfont.eot');
+    src: url('../fonts/bentonsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bentonsans-regular-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-regular-webfont.svg#bentonsansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('../fonts/bentonsans-medium-webfont.eot');
+    src: url('../fonts/bentonsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/bentonsans-medium-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-medium-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-medium-webfont.svg#bentonsansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'adobe_caslon_proregular';
+    src: url('../fonts/adobe_caslon_pro-webfont.eot');
+    src: url('../fonts/adobe_caslon_pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/adobe_caslon_pro-webfont.woff2') format('woff2'),
+         url('../fonts/adobe_caslon_pro-webfont.woff') format('woff'),
+         url('../fonts/adobe_caslon_pro-webfont.ttf') format('truetype'),
+         url('../fonts/adobe_caslon_pro-webfont.svg#adobe_caslon_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	 font-family: 'bentonsansbold';
+}
+a:hover{
+	text-decoration: none;
+}
+.navs.yellow.nav-ancho{
+	width: 15%;
+}
+.easeOutExpo{
+	 -moz-transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
+     -ms-transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
+     -o-transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
+	-webkit-transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
+  	transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav.header{
+	width: 175px;
+	margin: 60px 0 0 0;
+	border: 0;
+}
+nav.header.left-margin{
+	margin-left: 15px;
+}
+nav.header img.bar-toogle{
+	margin-bottom: 28.5%;
+	cursor: pointer;
+	margin-left: 17px;
+	display: block;
+}
+nav.header ul{
+	margin: 14px 0 0 0;
+	padding: 0;
+	font-size: 15px;
+}
+nav.header ul li{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+nav.header ul li a{
+	color: #000000;
+	display: block;
+	width: 90%;
+	padding: 6px 0 6px 5px;
+}
+nav.header ul li a:hover, nav.header ul li a.active{
+	background: #000000;
+	color: #fff;
+}
+nav.header ul li a.menu-lookbook{
+	cursor: pointer;
+}
+nav.header ul li ul{
+	list-style: none;
+	margin: 3% 0;
+	padding: 0;
+	border: 0;
+	text-transform: uppercase;
+	 font-family: 'bentonsansregular';
+	font-size: 13px;
+	display: none;
+}
+nav.header ul li ul.listas-desplegadas{
+	display: block;
+}
+nav.header ul li ul li{
+	padding: 0 0 0 10%;
+}
+nav.header ul li ul li a:hover, nav.header ul li ul li a.active{
+	background:none;
+	color: #e51229;
+}
+footer{
+	width: 100%;
+	padding: 12px 0;
+	background: #000;
+	position: relative;
+	z-index: 2;
+}
+footer a{
+	margin-right: 20px;
+}
+/*#wrapper .contents{
+	width: 90%;
+	margin-left:5%;
+}*/
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.menu-list{
+	display: none;
+	margin:0 0 0 17px;
+}
+.navs{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	min-height: 100%;
+}
+.navs.yellow{
+	background: #ffed00;
+	left: 0;
+	width:65px;
+	z-index: 2;
+	overflow:hidden;
+}
+.navs.red{
+	background: #e51229;
+	right: 0;
+	width:65px;
+}
+.redes{
+	width: 34px;
+	position: absolute;
+	bottom: 50px;
+	left:16px;
+}
+.redes img{
+	margin: 0 0 9px 0;
+}
+#sarah{
+	position: relative;
+	color: #000100;
+}
+#sarah .content-c{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 17px;
+}
+#sarah .content-c .col-sm-5{
+	width: 39%;
+	margin-top:6%;
+}
+#sarah .content-c p{
+	font-family: 'adobe_caslon_proregular';
+	font-size: 15px;
+	margin: 3% 0;
+	padding: 0;
+	color: #000;
+}
+#sarah .content-c img.titulo{
+	margin: 0 0 13% 0;
+}
+#sarah .content-c span{
+	font-size: 12px;
+	letter-spacing:4px
+}
+#sarah .content-c span.nueva-imagen {
+	font-size:18px;
+	letter-spacing:5px
+}
+#sarah .content-c span.medium{
+	font-family: 'bentonsansmedium';
+}
+.content-a{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	height: 100%;
+}
+.content-b{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.compartir-sarah{
+	margin: 8% 0 0 0;
+}
+.compartir{
+	margin-right: 10px;
+}
+/*Lookbook Interna*/
+.detalle-lookbook{
+	position: relative;
+	margin-top: 80px;
+	margin-left: 10%;
+	border:0;
+}
+.prev{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 29px;
+	height: 75px;
+	margin: -38px 0 0 0;
+}
+.next{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 27px;
+	height: 70px;
+	margin: -35px 0 0 0;
+}
+.slider-prenda{
+	padding-left: 0;
+}
+.galeria-slider{
+	margin: 20px 0 0 0;
+	position: relative;
+	padding-left: 15px;
+}
+#bx-pager{
+	position: relative;
+	left: 0;
+	width: 19%;
+	margin: 0 0 0 8%;
+}
+#bx-pager a{
+	display: block;
+	margin:0 0 20px 0;
+}
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    left: 0 !important;
+    background: none !important;
+}   
+.bx-wrapper {
+    position: absolute !important;
+    width: 65%  !important;
+    margin: 0 !important;
+    right: 0;
+    top:0;
+}
+.bx-wrapper li{
+	left: 0;
+}
+.prenda-precio{
+	margin-top:46px;
+	font-family: 'bentonsansregular';
+	width: 23%;
+}
+.prenda-precio h3{
+	margin:0 0 35px 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'bentonsansbold';
+}
+.prenda-precio span.sku{
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.prenda-precio p, .prenda-precio div{
+	padding: 40px 0;
+	margin: 3px 0;
+	font-size: 10px;
+	border-bottom: 1px solid #000;
+	width: 75%;
+}
+.prenda-precio p span{
+	display: block;
+	color: #e81e1e;
+	font-size: 17px;
+	font-family: 'bentonsansbold';
+}
+.prenda-precio p a{
+	color: #000000;
+}
+.prenda-precio div span{
+	color: #e81e1e;
+	text-transform: uppercase;
+}
+.prenda-precio div ul{
+	margin: 20px 0 0 0 ;
+	padding:0;
+	list-style: none;
+}
+.prenda-precio div ul li{
+	margin: 0 0 3px 0;
+	list-style: none;
+	background: url("../img/Lookbook/guion.jpg") no-repeat left 6px;
+	padding-left: 10px;
+}
+.prenda-precio p.precio{
+	text-transform: uppercase;
+}
+.prenda-precio p.combinalo img{
+	margin-left: 5px;
+}
+.lista-similares{
+	margin: 0;
+	padding: 65px 0 55px 0;
+	font-size: 10px;
+	text-transform: uppercase;
+	border: 0;
+	font-family: 'bentonsansregular';
+}
+.lista-similares ul{
+	list-style: none;
+	margin: 22px 0 0 -15px;
+	padding: 0;
+}
+.row-eq-height{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+}
+.row-eq-height:first-child .item{
+	opacity: 1 !important;
+}
+.item{
+	position: relative;
+	cursor: pointer;
+	height: auto;
+	float: left;
+	margin: 0 0.7% 12px 0;
+	border: 0;
+	padding: 0;
+	opacity: 0;
+}
+.item.last{
+	margin-right: 0;
+}
+.content-item{
+	padding-right: 0%;
+	border: 0;
+}
+.redes-look{
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	height: 35px;
+}
+.redes-look img{
+	margin-left: 4px;
+}
+.detalle-item{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
+.detalle-item img{
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+}
+.detalle-item-2{
+	width: 100%;
+}
+.fondo-item{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.4;
+}
+.content-a-look{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.content-b-look{
+	display: table-cell;
+	vertical-align: middle;
+}
+#marcas .row, #marcas-interna .row{
+	margin: 0;
+}
+#marcas .col-sm-12 img[usemap] {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}
+.banner-marca{
+	position: relative;
+}
+.sociales-marcas{
+	width: 213px;
+	position: absolute;
+	bottom: 22px;
+	text-align: center;
+	right:30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'bentonsansmedium';
+	font-size: 10px;
+}
+.sociales-marcas p{
+	margin: 0 0 10px 0;
+}
+.sociales-marcas a{
+	margin-left: 3px;
+}
+.fondo-marcas{
+	width: 100%;
+	background: url("../img/marcas/navigata/1.jpg") no-repeat center top;
+}
+ .fondo-negro{
+	background-color: #000;
+}
+.precio-marca{
+	position: relative;
+	height: 100%
+}
+.fondo-blanco-detalle{
+	position: absolute;
+	top:5%;
+	left: 5%;
+	height: 90%;
+	width: 90%;
+	background: #fff;
+}
+.imagen-precio-detalle{
+	width:54%;
+	position: relative;
+	top:10%;
+	left: 23%;
+	text-align: center;
+	font-size: 18px;
+}
+.imagen-precio-detalle p{
+	margin: 13% 0;
+}
+.imagen-precio-detalle span{
+	font-size: 25px;
+}
+.imagen-precio-detalle a{
+	display: inline-block;
+	color: #000;
+	font-size: 16px;
+	background: #ffed00;
+	padding: 9px;
+	text-transform: uppercase;
+}
+.content-tendencias{
+	position: relative;
+}
+.content-tendencias-listas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.content-tendencias-a{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.content-tendencias-a ul{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	width: 33%;
+	font-family: 'bentonsans_bookregular';
+	font-size: 22px;
+}
+.content-tendencias-a ul li {
+	margin: 0 0 2% 0;
+}
+.content-tendencias-a ul li.flecha{
+	margin-bottom: 6%;
+}
+.content-tendencias-a ul li.kimono{
+	font-family: 'bentonsansbold';
+}
+.content-tendencias-a ul li.spring{
+	font-size: 18px;
+}
+.content-tendencias-a ul li.items{
+	font-size: 15px;
+}
+.content-tendencias-a ul li:last-child{
+	margin: 0;
+}
+.content-tendencias-a ul li img{
+	display: inline-block;
+}
+#banner-accesorios{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.compartir-accesorios{
+	position: absolute;
+	bottom: 9%;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-family: 'bentonsansmedium';
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.compartir-accesorios div{
+	margin: 0 0 10px 0;
+}
+.compartir-accesorios img{
+	margin: 0 2px 0 0;
+}
+.accesorios-content.row.no-gutter{
+	margin: 0;
+}
+.precio-accesorios {
+	width: 100%;
+	border: 0;
+	padding: 20px 0;
+}
+.precio-accesorios .columna-precio{
+	border-right: 1px solid #000;
+	height: 55px;
+	display: table;
+	text-align: center;
+	width: 30%;
+	float: left;
+}
+.precio-accesorios .columna-precio p{
+	margin: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+.precio-accesorios .columna-precio:first-child{
+	margin: 0 0 0 5%;
+	text-align: left;
+	font-size: 14px;
+}
+.precio-accesorios .columna-precio.accesorios-centro{
+	font-size: 11px;
+	font-family: 'bentonsansregular';
+	text-transform: uppercase;
+}
+.precio-accesorios .columna-precio:last-child{
+	border-right: 0;
+	font-family: 'bentonsansregular';
+}
+.precio-accesorios .columna-precio:last-child span{
+	display: block;
+	width: 72%;
+	margin: 0 auto;
+}
+.precio-accesorios .columna-precio:last-child span.red{
+	color: #e81e1e;
+	font-family: 'bentonsansbold';
+	font-size: 14px;
+}
+.precio-accesorios .columna-precio:last-child p{
+	text-align: left;
+	font-size: 10px;
+}
+.accesorios-detalle-lightbox{
+	width: 411px;
+	margin: 0 auto;
+}
+.fancybox-close{
+	background: url('../img/close.png') no-repeat !important;
+	width: 12px;
+	height: 14px;
+	top:-15px;
+	right: -20px;
+}
+.fancybox-close.close-combinalo{
+	background: url('../img/close-detalle.jpg') no-repeat !important;
+	width: 12px;
+	height: 13px;
+	top:30px;
+	right: 50px;
+}
+.combinalo-detalle{
+	width: 800px;
+	margin: 0 auto;
+	padding:30px 3%;
+	background: #fff;
+	border: 0;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+.detalle-combinalo{
+	width: 50%;
+	float: left;
+	padding: 25px 0;
+}
+.detalle-combinalo.first{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.detalle-combinalo.second{
+	border-bottom: 1px solid #000;
+}
+.detalle-combinalo.third{
+	border-right: 1px solid #000;
+}
+.imagen-detalle-combinalo{
+	height: 227px;
+	margin: 0 0 40px 0;
+}
+.video-contenedor {
+	cursor:pointer
+}
