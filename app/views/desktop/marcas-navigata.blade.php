@@ -25,7 +25,7 @@
                                 <!--div class="fondo-marcas navigata">
                                     
                                 </div-->
-                                <div class="content-tendencias otras-marcas navigata">
+                                <div class="content-tendencias otras-marcas barbados">
                                     
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                 <img src="{{url()}}/img/marcas/navigata/3.jpg" class="img-responsive"  alt="Campañas" />
                             </div>
                             <div class="col-sm-6 content-tendencias-2">
-                                <img src="{{url()}}/img/marcas/navigata/border-navigata.jpg" class="img-responsive"  alt="Campañas" />
+                                <img src="{{url()}}/img/marcas/navigata/border.jpg" class="img-responsive"  alt="Campañas" />
                                 <div class="content-tendencias-listas">
                                     <div class="content-tendencias-a">
                                         <ul>

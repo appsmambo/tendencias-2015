@@ -505,6 +505,31 @@ footer a{
 	width: 100%;
 	background: url('../img/marcas/navigata/2.jpg') no-repeat center top;
 }
+.content-tendencias.otras-marcas.barbados{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/barbados/2.jpg') no-repeat center top;
+}
+.content-tendencias.otras-marcas.pepejeans{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/pepejeans/2.jpg') no-repeat center top;
+}
+.content-tendencias.otras-marcas.tatienne{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/tatienne/2.jpg') no-repeat center top;
+}
+.content-tendencias.otras-marcas.cacharel{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/cacharel/2.jpg') no-repeat center top;
+}
+.content-tendencias.otras-marcas.index{
+	border: 0;
+	width: 100%;
+	background: url('../img/marcas/index/2.jpg') no-repeat center top;
+}
 .content-tendencias-listas{
 	position: absolute;
 	top: 0;
@@ -516,6 +541,9 @@ footer a{
 	display: table;
 	height: 100%;
 	width: 100%;
+}
+.content-tendencias-a.index{
+	color: #000;
 }
 .content-tendencias-a ul{
 	display: table-cell;
@@ -555,10 +583,17 @@ footer a{
 .content-tendencias-a ul hr.raya-turquesa{
 	background: #a7cdda;
 }
-.content-tendencias-a ul li.spring{
+.content-tendencias-a ul hr.raya-roja{
+	background: #e51229;
 }
-.content-tendencias-a ul li.items{
-	
+.content-tendencias-a ul hr.raya-rosada{
+	background: #f2a6b4;
+}
+.content-tendencias-a ul hr.raya-carne{
+	background: #f2a6b4;
+}
+.content-tendencias-a ul hr.raya-blanca{
+	background: #ffffff;
 }
 .content-tendencias-a ul li:last-child{
 	margin: 0;

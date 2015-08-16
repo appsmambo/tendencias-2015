@@ -2,7 +2,7 @@
 @section('content')
 <div id="marcas-interna" >
                         <div class="banner-marca">
-                            <img src="{{url()}}/img/marcas/navigata.jpg" class="img-responsive" alt="Navigata" />
+                            <img src="{{url()}}/img/marcas/cacharel/banner.jpg" class="img-responsive" alt="cacharel" />
                             <div class="sociales-marcas">
                                 <p>Compartir</p>
                                 <a href="#" target="_blank"><img src="{{url()}}/img/marcas/facebook.png"  alt="facebook" /></a>
@@ -12,22 +12,30 @@
                                 <a href="#" target="_blank"><img src="{{url()}}/img/marcas/instagram.png"  alt="instagram" /></a>
                             </div>
                         </div>
-                        <div class="row no-gutter fondo-negro">
+                        <div class="row no-gutter fondo-blanco">
                             <div class="col-sm-7 marca-left">
-                                <div class="embed-responsive embed-responsive-16by9 video-marca">
-                                  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0" allowfullscreen></iframe>
+                                <div class="video-marca">
+                                    <img src="{{url()}}/img/marcas/cacharel/video-1.jpg"  class="img-responsive" alt="facebook" />
+                                  <!--iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0" allowfullscreen></iframe-->
                                 </div>
-                                <div class="fondo-marcas navigata">
+                                <!--div class="embed-responsive embed-responsive-16by9 video-marca">
+                                    
+                                  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0" allowfullscreen></iframe>
+                                </div-->
+                                <!--div class="fondo-marcas cacharel">
+                                    
+                                </div-->
+                                <div class="content-tendencias otras-marcas cacharel">
                                     
                                 </div>
                             </div>
                             <div class="col-sm-5 marca-right">
-                                <img src="{{url()}}/img/marcas/navigata/logo.jpg" class="img-responsive"  alt="Navigata" />
+                                <img src="{{url()}}/img/marcas/cacharel/logo.jpg" class="img-responsive"  alt="cacharel" />
                                 <div class="precio-marca">
-                                    <img src="{{url()}}/img/marcas/navigata/detalle-fondo.jpg" class="img-responsive"  alt="Navigata" />
+                                    <img src="{{url()}}/img/marcas/cacharel/1.jpg" class="img-responsive"  alt="cacharel" />
                                     <div class="fondo-blanco-detalle">
                                         <div class="imagen-precio-detalle">
-                                            <img src="{{url()}}/img/marcas/navigata/detalle-imagen.png" class="img-responsive"  alt="Imagen" />
+                                            <img src="{{url()}}/img/marcas/cacharel/detalle-imagen.png" class="img-responsive"  alt="Imagen" />
                                             <p>
                                                 <span>BlusaTennis S/.129</span><br/>
                                                 25347345
@@ -38,26 +46,25 @@
                                 </div>
                             </div>
                             <div class="clearfix"></div>
-                            <img src="{{url()}}/img/marcas/navigata/campanas.jpg" class="img-responsive"  alt="Campañas" />
+                            <img src="{{url()}}/img/marcas/cacharel/video-2.jpg" class="img-responsive"  alt="Campañas" />
                             <div class="col-sm-6">
-                                <img src="{{url()}}/img/marcas/navigata/2.jpg" class="img-responsive"  alt="Campañas" />
+                                <img src="{{url()}}/img/marcas/cacharel/3.jpg" class="img-responsive"  alt="Campañas" />
                             </div>
-                            <div class="col-sm-6 content-tendencias">
-                                <img src="{{url()}}/img/marcas/navigata/3.jpg" class="img-responsive"  alt="Campañas" />
+                            <div class="col-sm-6 content-tendencias-2">
+                                <img src="{{url()}}/img/marcas/cacharel/border.jpg" class="img-responsive"  alt="Campañas" />
                                 <div class="content-tendencias-listas">
                                     <div class="content-tendencias-a">
                                         <ul>
-                                            <li class="flecha"><img src="{{url()}}/img/marcas/flecha.png" class="img-responsive"  alt="Campañas" /></li>
-                                            <li class="spring">TENDENCIA SPRING JUNGLE</li>
-                                            <li><img src="{{url()}}/img/marcas/border-yellow.png" class="img-responsive"  alt="Campañas" /></li>
-                                            <li class="items">ítems de la temporada</li>
-                                            <li><img src="{{url()}}/img/marcas/border-black.png" class="img-responsive"  alt="Campañas" /></li>
-                                            <li>palmeras y flores</li>
-                                            <li><img src="{{url()}}/img/marcas/border-black.png" class="img-responsive"  alt="Campañas" /></li>
-                                            <li class="kimono">kimonos</li>
-                                            <li><img src="{{url()}}/img/marcas/border-black.png" class="img-responsive"  alt="Campañas" /></li>
-                                            <li>grises y corales</li>
-                                            <li><img src="{{url()}}/img/marcas/border-black.png" class="img-responsive"  alt="Campañas" /></li>
+                                            <li class="flecha"><img src="{{url()}}/img/marcas/cacharel/flecha.png" class="img-responsive"  alt="Campañas" /></li>
+                                                <li class="spring">TENDENCIA CACHAREL<br>ítems de la temporada</li>
+                                                <hr class="raya-turquesa">
+                                                <li>parkas</li>
+                                                <hr class="raya-negra">
+                                                <li class="kimono">prints</li>
+                                                <hr class="raya-negra">
+                                                <li >rayas</li>
+                                                <hr class="raya-negra">
+                                                <li class="kimono">vestidos camiseros</li>
                                         </ul>
                                     </div>
                                 </div>
