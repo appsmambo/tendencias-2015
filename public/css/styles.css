@@ -719,7 +719,8 @@ footer a{
 	margin: 0 0 40px 0;
 }
 .video-contenedor {
-	cursor:pointer
+	cursor:pointer;
+	position: relative;
 }
 .row-height {
   display: table;

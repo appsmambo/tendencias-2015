@@ -6,24 +6,34 @@ if (!isset($itemactive))
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Tendencias Ripley 2015</title>
-		<meta name="author" content="Alvaro Trigo Lopez" />
-		<meta name="description" content="fullPage very simple demo." />
-		<meta name="keywords"  content="fullpage,jquery,demo,simple" />
-		<meta name="Resource-type" content="Document" />
+		<link rel="shortcut icon" href="http://modaripley.com/favicon.ico">
+		@yield('metas')
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="{{url()}}/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="{{url()}}/css/animate.css" rel="stylesheet" />
 		<link href="{{url()}}/css/jquery.bxslider.css" rel="stylesheet" />
 		<link href="{{url()}}/css/jquery.fancybox.css" rel="stylesheet" />
 		<link href="{{url()}}/css/styles.css" rel="stylesheet" />
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-50197344-2', 'auto');
+		  ga('require', 'displayfeatures');
+		  ga('send', 'pageview');
+
+		</script>
+
 	</head>
 	<body>
 		<section class="navs yellow">
 			<nav class="header">
 				<img src="{{url()}}/img/bar-toogle.png" class="img-responsive bar-toogle" alt="Bar Menu" />
 				<div class="menu-list" style="display:none">
-					<a class="logo-ripley-header" href="#"><img src="{{url()}}/img/ripley-header.jpg" class="img-responsive" alt="Logo Ripley" /></a>
+					<a class="logo-ripley-header" href="{{url()}}/"><img src="{{url()}}/img/ripley-header.jpg" class="img-responsive" alt="Logo Ripley" /></a>
 					<ul class="list-unstyled">
 						<li><a href="{{url()}}/sjp" @if(Route::current()->getName() == 'sarah') class="active" @endif>SARAH JESSICA</a></li>
 						<li>
@@ -60,18 +70,18 @@ if (!isset($itemactive))
 		</section>
 		<section class="navs red">
 			<div class="redes">
-				<a href="#" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
-				<a href="#" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
-				<a href="#" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
-				<a href="#" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
-				<a href="#" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
+				<a href="https://www.facebook.com/RipleyPeru" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
+				<a href="https://twitter.com/ripleyenperu" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
+				<a href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
+				<a href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
+				<a href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
 			</div>
 		</section>
 		<section id="wrapper" class="center-block">
 			@yield('content')
 		</section>
 		<footer class="clearfix">
-			<a href="#" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
+			<a href="http://modaripley.com/" target="_blank" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
 		</footer>
 		<script src="{{url()}}/js/jquery.js"></script>
 		<script src="{{url()}}/js/bootstrap.min.js"></script>
