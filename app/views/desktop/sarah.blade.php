@@ -15,10 +15,10 @@
 						<span class="medium">#bienvenida</span><span>SJP</span>
 						<div class="compartir-sarah">
 							<img src="{{url()}}/img/sarah/compartelo.png"  alt="Compartir" class="compartir" />
-							<a onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
-							<a onclick="ga('send', 'social', 'twitter', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-							<a onclick="ga('send', 'social', 'pinterest', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
-							<a onclick="ga('send', 'social', 'google+', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
+							<a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/sjp" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
+							<a href="https://twitter.com/home?status=Ripley%20tendencias%202015%20Sarah%20Jessica%20Parker" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
+							<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/sjp&media=http://modaripley.com/tendencias/img/sarah/1.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+							<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/sjp" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 						</div>
 					</div>
 				</div>

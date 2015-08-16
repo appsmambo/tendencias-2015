@@ -5,10 +5,10 @@
 		<img src="{{url()}}/img/marcas/marquis/banner.jpg" class="img-responsive" alt="Navigata" />
 		<div class="sociales-marcas">
 			<p>Compartir</p>
-			<a  onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/marcas/facebook.png"  alt="facebook" /></a>
-			<a  onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/marcas/twitter.png"  alt="twitter" /></a>
-			<a  onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/marcas/pinterest.png"  alt="pinterest" /></a>
-			<a  onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/sjp');" href="{{url()}}/sjp" target="_blank"><img src="{{url()}}/img/marcas/google.png"  alt="google plus" /></a>
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/marquis" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
+			<a href="https://twitter.com/home?status=Ripley%20tendencias%202015%20Marquis" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/marquis&media=http://modaripley.com/tendencias/img/marcas/marquis/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+			<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/marcas/marquis" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
 	</div>
 	<div class="row no-gutter fondo-blanco">
