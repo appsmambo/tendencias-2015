@@ -365,6 +365,9 @@ footer a{
 .row-eq-height:first-child .item{
 	opacity: 1 !important;
 }
+.row-eq-height:nth-child(2) .item{
+	opacity: 1 !important;
+}
 .item{
 	position: relative;
 	cursor: pointer;
