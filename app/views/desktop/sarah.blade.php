@@ -16,7 +16,7 @@
 						<div class="compartir-sarah">
 							<img src="{{url()}}/img/sarah/compartelo.png"  alt="Compartir" class="compartir" />
 							<a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/sjp" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
-							<a href="https://twitter.com/home?status=Sarah%20Jessica%20Parker%20nos%20muestra%20su%20lado%20mas%20cercano%20y%20nosense%C3%B1a%20todo%20lo%20que%20sabe%20sobre%20su%20pasi%C3%B3n:%20La%20Moda.%20Ingresa%20a%20http://bit.ly/1KpP1UL" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
+							<a href="https://twitter.com/home?status=Sarah%20Jessica%20Parker%20nos%20muestra%20su%20lado%20mas%20cercano%20y%20nosense%C3%B1a%20todo%20lo%20que%20sabe%20sobre%20su%20pasi%C3%B3n:%20La%20Moda.%20Ingresa%20a%20http://bit.ly/1NlXVaP" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
 							<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/sjp&media=http://modaripley.com/tendencias/img/sarah/1.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 							<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/sjp" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 						</div>
