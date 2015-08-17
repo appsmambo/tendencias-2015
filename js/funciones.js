@@ -119,7 +119,7 @@ $(document).ready(function () {
 
 	$(".fancybox").fancybox({
 		maxWidth: 800,
-		maxHeight: 700,
+		maxHeight: 716,
 		padding: 0
 	});
 	$(".combinando").fancybox({
