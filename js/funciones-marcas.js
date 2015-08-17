@@ -1,7 +1,10 @@
 function redimensionar() {
-	var anchoWindow;
-	anchoWindow = $(window).width();
-	$('#wrapper').width(anchoWindow - 116);
+	var anchoContenedor = $(window).width() - 118; // 118 es la suma del ancho de las dos barras laterales
+	var modulo = anchoContenedor % 8;
+	if (modulo > 0) {
+		anchoContenedor = anchoContenedor + (8 - modulo);
+	}
+	$('#wrapper').width(anchoContenedor);
 }
 function redimensionarEmbed(embed) {
 	var control = $('#'+embed);
