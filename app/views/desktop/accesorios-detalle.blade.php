@@ -1,3 +1,13 @@
+<style type="text/css">
+	html{
+		height: 715px;
+	}
+	@media (max-width: 1400px) {
+		html{
+			height: 529px;
+		}
+	}
+</style>
 <script>
   function getWindowWidth(){
       return $( window ).width();
