@@ -6,7 +6,7 @@
 <a href="{{url()}}/marcas" title="Marcas">
 	<img src="{{url()}}/img/home/marcas.jpg" class="img-responsive center-block" alt="Marcas" />
 </a>
-<a href="{{url()}}/lookbook" title="Lookbook">
+<a href="#" title="Lookbook">
 	<img src="{{url()}}/img/home/lookbook.jpg" class="img-responsive center-block" alt="Lookbook" />
 </a>
 <a href="{{url()}}/accesorios" title="Accesorios">
