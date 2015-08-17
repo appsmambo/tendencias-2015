@@ -27,15 +27,15 @@
 	</div>
 </div>
 <div class="video-contenedor">
-	<a class="play" href="#" style="background-image:url('{{url()}}/img/sarah/2.jpg')"></a>
+	<a class="play" href="#" style="background-image:url('{{url()}}/img/sarah/2.jpg')" id="sarah-1"></a>
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0"></iframe>
+		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0&enablejsapi=1" id="video-1"></iframe>
 	</div>
 </div>
 <div class="video-contenedor">
-	<a class="play" href="#" style="background-image:url('{{url()}}/img/sarah/3.jpg')"></a>
+	<a class="play" href="#" style="background-image:url('{{url()}}/img/sarah/3.jpg')" id="sarah-2"></a>
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/Xzw_XdzCQUk?rel=0"></iframe>
+		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/Xzw_XdzCQUk?rel=0&enablejsapi=1" id="video-2"></iframe>
 	</div>
 </div>
 @stop
