@@ -892,8 +892,14 @@ footer a{
 .windowResize{
 	width: 350px;
 }
+#accesorios-1{
+	height: 716px;
+}
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
 		font-size: 13px;
+	}
+	#accesorios-1{
+		height: 629px;
 	}
 }
