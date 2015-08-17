@@ -135,7 +135,7 @@ footer{
 	padding: 12px 0;
 	background: #000;
 	position: relative;
-	z-index:12;
+	z-index:999;
 }
 footer a{
 	margin-right: 20px;
