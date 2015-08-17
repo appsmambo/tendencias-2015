@@ -1,7 +1,7 @@
 function redimensionar() {
 	var anchoWindow;
 	anchoWindow = $(window).width();
-	$('#wrapper').width(anchoWindow - 118);
+	$('#wrapper').width(anchoWindow - 116);
 }
 function redimensionarEmbed(embed) {
 	var control = $('#'+embed);
