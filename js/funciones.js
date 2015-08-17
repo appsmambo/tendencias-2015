@@ -106,6 +106,8 @@ $(document).ready(function () {
 	var altototal = div_alto - div_alto_2;
 	$(".content-tendencias").height(altototal);
 
+	
+
 	$('.maped').rwdImageMaps();
 	
 	$('.play').click(function() {

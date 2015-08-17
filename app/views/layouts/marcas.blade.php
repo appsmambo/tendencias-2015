@@ -86,6 +86,7 @@ if (!isset($itemactive))
 				$('nav.header').addClass('left-margin');
 				$('.bar-toogle').addClass('active');
 				$('.navs .menu-list').delay(250).fadeIn('slow');
+				
 				var wall = new freewall("#freewall");
 				wall.reset({
 					selector:'.item-marca',
