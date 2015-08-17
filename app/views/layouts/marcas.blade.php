@@ -12,13 +12,13 @@ if (!isset($itemactive))
 		<link href="{{url()}}/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="{{url()}}/css/styles.css" rel="stylesheet" />
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-50197344-2', 'auto');
-		  ga('require', 'displayfeatures');
-		  ga('send', 'pageview');
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-50197344-2', 'auto');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
 		</script>
 	</head>
 	<body>
@@ -30,9 +30,9 @@ if (!isset($itemactive))
 					<ul class="list-unstyled">
 						<li><a href="{{url()}}/sjp" @if(Route::current()->getName() == 'sarah') class="active" @endif>SARAH JESSICA</a></li>
 						<li>
-							<a href="{{url()}}/marcas"  @if(Route::current()->getName() == 'marcas' ) class="active" @endif>MARCAS</a>
+							<a href="{{url()}}/marcas" @if(Route::current()->getName() == 'marcas' ) class="active" @endif>MARCAS</a>
 							<ul @if(Route::current()->getName() == 'marcas')class="listas-desplegadas" @endif>
-								<li><a href="{{url()}}/marcas/marquis"  @if($itemactive==1) class="active" @endif>Marquis</a></li>
+								<li><a href="{{url()}}/marcas/marquis" @if($itemactive==1) class="active" @endif>Marquis</a></li>
 								<li><a href="{{url()}}/marcas/navigata" @if($itemactive==2) class="active" @endif>Navigata</a></li>
 								<li><a href="{{url()}}/marcas/tatienne" @if($itemactive==3) class="active" @endif>Tatienne</a></li>
 								<li><a href="{{url()}}/marcas/cacharel" @if($itemactive==4) class="active" @endif>Cacharel</a></li>
@@ -43,7 +43,7 @@ if (!isset($itemactive))
 						</li>
 						<li>
 							<a href="{{url()}}/lookbook" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
-							<ul  @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
+							<ul @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
 								<li><a href="#">chaquetas</a></li>
 								<li><a href="#" >VESTIDOS</a></li>
 								<li><a href="#">blusas</a></li>

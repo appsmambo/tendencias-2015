@@ -66,8 +66,8 @@ Route::get('/lookbook/{name}', array('as' => 'detallelook', 'uses' => 'LookbookC
 function defineFolder(){
 	$isMobile=Agent::isMobile();
 	$folder='desktop/';
-	if ($isMobile)
-		$folder='mobile/';
+	/*if ($isMobile)
+		$folder='mobile/';*/
 
 	return $folder;
 }

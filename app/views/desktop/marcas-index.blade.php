@@ -1,149 +1,90 @@
-@extends('layouts.desktop')
+@extends('layouts.marcas')
 @section('content')
-<div id="marcas-interna" >
-                        <div class="banner-marca">
-                            <img src="{{url()}}/img/marcas/index/banner.jpg" class="img-responsive" alt="index" />
-                            <div class="sociales-marcas">
-                                <p>Compartir</p>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/index" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
-                                <a href="https://twitter.com/home?status=Ripley%20tendencias%202015%20Index" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-                                <a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/index&media=http://modaripley.com/tendencias/img/marcas/index/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
-                                <a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/marcas/index" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
-                            </div>
-                        </div>
-                        <div class="row no-gutter fondo-blanco">
-                            <div class="col-sm-7 marca-left">
-                                <div class="video-marca">
-                                    <img src="{{url()}}/img/marcas/index/video-1.jpg"  class="img-responsive" alt="facebook" />
-                                  <!--iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0" allowfullscreen></iframe-->
-                                </div>
-                                <!--div class="embed-responsive embed-responsive-16by9 video-marca">
-                                    
-                                  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/crKUcZio0-M?rel=0" allowfullscreen></iframe>
-                                </div-->
-                                <!--div class="fondo-marcas index">
-                                    
-                                </div-->
-                                <div class="content-tendencias">
-                                    <div class="content-tendencias-listas">
-                                        <div class="content-tendencias-a">
-                                            <ul>
-                                                <li class="flecha"><img src="{{url()}}/img/marcas/index/flecha.png" class="img-responsive"  alt="Campañas" /></li>
-                                                <li class="spring">TENDENCIA BOHO<br>ítems de la temporada</li>
-                                                <hr class="raya-carne">
-                                                <li>blusas campesinas</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">prints </li>
-                                                <hr class="raya-negra">
-                                                <li >vestidos fluidos</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">kimonos</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-5 marca-right">
-                                <img src="{{url()}}/img/marcas/index/logo.jpg" class="img-responsive"  alt="index" />
-                                <div class="precio-marca">
-                                    <img src="{{url()}}/img/marcas/index/1.jpg" class="img-responsive"  alt="index" />
-                                    <div class="fondo-blanco-detalle">
-                                        <div class="imagen-precio-detalle">
-                                            <img src="{{url()}}/img/marcas/index/detalle-imagen.png" class="img-responsive"  alt="Imagen" />
-                                            <p>
-                                                <span>BlusaTennis S/.129</span><br/>
-                                                25347345
-                                            </p>
-                                            <a href="#" target="_blank">Tendencia</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <img src="{{url()}}/img/marcas/index/video-2.jpg" class="img-responsive"  alt="Campañas" />
-                            <div class="col-sm-6">
-                                <img src="{{url()}}/img/marcas/index/2.jpg" class="img-responsive"  alt="Campañas" />
-                            </div>
-                            <div class="col-sm-6 content-tendencias-2">
-                                <img src="{{url()}}/img/marcas/index/border-2.jpg" class="img-responsive"  alt="Campañas" />
-                                <div class="content-tendencias-listas">
-                                    <div class="content-tendencias-a">
-                                        <ul>
-                                            <li class="flecha"><img src="{{url()}}/img/marcas/index/flecha-2.png" class="img-responsive"  alt="Campañas" /></li>
-                                                <li class="spring">TENDENCIA DENIM & WHITE<br>ítems de la temporada</li>
-                                                <hr class="raya-blanca">
-                                                <li>blusa denim</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">blanco</li>
-                                                <hr class="raya-negra">
-                                                <li >vestiods denim</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">jeans con roturas</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 marca-left-2">
-                                <img src="{{url()}}/img/marcas/index/3.jpg"  class="img-responsive" alt="facebook" />
-                                <img src="{{url()}}/img/marcas/index/4.jpg"  class="img-responsive" alt="facebook" />
-                            </div>
-                            <div class="col-sm-6 marca-right-2">
-                                <div class="precio-marca">
-                                    <img src="{{url()}}/img/marcas/index/5.jpg" class="img-responsive"  alt="index" />
-                                    
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 marca-left-2">
-                                <div class="content-tendencias-2">
-                                    <img src="{{url()}}/img/marcas/index/border.jpg"  class="img-responsive" alt="facebook" />
-                                    <div class="content-tendencias-listas">
-                                        <div class="content-tendencias-a index">
-                                            <ul>
-                                                <li class="flecha dos"><img src="{{url()}}/img/marcas/index/flecha-2.png" class="img-responsive"  alt="Campañas" /></li>
-                                                <li class="spring">TENDENCIA FUNNY STRIPES<br>ítems de la temporada</li>
-                                                <hr class="raya-balnca">
-                                                <li>crop tops</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">polos  largos</li>
-                                                <hr class="raya-negra">
-                                                <li >vestidos pegados</li>
-                                                <hr class="raya-negra">
-                                                <li class="kimono">rayas</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="video-marca">
-                                    <img src="{{url()}}/img/marcas/index/6.jpg"  class="img-responsive" alt="facebook" />
-                                </div>
-                            </div>
-                            <div class="col-sm-6 marca-right-2">
-                                <div class="precio-marca">
-                                    <img src="{{url()}}/img/marcas/index/7.jpg" class="img-responsive"  alt="Navigata" />
-                                    
-                                </div>
-                            </div>
-                        </div>
-                       
-                    </div>
+<div id="marcas-interna">
+	<div class="banner-marca">
+		<img src="{{url()}}/img/marcas/index/banner.jpg" class="img-responsive" alt="INDEX" />
+		<div class="sociales-marcas">
+			<p>Compartir</p>
+			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
+			<a href="https://twitter.com/home?status=Index%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1JllOPW" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/index&media={{url()}}/img/marcas/index/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+			<a href="https://plus.google.com/share?url={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
+		</div>
+	</div>
+	<p class="hidden">
+		Perú - Chile - Colombia<br>
+		Index<br>
+		Para una chica divertida, fresca, dinámica, versátil y siempre con una actitud positiva frente a la vida. Se divierte y se inspira a través de la moda.<br>
+		TENDENCIA BOHO<br>
+		ítems de la temporada<br>
+		blusas campesinas<br>
+		prints, vestidos fluidos, kimonos.<br>
+		TENDENCIA DENIM & WHITE<br>
+		ítems de la temporada<br>
+		blusa denim, blanco, vestidos denim, jeans con roturas.<br>
+		TENDENCIA FUNNY STRIPES<br>
+		ítems de la temporada<br>
+		crop tops, polos largos, vestidos pegados, rayas.
+	</p>
+	<div id="freewall" class="free-wall">
+		<div class="item-marca w5">
+			<img src="{{url()}}/img/marcas/index/1.jpg" alt="" />
+		</div>
+		<div class="item-marca w3">
+			<img src="{{url()}}/img/marcas/index/2.jpg" alt="" />
+		</div>
+		<div class="item-marca w3">
+			<img src="{{url()}}/img/marcas/index/3.jpg" alt="" />
+		</div>
+		<div class="item-marca w5">
+			<img src="{{url()}}/img/marcas/index/4.jpg" alt="" />
+		</div>
+		<div class="item-marca w8">
+			<img src="{{url()}}/img/marcas/index/5.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/6.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/7.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/8.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/9.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/10.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/11.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/12.jpg" alt="" />
+		</div>
+		<div class="item-marca w4">
+			<img src="{{url()}}/img/marcas/index/13.jpg" alt="" />
+		</div>
+	</div>
+</div>
 @stop
 
 @section('metas')
-<title>Ripley, tendencias 2015</title>
-<meta name="description" content="Ripley, tendencias 2015" />
+<title>Index - Las mejores marcas en Ripley</title>
+<meta name="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda." />
 
 <!-- Google -->
-<meta itemprop="name" content="Ripley, tendencias 2015">
-<meta itemprop="description" content="Ripley, tendencias 2015">
-<meta itemprop="image" content="{{url()}}/ripley-tendencias-2015.jpg">
+<meta itemprop="name" content="Index - Las mejores marcas en Ripley">
+<meta itemprop="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda.">
+<meta itemprop="image" content="{{url()}}/img/marcas/index/banner.jpg">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Ripley, tendencias 2015" />
+<meta property="og:title" content="Index - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}" />
-<meta property="og:image" content="{{url()}}/ripley-tendencias-2015.jpg" />
-<meta property="og:description" content="Ripley, tendencias 2015" />
-<meta property="og:site_name" content="Ripley, tendencias 2015" />
+<meta property="og:url" content="{{url()}}/marcas/index" />
+<meta property="og:image" content="{{url()}}/img/marcas/index/banner.jpg" />
+<meta property="og:description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda." />
+<meta property="og:site_name" content="Index - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />
 @stop
