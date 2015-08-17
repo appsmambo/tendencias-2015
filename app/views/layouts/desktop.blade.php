@@ -99,5 +99,10 @@ if (!isset($itemactive))
 			});
 		</script>
 		@endif
+		<script>
+		  function getWindowWidth(){
+		      return $( window ).width();
+		  }
+		  </script>
 	</body>
 </html>

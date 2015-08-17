@@ -128,11 +128,11 @@
 <meta itemprop="image" content="{{url()}}/ripley-tendencias-2015.jpg">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Ripley, tendencias 2015" />
+<meta property="og:title" content="Marquis - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}" />
 <meta property="og:image" content="{{url()}}/ripley-tendencias-2015.jpg" />
-<meta property="og:description" content="Ripley, tendencias 2015" />
-<meta property="og:site_name" content="Ripley, tendencias 2015" />
+<meta property="og:description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión." />
+<meta property="og:site_name" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión." />
 <meta property="fb:admins" content="100008010128050" />
 @stop
