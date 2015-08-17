@@ -30,5 +30,6 @@
 <meta property="og:image" content="{{url()}}/img/home/sarah.jpg" />
 <meta property="og:description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
 <meta property="og:site_name" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
-<meta property="fb:admins" content="242776895908289" />
+<meta property="fb:admins" content="100008010128050" />
+<meta property="fb:app_id" content="242776895908289" />
 @stop

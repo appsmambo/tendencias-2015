@@ -42,7 +42,7 @@ if (!isset($itemactive))
 							</ul>
 						</li>
 						<li>
-							<a href="{{url()}}/lookbook" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
+							<a href="#" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
 							<ul @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
 								<li><a href="#">chaquetas</a></li>
 								<li><a href="#" >VESTIDOS</a></li>
