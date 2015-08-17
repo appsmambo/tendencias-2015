@@ -62,7 +62,7 @@
 <!-- Open Graph data -->
 <meta property="og:title" content="Yo elijo mis accesorios" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}" />
+<meta property="og:url" content="{{url()}}/accesorios" />
 <meta property="og:image" content="{{url()}}/img/accesorios/banner.jpg" />
 <meta property="og:description" content="Los accesorios que debes tener esta temporada: Carteras, Zapatos y mucho mas" />
 <meta property="og:site_name" content="Los accesorios que debes tener esta temporada: Carteras, Zapatos y mucho mas" />

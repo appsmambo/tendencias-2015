@@ -26,7 +26,7 @@
 <!-- Open Graph data -->
 <meta property="og:title" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}" />
+<meta property="og:url" content="{{url()}}/" />
 <meta property="og:image" content="{{url()}}/ripley-tendencias-2015.jpg" />
 <meta property="og:description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
 <meta property="og:site_name" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
