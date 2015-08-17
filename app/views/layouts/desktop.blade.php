@@ -98,13 +98,8 @@ if (!isset($itemactive))
 				$('.navs .menu-list').delay(250).fadeIn('slow');
 			});
 			setTimeout(function(){
-				  $(".navs .menu-list").fadeOut("slow");
-						$(this).removeClass('active');
-						setTimeout(function () {
-							$(".navs.yellow").removeClass("nav-ancho animated");
-							$("nav.header").removeClass('left-margin');
-						}, 500);
-				}, 5000);
+				 $(".bar-toogle").trigger("click");
+			}, 5000);
 		</script>
 		@endif
 		<script>
