@@ -21,13 +21,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley">
 <meta itemprop="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. ">
-<meta itemprop="image" content="{{url()}}/ripley-tendencias-2015.jpg">
+<meta itemprop="image" content="{{url()}}/img/home/1.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/" />
-<meta property="og:image" content="{{url()}}/ripley-tendencias-2015.jpg" />
+<meta property="og:image" content="{{url()}}/img/home/1.jpg" />
 <meta property="og:description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
 <meta property="og:site_name" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
 <meta property="fb:admins" content="100008010128050" />
