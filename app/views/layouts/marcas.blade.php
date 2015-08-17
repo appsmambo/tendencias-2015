@@ -102,9 +102,7 @@ if (!isset($itemactive))
 						$('iframe').each(function(index) {
 							var iframe = $(this);
 							var item = iframe.parents('.item-marca');
-							var alto = item.height()
-							var dataAlto = item.data('height')
-							console.log(alto + '-' + dataAlto)
+							var alto = item.height();
 							iframe.height(alto);
 						});
 					},
