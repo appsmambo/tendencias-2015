@@ -98,6 +98,16 @@ if (!isset($itemactive))
 					cellH:'auto',
 					gutterX:0,
 					gutterY:0,
+					onComplete:function() {
+						$('iframe').each(function(index) {
+							var iframe = $(this);
+							var item = iframe.parents('.item-marca');
+							var alto = item.height()
+							var dataAlto = item.data('height')
+							console.log(alto + '-' + dataAlto)
+							iframe.height(alto);
+						});
+					},
 					onResize:function() {
 						wall.fitWidth();
 					}

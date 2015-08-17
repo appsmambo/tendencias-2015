@@ -430,6 +430,12 @@ footer a{
 	display: table-cell;
 	vertical-align: middle;
 }
+.embed-video-marcas {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%
+}
 #marcas .row, #marcas-interna .row{
 	margin: 0;
 }
