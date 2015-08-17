@@ -1,7 +1,7 @@
 function redimensionar() {
 	var anchoWindow;
 	anchoWindow = $(window).width();
-	$('#wrapper').width(anchoWindow - 136);
+	$('#wrapper').width(anchoWindow - 120);
 }
 
 	var player;
