@@ -16,12 +16,13 @@
 
 @section('metas')
 <title>Yo elijo las mejores marcas - Tendencias 2015 - Ripley</title>
-<meta name="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. " />
+<meta name="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
+<link rel="canonical" href="{{url()}}/" />
 
 <!-- Google -->
-<meta itemprop="name" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley">
-<meta itemprop="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley. ">
-<meta itemprop="image" content="{{url()}}/img/home/sarah.jpg">
+<meta itemprop="name" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />
+<meta itemprop="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
+<meta itemprop="image" content="{{url()}}/img/home/sarah.jpg" />
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />

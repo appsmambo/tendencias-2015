@@ -23,25 +23,25 @@
 	</p>
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/navigata/1.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/1.jpg" alt="" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/navigata/2.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/2.jpg" alt="" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/navigata/3.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/3.jpg" alt="" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/navigata/4.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/4.jpg" alt="" />
 		</div>
 		<div class="item-marca w8">
-			<img src="{{url()}}/img/marcas/navigata/5.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/5.jpg" alt="" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/navigata/6.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/6.jpg" alt="" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/navigata/7.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/7.jpg" alt="" />
 		</div>
 	</div>
 </div>
@@ -54,13 +54,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Cacharel - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado.">
-<meta itemprop="image" content="{{url()}}/img/marcas/navigata/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/marcas/cacharel/banner.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Cacharel - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}/marcas/navigata" />
-<meta property="og:image" content="{{url()}}/img/marcas/navigata/banner.jpg" />
+<meta property="og:url" content="{{url()}}/marcas/cacharel" />
+<meta property="og:image" content="{{url()}}/img/marcas/cacharel/banner.jpg" />
 <meta property="og:description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado." />
 <meta property="og:site_name" content="Cacharel - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />
