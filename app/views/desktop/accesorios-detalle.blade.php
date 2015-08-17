@@ -1,3 +1,16 @@
+<script>
+  function getWindowWidth(){
+      return $( window ).width();
+  }
+  </script>
+<script language="javascript">
+var parentDocWidth = parent.getWindowWidth();
+
+if(parentDocWidth<=1400){
+    $(".accesorios-detalle-lightbox").addClass("windowResize");
+}
+
+</script>
 <?php
 
 switch ($id) {
@@ -11,7 +24,7 @@ switch ($id) {
         $nombre="<p>Vestido a rayitas<br/> frunce</p>";
     	$sku="cod.9372832222";
     	$precio='<span>PRECIO NORMAL </span><span class="red">$ 579.90</span>';
-    	$imagen='Sandalia-Tabihebi-marquis.jpg';
+    	$imagen='Zapato-Iris-marquis.jpg';
         break;
     case 3:
         $nombre="<p>Sandalia Tabihebi</p>";
@@ -23,7 +36,7 @@ switch ($id) {
         $nombre="<p>Sandalia Franca</p>";
     	$sku="cod.17017645";
     	$precio='<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
-    	$imagen='Sandalia-franca-marquis.jpg';
+    	$imagen='Sandalia-Rafaella-barbados.jpg';
         break;
 
     case 7:
@@ -37,21 +50,21 @@ switch ($id) {
         $nombre="<p>Sandalia alberca</p>";
     	$sku="cod.17020357";
     	$precio='<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
-    	$imagen='Sandalia-alberca-marquis.jpg';
+    	$imagen='Sandalia-Apli-marquis.jpg';
         break;
 
      case 9:
         $nombre="<p>Zapato Iris</p>";
     	$sku="cod.16909255";
     	$precio='<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
-    	$imagen='Zapato-Iris-marquis.jpg';
+    	$imagen='Alpargata-Sonia-marquis.jpg';
         break;
         
      case 10:
         $nombre="<p>Sandalia Apli</p>";
     	$sku="cod.16872517";
     	$precio='<span>PRECIO NORMAL </span><span class="red">S/. 259</span>';
-    	$imagen='Sandalia-Apli-marquis.jpg';
+    	$imagen='Sandalia-alberca-marquis.jpg';
         break; 
         
     case 11:
@@ -65,7 +78,7 @@ switch ($id) {
         $nombre="<p>Sandalia Rafaella</p>";
     	$sku="cod.16829389";
     	$precio='<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
-    	$imagen='Sandalia-Rafaella-barbados.jpg';
+    	$imagen='Sandalia-franca-marquis.jpg';
         break;                    
 } 
 

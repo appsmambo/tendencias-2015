@@ -5,11 +5,10 @@
                             <img src="{{url()}}/img/marcas/cacharel/banner.jpg" class="img-responsive" alt="cacharel" />
                             <div class="sociales-marcas">
                                 <p>Compartir</p>
-                                <a href="#" target="_blank"><img src="{{url()}}/img/marcas/facebook.png"  alt="facebook" /></a>
-                                <a href="#" target="_blank"><img src="{{url()}}/img/marcas/twitter.png"  alt="twitter" /></a>
-                                <a href="#" target="_blank"><img src="{{url()}}/img/marcas/pinterest.png"  alt="pinterest" /></a>
-                                <a href="#" target="_blank"><img src="{{url()}}/img/marcas/google.png"  alt="google plus" /></a>
-                                <a href="#" target="_blank"><img src="{{url()}}/img/marcas/instagram.png"  alt="instagram" /></a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/cacharel" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
+                                <a href="https://twitter.com/home?status=Ripley%20tendencias%202015%20Cacharel" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
+                                <a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/cacharel&media=http://modaripley.com/tendencias/img/marcas/cacharel/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+                                <a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/marcas/cacharel" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
                             </div>
                         </div>
                         <div class="row no-gutter fondo-blanco">

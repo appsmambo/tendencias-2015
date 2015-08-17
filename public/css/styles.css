@@ -880,3 +880,11 @@ footer a{
 .w8 {
 	width:100%
 }
+.windowResize{
+	width: 350px;
+}
+@media (max-width: 1400px) {
+	.precio-accesorios .columna-precio:first-child{
+		font-size: 13px;
+	}
+}
