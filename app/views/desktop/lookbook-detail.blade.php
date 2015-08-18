@@ -11,17 +11,15 @@
                                         <img src="{{url()}}/img/lookbook/marquis.png" class="pull-right" alt="Marquis" />
                                     </div>
                                     <div class="galeria-slider clearfix">
-                                        <ul class="bxslider">
-                                          <li><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></li>
-                                          <li><img src="{{url()}}/img/lookbook/detalle-2.jpg" /></li>
-                                          <li><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></li>
-                                          <li><img src="{{url()}}/img/lookbook/detalle-2.jpg" /></li>
-                                        </ul>
+                                        <div class="bxslider">
+                                          <div><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></div>
+                                          <div><img src="{{url()}}/img/lookbook/detalle-2.jpg" /></div>
+                                          <div><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></div>
+                                        </div>
                                         <div id="bx-pager">
                                           <a data-slide-index="0" href=""><img src="{{url()}}/img/lookbook/marquis-2.jpg" class="img-responsive" /></a>
                                           <a data-slide-index="1" href=""><img src="{{url()}}/img/lookbook/marquis-1.jpg" class="img-responsive" /></a>
                                           <a data-slide-index="2" href=""><img src="{{url()}}/img/lookbook/marquis-3.jpg" class="img-responsive" /></a>
-                                          <a data-slide-index="3" href=""><img src="{{url()}}/img/lookbook/marquis-4.jpg" class="img-responsive" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -43,6 +41,12 @@
                                     <p class="combinalo">
                                         <a href="#combinalo" class="combinando">combinalo con <img src="{{url()}}/img/lookbook/combinalo.jpg"  /></a>
                                     </p>
+									<div class="botones-paginado">
+										<a href="#"><img src="{{url()}}/img/lookbook/prev.png"  alt="prev" /></a>
+										<img src="{{url()}}/img/lookbook/border.jpg"  />
+										<a href="#"><img src="{{url()}}/img/lookbook/next.png"  alt="next" /> siguiente prenda</a>
+									
+									</div>
                                 </div>
                                 <div clas="clearfix"></div>
                                 <div class="col-sm-11 lista-similares">

@@ -70,12 +70,12 @@ if (!isset($itemactive))
 				<a href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
 			</div>
 		</section>
-		<section id="wrapper" class="center-block">
-			@yield('content')
-		</section>
-		<footer class="clearfix">
-			<a href="http://modaripley.com/" target="_blank" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
-		</footer>
+			<section id="wrapper" class="center-block">
+				@yield('content')
+			</section>
+			<footer class="clearfix">
+				<a href="http://modaripley.com/" target="_blank" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
+			</footer>
 		<script src="{{url()}}/js/jquery.js"></script>
 		<script src="{{url()}}/js/bootstrap.min.js"></script>
 		<script src="{{url()}}/js/freewall.min.js"></script>

@@ -135,7 +135,7 @@ footer{
 	padding: 12px 0;
 	background: #000;
 	position: relative;
-	z-index:999;
+	z-index:99999999;
 }
 footer a{
 	margin-right: 20px;
@@ -245,6 +245,7 @@ footer a{
 	width: 29px;
 	height: 75px;
 	margin: -38px 0 0 0;
+	display: none;
 }
 .next{
 	position: absolute;
@@ -253,6 +254,7 @@ footer a{
 	width: 27px;
 	height: 70px;
 	margin: -35px 0 0 0;
+	display: none;
 }
 .slider-prenda{
 	padding-left: 0;
@@ -281,11 +283,11 @@ footer a{
     background: none !important;
 }   
 .bx-wrapper {
-    position: absolute !important;
+    position: relative !important;
     width: 65%  !important;
     margin: 0 !important;
     right: 0;
-    top:0;
+    float: right;
 }
 .bx-wrapper li{
 	left: 0;
@@ -296,7 +298,7 @@ footer a{
 	width: 23%;
 }
 .prenda-precio h3{
-	margin:0 0 35px 0;
+	margin:6px 0 6px 0;
 	padding: 0;
 	font-size: 18px;
 	font-family: 'bentonsansbold';
@@ -306,11 +308,14 @@ footer a{
 	font-size: 10px;
 }
 .prenda-precio p, .prenda-precio div{
-	padding: 40px 0;
+	padding: 25px 0;
 	margin: 3px 0;
 	font-size: 10px;
 	border-bottom: 1px solid #000;
 	width: 75%;
+}
+.combinalo{
+	display: none;
 }
 .prenda-precio p span{
 	display: block;
@@ -331,7 +336,7 @@ footer a{
 	list-style: none;
 }
 .prenda-precio div ul li{
-	margin: 0 0 3px 0;
+	margin: 0 0 1px 0;
 	list-style: none;
 	background: url("../img/Lookbook/guion.jpg") no-repeat left 6px;
 	padding-left: 10px;
@@ -341,6 +346,21 @@ footer a{
 }
 .prenda-precio p.combinalo img{
 	margin-left: 5px;
+}
+.botones-paginado{
+	border:0 !important;
+}
+.botones-paginado img{
+	margin: 0 8px 0 0;
+}
+.botones-paginado a{
+	color: #000;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.botones-paginado a:hover{
+	color: #000;
+	text-decoration: none;
 }
 .lista-similares{
 	margin: 0;
