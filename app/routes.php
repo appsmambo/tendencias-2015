@@ -61,7 +61,8 @@ Route::get('/accesorios/{id?}',array('as' => 'accesoriosdetalle',function($id = 
 }));
 
 Route::get('/lookbook', array('as' => 'lookbook', 'uses' => 'LookbookController@index'));
-Route::get('/lookbook/{name}', array('as' => 'detallelook', 'uses' => 'LookbookController@detail'));
+Route::get('/lookbook/{id}/{name}', array('as' => 'lookbook', 'uses' => 'LookbookController@looks'));
+Route::get('/lookbook/{id}/{categoria}/{name}', array('as' => 'detallelook', 'uses' => 'LookbookController@detail'));
 
 function defineFolder(){
 	$isMobile=Agent::isMobile();

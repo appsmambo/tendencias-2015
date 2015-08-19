@@ -11,40 +11,38 @@
                                         <img src="{{url()}}/img/lookbook/marquis.png" class="pull-right" alt="Marquis" />
                                     </div>
                                     <div class="galeria-slider clearfix">
-                                        <div class="bxslider">
-                                          <div><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></div>
-                                          <div><img src="{{url()}}/img/lookbook/detalle-2.jpg" /></div>
-                                          <div><img src="{{url()}}/img/lookbook/detalle-1.jpg" /></div>
-                                        </div>
+                                        <ul class="bxslider">
+                                        @for($i = 1; $i <= $producto[0]->numeroimagenes; $i++)
+                                          <li><img src="{{url()}}/img/lookbook/max/{{Str::slug($producto[0]->nombrelook)}}-{{$i}}.jpg" /></li>
+                                        @endfor  
+                                        </ul>
                                         <div id="bx-pager">
-                                          <a data-slide-index="0" href=""><img src="{{url()}}/img/lookbook/marquis-2.jpg" class="img-responsive" /></a>
-                                          <a data-slide-index="1" href=""><img src="{{url()}}/img/lookbook/marquis-1.jpg" class="img-responsive" /></a>
-                                          <a data-slide-index="2" href=""><img src="{{url()}}/img/lookbook/marquis-3.jpg" class="img-responsive" /></a>
+                                        @for($i = 0; $i < $producto[0]->numeroimagenes; $i++)
+                                          <a data-slide-index="{{$i}}" href=""><img src="{{url()}}/img/lookbook/min/{{Str::slug($producto[0]->nombrelook)}}-{{$i+1}}.jpg" class="img-responsive" /></a>
+                                        @endfor
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 prenda-precio pull-right">
-                                    <h3 class="titulo">Vestido a rayas a founce</h3>
-                                    <span class="sku">cod.93728639</span>
+                                    <h3 class="titulo">{{$producto[0]->nombrelook}}</h3>
+                                    <span class="sku">cod.{{$producto[0]->sku}}</span>
                                     <p class="precio">
                                         PRECIO NORMAL 
-                                        <span>$ 79.90</span>
+                                        <span>S/. {{$producto[0]->precio}}</span>
                                     </p>
                                     <div class="descripcion ">
                                         <span>DESCRIPCIÓN</span>
-                                        <ul>
-                                            <li>Denim no elástico</li>
-                                            <li>En un acabado con estampado metalizado</li>
-                                            <li>Diseño sin cuello</li>
+                                        <ul style="display:none;">
+                                            {{$producto[0]->descripcion}}
                                         </ul>
                                     </div>
                                     <p class="combinalo">
                                         <a href="#combinalo" class="combinando">combinalo con <img src="{{url()}}/img/lookbook/combinalo.jpg"  /></a>
                                     </p>
 									<div class="botones-paginado">
-										<a href="#"><img src="{{url()}}/img/lookbook/prev.png"  alt="prev" /></a>
+										<a href="{{url()}}/lookbook/{{$ant[0]->idlook}}/{{$ant[0]->idlookbook}}/{{Str::slug($ant[0]->nombrelook)}}"><img src="{{url()}}/img/lookbook/prev.png"  alt="prev" /></a>
 										<img src="{{url()}}/img/lookbook/border.jpg"  />
-										<a href="#"><img src="{{url()}}/img/lookbook/next.png"  alt="next" /> siguiente prenda</a>
+										<a href="{{url()}}/lookbook/{{$sig[0]->idlook}}/{{$sig[0]->idlookbook}}/{{Str::slug($sig[0]->nombrelook)}}"><img src="{{url()}}/img/lookbook/next.png"  alt="next" /> siguiente prenda</a>
 									
 									</div>
                                 </div>
@@ -53,10 +51,9 @@
                                     productos similares
                                     
                                         <ul class="row  clearfix">
-                                            <li class="col-sm-3"><a href="#"><img src="{{url()}}/img/lookbook/similares-1.jpg" class="img-responsive" alt="similares" /></a></li>
-                                            <li class="col-sm-3"><a href="#"><img src="{{url()}}/img/lookbook/similares-2.jpg" class="img-responsive" alt="similares" /></a></li>
-                                            <li class="col-sm-3"><a href="#"><img src="{{url()}}/img/lookbook/similares-3.jpg" class="img-responsive" alt="similares" /></a></li>
-                                            <li class="col-sm-3"><a href="#"><img src="{{url()}}/img/lookbook/similares-4.jpg" class="img-responsive" alt="similares" /></a></li>
+                                             @foreach($similares as $index =>$similar)
+                                            <li class="col-sm-3"><a href="{{url()}}/lookbook/{{ $similar->idlook }}/{{ $similar->idlookbook }}/{{ Str::slug($similar->nombrelook) }}"><img src="{{url()}}/img/lookbook/sim/{{Str::slug($similar->nombrelook)}}.jpg" class="img-responsive" alt="{{$similar->nombrelook}}" /></a></li>
+                                            @endforeach
                                         </ul>
                                 </div>
                             </div>
