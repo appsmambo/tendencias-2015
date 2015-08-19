@@ -63,13 +63,18 @@ function redimensionar() {
 $(document).ready(function () {
 
 	$('a').smoothScroll();
+	$('.cerrar-full-size').click(function() {
+		$(this).fadeOut();
+		$('.contenedor-home').fadeIn('fast', function() {
+			$('.contenedor-home-full-size').slideToggle('slow');
+		});
+	});
 
 	// Inject YouTube API script
 	var tag = document.createElement('script');
 	tag.src = "//www.youtube.com/player_api";
 	var firstScriptTag = document.getElementsByTagName('script')[0];
 	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
 
 	redimensionar();
 	$(".bar-toogle").on("click", function () {

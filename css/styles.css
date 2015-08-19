@@ -933,6 +933,14 @@ footer a{
 #accesorios-1{
 	height: 716px;
 }
+.contenedor-home-full-size {
+	position:relative
+}
+.cerrar-full-size {
+	right:4%;
+	top:2%;
+	position:fixed
+}
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
 		font-size: 13px;

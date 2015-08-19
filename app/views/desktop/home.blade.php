@@ -1,17 +1,25 @@
 @extends('layouts.desktop')
 @section('content')
-<a href="{{url()}}/sjp" title="Sarah Jessica Parker">
-	<img src="{{url()}}/img/home/sarah.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
-</a>
-<a href="{{url()}}/marcas" title="Marcas">
-	<img src="{{url()}}/img/home/marcas.jpg" class="img-responsive center-block" alt="Marcas" />
-</a>
-<a href="#" title="Lookbook">
-	<img src="{{url()}}/img/home/lookbook.jpg" class="img-responsive center-block" alt="Lookbook" />
-</a>
-<a href="{{url()}}/accesorios" title="Accesorios">
-	<img src="{{url()}}/img/home/accesorios.jpg" class="img-responsive center-block" alt="Accesorios" />
-</a>
+<div class="contenedor-home-full-size">
+	<a href="#" class="cerrar-full-size" title="Continuar">
+		<img src="{{url()}}/img/boton-cerrar.jpg" class="img-responsive center-block" alt="" />
+	</a>
+	<img src="{{url()}}/img/home/sarah-full-size.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
+</div>
+<div class="contenedor-home" style="display:none">
+	<a href="{{url()}}/sjp" title="Sarah Jessica Parker">
+		<img src="{{url()}}/img/home/sarah.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
+	</a>
+	<a href="{{url()}}/marcas" title="Marcas">
+		<img src="{{url()}}/img/home/marcas.jpg" class="img-responsive center-block" alt="Marcas" />
+	</a>
+	<a href="#" title="Lookbook">
+		<img src="{{url()}}/img/home/lookbook.jpg" class="img-responsive center-block" alt="Lookbook" />
+	</a>
+	<a href="{{url()}}/accesorios" title="Accesorios">
+		<img src="{{url()}}/img/home/accesorios.jpg" class="img-responsive center-block" alt="Accesorios" />
+	</a>
+</div>
 @stop
 
 @section('metas')
