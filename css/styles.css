@@ -700,6 +700,14 @@ footer a{
 	font-family: 'bentonsansregular';
 	text-transform: uppercase;
 }
+.accesorios-centro p {
+	display:table-cell;
+	vertical-align:middle
+}
+.accesorios-centro span {
+	color:#000;
+	font-family:'bentonsansbold'
+}
 .precio-accesorios .columna-precio:last-child{
 	border-right: 0;
 	font-family: 'bentonsansregular';
@@ -715,7 +723,7 @@ footer a{
 	font-size: 14px;
 }
 .precio-accesorios .columna-precio:last-child p{
-	text-align: left;
+	text-align: center;
 	font-size: 10px;
 }
 .accesorios-detalle-lightbox{

@@ -25,70 +25,78 @@
 switch ($id) {
 	case 1:
 		$marca = 'barbados.png';
-		$nombre = "<p>Vestido a rayas<br/> frunce</p>";
+		$nombre = "Vestido a rayas<br/> frunce";
 		$sku = "cod.93728639";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">$ 79.9</span>';
 		$imagen = 'Sandalia-Tabihebi-marquis.jpg';
 		break;
 	case 2:
 		$marca = 'barbados.png';
-		$nombre = "<p>Zapato Iris</p>";
+		$nombre = "Zapato Iris";
 		$sku = "cod.16909255";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">$99.9</span>';
 		$imagen = 'Zapato-Iris-marquis.jpg';
 		break;
 	case 3:
-		$nombre = "<p>Sandalia Tabihebi</p>";
+		$marca = 'marquis.png';
+		$nombre = "Sandalia Tabihebi";
 		$sku = "cod.16872543";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 189</span>';
 		$imagen = 'Sandalia-Tabihebi-marquis.jpg';
 		break;
 	case 4:
-		$nombre = "<p>Sandalia Rafaella</p>";
+		$marca = 'barbados.png';
+		$nombre = "Sandalia Rafaella";
 		$sku = "cod.16829389";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
 		$imagen = 'Sandalia-Rafaella-barbados.jpg';
 		break;
 
 	case 7:
-		$nombre = "<p>Sandalia Dalia</p>";
+		$marca = 'marquis.png';
+		$nombre = "Sandalia Dalia";
 		$sku = "cod.16997246";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 139</span>';
 		$imagen = 'Sandalia-Dalia-marquis.jpg';
 		break;
 
 	case 8:
-		$nombre = "<p>Sandalia Apli</p>";
+		$marca = 'marquis.png';
+		$nombre = "Sandalia Apli";
 		$sku = "cod.16872517";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 259</span>';
 		$imagen = 'Sandalia-Apli-marquis.jpg';
 		break;
 
 	case 9:
-		$nombre = "<p>Alpargata Sonia</p>";
+		$marca = 'marquis.png';
+		$nombre = "Alpargata Sonia";
 		$sku = "cod.16912774";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 89,9</span>';
 		$imagen = 'Alpargata-Sonia-marquis.jpg';
 		break;
 
 	case 10:
-		$nombre = "<p>Sandalia alberca</p>";
+		$marca = 'marquis.png';
+		$nombre = "Sandalia alberca";
 		$sku = "cod.17020357";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
 		$imagen = 'Sandalia-alberca-marquis.jpg';
 		break;
 
 	case 11:
-		$nombre = "<p>Alpargata Sonia</p>";
+		$marca = 'marquis.png';
+		$nombre = "Alpargata Sonia";
 		$sku = "cod.16912774";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 89,9</span>';
 		$imagen = 'Alpargata-Sonia-marquis.jpg';
 		break;
 
 	case 12:
-		$nombre = "<p>Sandalia Rafaella</p>";
-		$sku = "cod.16829389";
-		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
+		$marca = 'marquis.png';
+		$nombre = "Sandalia Franca";
+		$sku = "cod.17017645";
+		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 139</span>';
 		$imagen = 'Sandalia-franca-marquis.jpg';
 		break;
 }
@@ -101,15 +109,19 @@ switch ($id) {
 		<div class="precio-accesorios clearfix">
 			<div class="columna-precio">
 				<p>
-					<img src="{{url()}}/img/accesorios/<?php echo($marca); ?>" class="img-responsive" alt="Accesorios" />
+					<img src="{{url()}}/img/accesorios/<?php echo($marca); ?>" class="img-responsive" width="88%" alt="Accesorios" />
 				</p>
 			</div>
 			<div class="columna-precio accesorios-centro">
-				<p><?php echo($nombre); ?><?php echo($sku); ?></p>
+				<p>
+					<span>{{$nombre}}</span>
+					<br>
+					{{$sku}}
+				</p>
 			</div>
 			<div class="columna-precio">
 				<p>
-<?php echo($precio); ?>
+					{{$precio}}
 				</p>
 			</div>
 		</div>
