@@ -24,12 +24,14 @@
 <?php
 switch ($id) {
 	case 1:
+		$marca = "<p>'barbados.png'</p>";
 		$nombre = "<p>Vestido a rayas<br/> frunce</p>";
 		$sku = "cod.93728639";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">$ 79.9</span>';
 		$imagen = 'Sandalia-Tabihebi-marquis.jpg';
 		break;
 	case 2:
+		$marca = "<p>'barbados.png'</p>";
 		$nombre = "<p>Zapato Iris</p>";
 		$sku = "cod.16909255";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">$99.9</span>';
@@ -95,13 +97,13 @@ switch ($id) {
 
 <section id="accesorios-1">
 	<div class="accesorios-detalle-lightbox">
-		<img src="{{url()}}/img/accesorios/<?php echo($imagen); ?>" class="img-responsive" alt="Accesorios" />
+		<img src="{{url()}}/img/<?php echo($imagen); ?>" class="img-responsive" alt="Accesorios" />
 		<div class="precio-accesorios clearfix">
 			<div class="columna-precio">
-<?php echo($nombre); ?>
+				<img src="{{url()}}/img/accesorios/<?php echo($marca); ?>" class="img-responsive" alt="Accesorios" />
 			</div>
 			<div class="columna-precio accesorios-centro">
-				<p><?php echo($sku); ?></p>
+				<p><?php echo($nombre); ?><?php echo($sku); ?></p>
 			</div>
 			<div class="columna-precio">
 				<p>
