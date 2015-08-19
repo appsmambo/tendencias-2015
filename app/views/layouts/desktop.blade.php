@@ -90,6 +90,7 @@ if (!isset($itemactive))
 		<script src="{{url()}}/js/jquery.bxslider.js"></script>
 		<script src="{{url()}}/js/jquery.fancybox.js"></script>
 		<script src="{{url()}}/js/jquery.rwdImageMaps.min.js"></script>
+		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/funciones.js"></script>
 		@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook')
 		<script>

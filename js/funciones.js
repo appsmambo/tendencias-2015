@@ -62,6 +62,7 @@ function redimensionar() {
 
 $(document).ready(function () {
 
+	$('a').smoothScroll();
 
 	// Inject YouTube API script
 	var tag = document.createElement('script');
