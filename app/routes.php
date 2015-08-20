@@ -51,6 +51,27 @@ Route::get('/marcas/pepejeans',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-pepe-jeans')->with('itemactive',7);
 }));
 
+Route::get('/marcas/river-island',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-river-island')->with('itemactive',8);
+}));
+
+Route::get('/marcas/espirit',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-espirit')->with('itemactive',9);
+}));
+
+Route::get('/marcas/veromoda',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-veromoda')->with('itemactive',10);
+}));
+Route::get('/marcas/tennis',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-tennis')->with('itemactive',11);
+}));
+Route::get('/marcas/guess',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-guess')->with('itemactive',12);
+}));
+Route::get('/marcas/only',array('as' => 'marcas', function () {
+	return  View::make(defineFolder() . 'marcas-only')->with('itemactive',13);
+}));
+
 Route::get('/accesorios',array('as' => 'accesorios', function () {
 	return  View::make(defineFolder() . 'accesorios');
 }));

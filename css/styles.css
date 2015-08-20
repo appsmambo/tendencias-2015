@@ -75,14 +75,14 @@ a:hover{
 }
 nav.header{
 	width: 175px;
-	margin: 60px 0 0 0;
+	margin: 50px 0 0 0;
 	border: 0;
 }
 nav.header.left-margin{
 	margin-left: 15px;
 }
 nav.header img.bar-toogle{
-	margin-bottom: 28.5%;
+	margin-bottom: 25.5%;
 	cursor: pointer;
 	margin-left: 14px;
 	display: block;
@@ -101,7 +101,7 @@ nav.header ul li a{
 	color: #000000;
 	display: block;
 	width: 90%;
-	padding: 6px 0 6px 5px;
+	padding: 6px 0 0 5px;
 }
 nav.header ul li a:hover, nav.header ul li a.active{
 	background: #000000;
@@ -948,6 +948,16 @@ footer a{
 	right:4%;
 	top:2%;
 	position:fixed
+}
+.marcas-nuevas{
+	text-align: center;
+	font-family: 'bentonsans_bookregular';
+	font-size: 18px;
+	padding: 14% 0;
+}
+.marcas-nuevas p{
+	margin: 10% 0;
+	padding: 0;
 }
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
