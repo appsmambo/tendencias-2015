@@ -4,7 +4,7 @@
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/barbados/banner.jpg" class="img-responsive" alt="BARBADOS" />
 		<div class="sociales-marcas">
-			<p>Compartir</p>
+			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/barbados" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Barbados%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1Nc7FWf" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
 			<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/barbados&media=http://modaripley.com/tendencias/img/marcas/barbados/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>

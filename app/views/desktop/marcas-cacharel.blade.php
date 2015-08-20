@@ -4,7 +4,7 @@
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/cacharel/banner.jpg" class="img-responsive" alt="CACHAREL" />
 		<div class="sociales-marcas">
-			<p>Compartir</p>
+			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/cacharel" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Cacharel%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1UMZYH5" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
 			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/cacharel&media={{url()}}/img/marcas/cacharel/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
