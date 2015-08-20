@@ -5,10 +5,10 @@
 		<img src="{{url()}}/img/marcas/index/banner.jpg" class="img-responsive" alt="INDEX" />
 		<div class="sociales-marcas">
 			<p>Compartir</p>
-			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
-			<a href="https://twitter.com/home?status=Index%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1JllOPW" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/index&media={{url()}}/img/marcas/index/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
-			<a href="https://plus.google.com/share?url={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
+			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>
+			<a href="https://twitter.com/home?status=Index%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1JllOPW" target="_blank"><img src="{{url()}}/img/twitter-blanco.png" alt="twitter" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/index&media={{url()}}/img/marcas/index/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
+			<a href="https://plus.google.com/share?url={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/google-blanco.png" alt="google plus" /></a>
 		</div>
 	</div>
 	<p class="hidden">
