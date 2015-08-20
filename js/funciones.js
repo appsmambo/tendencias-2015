@@ -137,8 +137,7 @@ $(document).ready(function () {
 	});
 	$('.bxslider').bxSlider({
 		pagerCustom: '#bx-pager',
-		mode: 'fade',
-		controls: false
+		mode: 'fade'
 	});
 	
 	$(window).scroll(function () {
