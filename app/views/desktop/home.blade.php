@@ -2,7 +2,7 @@
 @section('content')
 <div class="contenedor-home-full-size">
 	<a href="#" class="cerrar-full-size" title="Continuar">
-		<img src="{{url()}}/img/boton-cerrar.jpg" class="img-responsive center-block" alt="" />
+		<img src="{{url()}}/img/boton-cerrar.png" class="img-responsive center-block" alt="" />
 	</a>
 	<img src="{{url()}}/img/home/sarah-full-size.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
 </div>
