@@ -16,9 +16,32 @@ if (!isset($itemactive))
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-50197344-2', 'auto');
+			ga('create', 'UA-66587720-1', 'auto');
 			ga('require', 'displayfeatures');
 			ga('send', 'pageview');
+		</script>
+		<script>
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','//connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '118880601776827');
+			fbq('track', 'PageView');
+		</script>
+		<script src="{{url()}}/js/queryloader2.min.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('DOMContentLoaded', function() {
+				new QueryLoader2(document.querySelector("body"), {
+					barColor:"#fff",
+					backgroundColor:"#000",
+					percentage:false,
+					barHeight:1,
+					minimumTime:250,
+					maxTime:45000,
+					fadeOutTime:1000
+				});
+			});
 		</script>
 	</head>
 	<body>
@@ -39,7 +62,7 @@ if (!isset($itemactive))
 								<li><a href="{{url()}}/marcas/index" @if($itemactive==5) class="active" @endif>Index</a></li>
 								<li><a href="{{url()}}/marcas/barbados" @if($itemactive==6) class="active" @endif>Barbados</a></li>
 								<li><a href="{{url()}}/marcas/pepejeans" @if($itemactive==7) class="active" @endif>pepe jeans</a></li>
-								<li><a href="{{url()}}/marcas/river-island"  @if($itemactive==8) class="active" @endif>River Island</a></li>
+								<li><a href="{{url()}}/marcas/river-island" @if($itemactive==8) class="active" @endif>River Island</a></li>
 								<li><a href="{{url()}}/marcas/espirit" @if($itemactive==9) class="active" @endif>Espirit</a></li>
 								<li><a href="{{url()}}/marcas/veromoda" @if($itemactive==10) class="active" @endif>Veromoda</a></li>
 								<li><a href="{{url()}}/marcas/tennis" @if($itemactive==11) class="active" @endif>Tennis</a></li>
@@ -64,7 +87,7 @@ if (!isset($itemactive))
 							<a href="{{url()}}/accesorios" @if(Route::current()->getName() == 'accesorios') class="active" @endif>ACCESORIOS</a>
 						</li>
 						<li>
-							<a href="{{url()}}/revista" @if(Route::current()->getName() == 'accesorios') class="active" @endif>REVISTA</a>
+							<a href="{{url()}}/revista" @if(Route::current()->getName() == 'revista') class="active" @endif>REVISTA</a>
 						</li>
 					</ul>
 				</div>
@@ -125,5 +148,6 @@ if (!isset($itemactive))
 				});
 			});
 		</script>
+		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=118880601776827&ev=PageView&noscript=1"/></noscript>
 	</body>
 </html>

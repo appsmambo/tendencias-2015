@@ -92,8 +92,8 @@ Route::get('/lookbook/{id}/{categoria}/{name}', array('as' => 'detallelook', 'us
 function defineFolder(){
 	$isMobile=Agent::isMobile();
 	$folder='desktop/';
-	/*if ($isMobile)
-		$folder='mobile/';*/
+	if ($isMobile)
+		$folder='mobile/';
 
 	return $folder;
 }
