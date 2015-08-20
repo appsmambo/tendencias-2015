@@ -28,15 +28,15 @@
         return $prod;
     }
 
-    $numprod=0;
+    $numprod=-1;
 
     for ($i = 1; $i <= $numpatron; $i++) {
 ?>
     <div class="row row-eq-height">
-
-                        
                         <div class="item col-sm-3">
-                            <?php if($numprod<$numreg) {?>
+                            <?php 
+                            $numprod++;
+                            if($numprod<$numreg) {?>
                             <div class="content-item">
                                 <?php 
                                 $imagen= $productos[$numprod]->nombreimagen;
