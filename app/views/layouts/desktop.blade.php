@@ -76,14 +76,11 @@ if (!isset($itemactive))
 						<li>
 							<a href="#" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
 							<ul @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
-								<li><a href="#">chaquetas</a></li>
-								<li><a href="#" >VESTIDOS</a></li>
-								<li><a href="#">blusas</a></li>
-								<li><a href="#">tops</a></li>
-								<li><a href="#">shorts</a></li>
-								<li><a href="#">faldas</a></li>
-								<li><a href="#">zapatos</a></li>
-								<li><a href="#">bolsos</a></li>
+								<li><a href="{{url()}}/lookbook/45/1/casaca-varadero">CASACAS</a></li>
+								<li><a href="{{url()}}/lookbook/46/2/blusa-cool">TOPS</a></li>
+								<li><a href="{{url()}}/lookbook/37/3/pantalones-ciore">PANTALONES</a></li>
+								<li><a href="{{url()}}/lookbook/43/4/vestido-cierre">VESTIDOS</a></li>
+								<li><a href="{{url()}}/lookbook/42/5/short-cuna">FALDAS Y SHORTS</a></li>
 							</ul>
 						</li>
 						<li>
