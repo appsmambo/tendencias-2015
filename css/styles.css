@@ -427,7 +427,7 @@ footer a{
 	position: absolute;
 	right: 20px;
 	bottom: 15px;
-	height: 35px;
+	height: 65px;
 }
 .redes-look img{
 	margin-left: 4px;
@@ -969,6 +969,10 @@ footer a{
 }
 .bx-wrapper .bx-next{
 	background: url(../img/lookbook/next-slider.png) no-repeat;
+}
+.compartir-lookbook{
+	display: block;
+	margin-bottom: 7px;
 }
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{

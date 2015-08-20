@@ -16,12 +16,12 @@
                                     <a href="'. url() . '/lookbook/'. $idlook .'/' . Str::slug($categoria) . '/' . Str::slug($nombrelook) . '">
                                         <div class="fondo-item"></div>
                                         <div class="content-a-look">
-                                            <div class="content-b-look"><img src="' . url() . '/img/lookbook/' . $imagenmarca .'" class="img-responsive"/></div>
+                                            <div class="content-b-look"><img src="' . url() . '/img/lookbook/marcas/' . $imagenmarca .'" class="img-responsive"/></div>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="redes-look">
-                                    <img src="'.  url() .'/img/compartir.png"  alt="compartir" />
+                                    <img src="'.  url() .'/img/lookbook/compartelo.png"  alt="compartir" class="compartir-lookbook" />
                                     <a href="https://www.facebook.com/sharer/sharer.php?u='. url()  .'/lookbook/'. $idlook .'/'. Str::slug($categoria) . '/' . Str::slug($nombrelook) . '" target="_blank"><img src="'. url() .'/img/facebook.png"  alt="facebook" /></a>
                                     <a href="https://twitter.com/home?status='. $textoTwitter .'" target="_blank"><img src="'. url() .'/img/twitter.png"  alt="twitter" /></a>
                                 </div>';
