@@ -19,6 +19,10 @@ Route::get('/sjp',array('as' => 'sarah', function () {
 	return  View::make(defineFolder() . 'sarah');
 }));
 
+Route::get('/revista',array('as' => 'revista', function () {
+	return  View::make(defineFolder() . 'revista');
+}));
+
 Route::get('/marcas',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas');
 }));

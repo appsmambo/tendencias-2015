@@ -959,6 +959,17 @@ footer a{
 	margin: 10% 0;
 	padding: 0;
 }
+.bx-wrapper .bx-controls-direction a {
+	width:22px ;
+	height:54px ;
+	margin: -27px 0 0 -11px;
+}
+.bx-wrapper .bx-prev{
+	background: url(../img/lookbook/prev-slider.png) no-repeat;
+}
+.bx-wrapper .bx-next{
+	background: url(../img/lookbook/next-slider.png) no-repeat;
+}
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
 		font-size: 13px;

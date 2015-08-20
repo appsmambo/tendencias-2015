@@ -13,12 +13,12 @@
                                     <div class="galeria-slider clearfix">
                                         <ul class="bxslider">
                                         @for($i = 1; $i <= $producto[0]->numeroimagenes; $i++)
-                                          <li><img src="{{url()}}/img/lookbook/max/{{Str::slug($producto[0]->nombrelook)}}-{{$i}}.jpg" /></li>
+                                          <li><img src="{{url()}}/img/lookbook/detalle/max/{{Str::slug($producto[0]->nombrelook)}}-{{$i}}.jpg" /></li>
                                         @endfor  
                                         </ul>
                                         <div id="bx-pager">
                                         @for($i = 0; $i < $producto[0]->numeroimagenes; $i++)
-                                          <a data-slide-index="{{$i}}" href=""><img src="{{url()}}/img/lookbook/min/{{Str::slug($producto[0]->nombrelook)}}-{{$i+1}}.jpg" class="img-responsive" /></a>
+                                          <a data-slide-index="{{$i}}" href=""><img src="{{url()}}/img/lookbook/detalle/min/{{Str::slug($producto[0]->nombrelook)}}-{{$i+1}}.jpg" class="img-responsive" /></a>
                                         @endfor
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@
                                     
                                         <ul class="row  clearfix">
                                              @foreach($similares as $index =>$similar)
-                                            <li class="col-sm-3"><a href="{{url()}}/lookbook/{{ $similar->idlook }}/{{ $similar->idlookbook }}/{{ Str::slug($similar->nombrelook) }}"><img src="{{url()}}/img/lookbook/sim/{{Str::slug($similar->nombrelook)}}.jpg" class="img-responsive" alt="{{$similar->nombrelook}}" /></a></li>
+                                            <li class="col-sm-3"><a href="{{url()}}/lookbook/{{ $similar->idlook }}/{{ $similar->idlookbook }}/{{ Str::slug($similar->nombrelook) }}"><img src="{{url()}}/img/lookbook/similares/{{Str::slug($similar->nombrelook)}}.jpg" class="img-responsive" alt="{{$similar->nombrelook}}" /></a></li>
                                             @endforeach
                                         </ul>
                                 </div>
