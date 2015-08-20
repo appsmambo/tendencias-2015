@@ -11,7 +11,7 @@
     //var_dump($productos);
     //echo($productos[0]->nombrelook);
     function contentItem($imagen,$nombrelook,$idlook,$imagenmarca,$textoTwitter,$categoria){
-        $prod='<img src="'. url() .'/img/lookbook/portada/' . $imagen .'" class="img-responsive" alt="'. $nombrelook .'" />
+        $prod='<img src="'. url() .'/images/lookbook/portada/' . $imagen .'.jpg" class="img-responsive" alt="'. $nombrelook .'" />
                                 <div class="detalle-item">
                                     <a href="'. url() . '/lookbook/'. $idlook .'/' . Str::slug($categoria) . '/' . Str::slug($nombrelook) . '">
                                         <div class="fondo-item"></div>

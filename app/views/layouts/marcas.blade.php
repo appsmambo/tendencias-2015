@@ -63,6 +63,9 @@ if (!isset($itemactive))
 						<li>
 							<a href="{{url()}}/accesorios" @if(Route::current()->getName() == 'accesorios') class="active" @endif>ACCESORIOS</a>
 						</li>
+						<li>
+							<a href="{{url()}}/revista" @if(Route::current()->getName() == 'accesorios') class="active" @endif>REVISTA</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
