@@ -8,7 +8,7 @@
                                 <div class="col-sm-9 slider-prenda">
                                     <div class="clearfix">
                                         <a href="lookbook.php" class="pull-left"><img src="{{url()}}/img/lookbook/volver.png"  alt="volver" /></a>
-                                        <img src="{{url()}}/img/lookbook/marquis.png" class="pull-right" alt="Marquis" />
+                                        <img src="{{url()}}/img/lookbook/{{$producto[0]->imagenmarca}}" class="pull-right" alt="" />
                                     </div>
                                     <div class="galeria-slider clearfix">
                                         <ul class="bxslider">
