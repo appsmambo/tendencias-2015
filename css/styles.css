@@ -977,6 +977,9 @@ footer a{
 	display: block;
 	margin-bottom: 7px;
 }
+.prenda-precio div.descripcion{
+	display: none;
+}
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
 		font-size: 13px;
