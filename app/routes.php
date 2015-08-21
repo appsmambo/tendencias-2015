@@ -59,7 +59,7 @@ Route::get('/marcas/river-island',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-river-island')->with('itemactive',8);
 }));
 
-Route::get('/marcas/espirit',array('as' => 'marcas', function () {
+Route::get('/marcas/esprit',array('as' => 'marcas', function () {
 	return  View::make(defineFolder() . 'marcas-espirit')->with('itemactive',9);
 }));
 

@@ -13,12 +13,17 @@
 	<a href="{{url()}}/marcas" title="Marcas">
 		<img src="{{url()}}/img/home/marcas.jpg" class="img-responsive center-block" alt="Marcas" />
 	</a>
-	<a href="#" title="Lookbook">
+	<a href="{{url()}}/lookbook" title="Lookbook">
 		<img src="{{url()}}/img/home/lookbook.jpg" class="img-responsive center-block" alt="Lookbook" />
 	</a>
 	<a href="{{url()}}/accesorios" title="Accesorios">
 		<img src="{{url()}}/img/home/accesorios.jpg" class="img-responsive center-block" alt="Accesorios" />
 	</a>
+</div>
+<div class="hidden">
+	<p class="text-center">
+		<img src="{{url()}}/img/home/sjp-intro.jpg" class="img-responsive center-block" alt="Sarah Jessica Parker" />
+	</p>
 </div>
 @stop
 

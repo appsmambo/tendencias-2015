@@ -1,6 +1,13 @@
 <?php
 if (!isset($itemactive))
 	$itemactive = 0;
+
+if (!isset($producto)){
+	$catelook="";
+}else{
+	$catelook=$producto[0]->nombre;
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -42,7 +49,14 @@ if (!isset($itemactive))
 					barHeight:1,
 					minimumTime:250,
 					maxTime:45000,
-					fadeOutTime:1000
+					fadeOutTime:1000,
+					onComplete:function() {
+						@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook' or Route::current()->getName() == 'detallelook')
+						setTimeout(function () {
+							$(".bar-toogle").trigger("click");
+						}, 5000);
+						@endif
+					}
 				});
 			});
 		</script>
@@ -66,7 +80,7 @@ if (!isset($itemactive))
 								<li><a href="{{url()}}/marcas/barbados" @if($itemactive==6) class="active" @endif>Barbados</a></li>
 								<li><a href="{{url()}}/marcas/pepejeans" @if($itemactive==7) class="active" @endif>pepe jeans</a></li>
 								<li><a href="{{url()}}/marcas/river-island" @if($itemactive==8) class="active" @endif>River Island</a></li>
-								<li><a href="{{url()}}/marcas/espirit" @if($itemactive==9) class="active" @endif>Espirit</a></li>
+								<li><a href="{{url()}}/marcas/esprit" @if($itemactive==9) class="active" @endif>Esprit</a></li>
 								<li><a href="{{url()}}/marcas/veromoda" @if($itemactive==10) class="active" @endif>Veromoda</a></li>
 								<li><a href="{{url()}}/marcas/tennis" @if($itemactive==11) class="active" @endif>Tennis</a></li>
 								<li><a href="{{url()}}/marcas/guess" @if($itemactive==12) class="active" @endif>Guess</a></li>
@@ -74,13 +88,13 @@ if (!isset($itemactive))
 							</ul>
 						</li>
 						<li>
-							<a href="#" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
-							<ul @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
-								<li><a href="{{url()}}/lookbook/45/1/casaca-varadero">CASACAS</a></li>
-								<li><a href="{{url()}}/lookbook/46/2/blusa-cool">TOPS</a></li>
-								<li><a href="{{url()}}/lookbook/37/3/pantalones-ciore">PANTALONES</a></li>
-								<li><a href="{{url()}}/lookbook/43/4/vestido-cierre">VESTIDOS</a></li>
-								<li><a href="{{url()}}/lookbook/42/5/short-cuna">FALDAS Y SHORTS</a></li>
+							<a href="{{url()}}/lookbook" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
+							<ul @if(Route::current()->getName() == 'lookbook' or $catelook!="" )class="listas-desplegadas" @endif>
+								<li><a href="{{url()}}/lookbook/45/1/casaca-varadero" <?php if($catelook=="CASACAS"){?>class="active"<?php }?>>CASACAS</a></li>
+								<li><a href="{{url()}}/lookbook/46/2/blusa-cool" <?php if($catelook=="TOPS"){?>class="active"<?php }?>>TOPS</a></li>
+								<li><a href="{{url()}}/lookbook/37/3/pantalones-ciore" <?php if($catelook=="PANTALONES"){?>class="active"<?php }?>>PANTALONES</a></li>
+								<li><a href="{{url()}}/lookbook/43/4/vestido-cierre" <?php if($catelook=="VESTIDOS"){?>class="active"<?php }?>>VESTIDOS</a></li>
+								<li><a href="{{url()}}/lookbook/42/5/short-cuna" <?php if($catelook=="FALDAS Y SHORTS"){?>class="active"<?php }?>>FALDAS Y SHORTS</a></li>
 							</ul>
 						</li>
 						<li>
@@ -95,11 +109,11 @@ if (!isset($itemactive))
 		</section>
 		<section class="navs red">
 			<div class="redes">
-				<a onclick="ga('send', 'social', 'facebook', 'link', '{{url()}}/');" href="https://www.facebook.com/RipleyPeru" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
-				<a onclick="ga('send', 'social', 'twitter', 'link', '{{url()}}/');" href="https://twitter.com/ripleyenperu" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
-				<a onclick="ga('send', 'social', 'pinterest', 'link', '{{url()}}/');" href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
-				<a onclick="ga('send', 'social', 'google+', 'link', '{{url()}}/');" href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
-				<a onclick="ga('send', 'social', 'instagram', 'link', '{{url()}}/');" href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
+				<a onclick="ga('send', 'social', 'facebook');" href="https://www.facebook.com/RipleyPeru" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
+				<a onclick="ga('send', 'social', 'twitter');" href="https://twitter.com/ripleyenperu" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
+				<a onclick="ga('send', 'social', 'pinterest');" href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
+				<a onclick="ga('send', 'social', 'google+');" href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
+				<a onclick="ga('send', 'social', 'instagram');" href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
 			</div>
 		</section>
 		<div id="wrapper-content">
@@ -117,7 +131,7 @@ if (!isset($itemactive))
 		<script src="{{url()}}/js/jquery.rwdImageMaps.min.js"></script>
 		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/funciones.js"></script>
-		@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook')
+		@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook' or Route::current()->getName() == 'detallelook')
 		<script>
 			$(document).ready(function () {
 				$('.navs.yellow').addClass('nav-ancho easeOutExpo animated');
@@ -125,10 +139,9 @@ if (!isset($itemactive))
 				$('.bar-toogle').addClass('active');
 				$('.navs .menu-list').delay(250).fadeIn('slow');
 			});
-			setTimeout(function(){
-				$(".bar-toogle").trigger("click");
-			}, 5000);
 		</script>
+		@endif
+		@if(Route::current()->getName() == 'home')
 		@endif
 		<script>
 			function getWindowWidth(){

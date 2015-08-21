@@ -39,7 +39,12 @@ if (!isset($itemactive))
 					barHeight:1,
 					minimumTime:250,
 					maxTime:45000,
-					fadeOutTime:1000
+					fadeOutTime:1000,
+					onComplete:function() {
+						setTimeout(function () {
+							$(".bar-toogle").trigger("click");
+						}, 5000);
+					}
 				});
 			});
 		</script>
@@ -51,7 +56,7 @@ if (!isset($itemactive))
 				<div class="menu-list" style="display:none">
 					<a class="logo-ripley-header" href="{{url()}}/"><img src="{{url()}}/img/ripley-header.jpg" class="img-responsive" alt="Logo Ripley" /></a>
 					<ul class="list-unstyled">
-						<li><a href="{{url()}}/sjp" @if(Route::current()->getName() == 'sarah') class="active" @endif>SARAH JESSICA</a></li>
+						<li><a href="{{url()}}/sjp">SARAH JESSICA</a></li>
 						<li>
 							<a href="{{url()}}/marcas" @if(Route::current()->getName() == 'marcas' ) class="active" @endif>MARCAS</a>
 							<ul @if(Route::current()->getName() == 'marcas')class="listas-desplegadas" @endif>
@@ -63,7 +68,7 @@ if (!isset($itemactive))
 								<li><a href="{{url()}}/marcas/barbados" @if($itemactive==6) class="active" @endif>Barbados</a></li>
 								<li><a href="{{url()}}/marcas/pepejeans" @if($itemactive==7) class="active" @endif>pepe jeans</a></li>
 								<li><a href="{{url()}}/marcas/river-island" @if($itemactive==8) class="active" @endif>River Island</a></li>
-								<li><a href="{{url()}}/marcas/espirit" @if($itemactive==9) class="active" @endif>Espirit</a></li>
+								<li><a href="{{url()}}/marcas/esprit" @if($itemactive==9) class="active" @endif>Esprit</a></li>
 								<li><a href="{{url()}}/marcas/veromoda" @if($itemactive==10) class="active" @endif>Veromoda</a></li>
 								<li><a href="{{url()}}/marcas/tennis" @if($itemactive==11) class="active" @endif>Tennis</a></li>
 								<li><a href="{{url()}}/marcas/guess" @if($itemactive==12) class="active" @endif>Guess</a></li>
@@ -71,23 +76,13 @@ if (!isset($itemactive))
 							</ul>
 						</li>
 						<li>
-							<a href="#" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LOOKBOOK</a>
-							<ul @if(Route::current()->getName() == 'lookbook')class="listas-desplegadas" @endif>
-								<li><a href="#">chaquetas</a></li>
-								<li><a href="#" >VESTIDOS</a></li>
-								<li><a href="#">blusas</a></li>
-								<li><a href="#">tops</a></li>
-								<li><a href="#">shorts</a></li>
-								<li><a href="#">faldas</a></li>
-								<li><a href="#">zapatos</a></li>
-								<li><a href="#">bolsos</a></li>
-							</ul>
+							<a href="{{url()}}/lookbook">LOOKBOOK</a>
 						</li>
 						<li>
-							<a href="{{url()}}/accesorios" @if(Route::current()->getName() == 'accesorios') class="active" @endif>ACCESORIOS</a>
+							<a href="{{url()}}/accesorios">ACCESORIOS</a>
 						</li>
 						<li>
-							<a href="{{url()}}/revista" @if(Route::current()->getName() == 'revista') class="active" @endif>REVISTA</a>
+							<a href="{{url()}}/revista">REVISTA</a>
 						</li>
 					</ul>
 				</div>
@@ -95,11 +90,11 @@ if (!isset($itemactive))
 		</section>
 		<section class="navs red">
 			<div class="redes">
-				<a href="https://www.facebook.com/RipleyPeru" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
-				<a href="https://twitter.com/ripleyenperu" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
-				<a href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
-				<a href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
-				<a href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
+				<a onclick="ga('send', 'social', 'facebook');" href="https://www.facebook.com/RipleyPeru" target="_blank"><img src="{{url()}}/img/facebook.png" class="img-responsive" alt="facebook" /></a>
+				<a onclick="ga('send', 'social', 'twitter');" href="https://twitter.com/ripleyenperu" target="_blank"><img src="{{url()}}/img/twitter.png" class="img-responsive" alt="twitter" /></a>
+				<a onclick="ga('send', 'social', 'pinterest');" href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
+				<a onclick="ga('send', 'social', 'google+');" href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
+				<a onclick="ga('send', 'social', 'instagram');" href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
 			</div>
 		</section>
 			<section id="wrapper" class="center-block">

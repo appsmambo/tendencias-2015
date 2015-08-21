@@ -93,8 +93,4 @@ $(document).ready(function () {
 		return false;
 	});
 	window.onresize = redimensionar;
-
-	setTimeout(function () {
-		$(".bar-toogle").trigger("click");
-	}, 5000);
 });
