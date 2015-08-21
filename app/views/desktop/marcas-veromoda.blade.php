@@ -2,18 +2,18 @@
 @section('content')
 <div class="row">
 	<div class="col-sm-6 col-sm-offset-3 marcas-nuevas">
-		<img src="{{url()}}/img/marcas/veromoda/logo.png" class="img-responsive center-block" alt="Veromoda" />
+		<img src="{{url()}}/img/marcas/veromoda/logo.png" class="img-responsive center-block" alt="Vero Moda" />
 		<p>
 			Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks.
 		</p>
-		<a href="http://www.veromoda.com/?forcecountry=GB&customerGroupTrigger=mobile&redirected=1" target="_blank"><img src="{{url()}}/img/marcas/veromoda/boton.jpg" class="img-responsive center-block" alt="Veromoda" /></a>
+		<a href="http://www.veromoda.com/?forcecountry=GB&customerGroupTrigger=mobile&redirected=1" target="_blank"><img src="{{url()}}/img/marcas/veromoda/boton.jpg" class="img-responsive center-block" alt="Vero Moda" /></a>
 	</div>
 </div>
-<img src="{{url()}}/img/marcas/veromoda/banner.jpg" class="img-responsive" alt="Veromoda" />
+<img src="{{url()}}/img/marcas/veromoda/banner.jpg" class="img-responsive" alt="Vero Moda" />
 @stop
 
 @section('metas')
-<title>Veromoda - Las mejores marcas en Ripley</title>
+<title>Vero Moda - Las mejores marcas en Ripley</title>
 <meta name="description" content="Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks." />
 
 <!-- Google -->

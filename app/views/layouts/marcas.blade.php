@@ -69,7 +69,7 @@ if (!isset($itemactive))
 								<li><a href="{{url()}}/marcas/pepejeans" @if($itemactive==7) class="active" @endif>pepe jeans</a></li>
 								<li><a href="{{url()}}/marcas/river-island" @if($itemactive==8) class="active" @endif>River Island</a></li>
 								<li><a href="{{url()}}/marcas/esprit" @if($itemactive==9) class="active" @endif>Esprit</a></li>
-								<li><a href="{{url()}}/marcas/veromoda" @if($itemactive==10) class="active" @endif>Veromoda</a></li>
+								<li><a href="{{url()}}/marcas/veromoda" @if($itemactive==10) class="active" @endif>Vero Moda</a></li>
 								<li><a href="{{url()}}/marcas/tennis" @if($itemactive==11) class="active" @endif>Tennis</a></li>
 								<li><a href="{{url()}}/marcas/guess" @if($itemactive==12) class="active" @endif>Guess</a></li>
 								<li><a href="{{url()}}/marcas/only" @if($itemactive==13) class="active" @endif>Only</a></li>
@@ -98,12 +98,12 @@ if (!isset($itemactive))
 				<a onclick="ga('send', 'social', 'youtube');" href="https://www.youtube.com/user/TiendasRipleyPeru" target="_blank"><img src="{{url()}}/img/youtube.png" class="img-responsive" alt="youtube" /></a>
 			</div>
 		</section>
-			<section id="wrapper" class="center-block">
-				@yield('content')
-			</section>
-			<footer class="clearfix">
-				<a href="http://modaripley.com/" target="_blank" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
-			</footer>
+		<section id="wrapper" class="center-block">
+			@yield('content')
+		</section>
+		<footer class="clearfix">
+			<a href="http://modaripley.com/" target="_blank" class="pull-right"><img src="{{url()}}/img/logo-footer.png" class="img-responsive" alt="RIpley" /></a>
+		</footer>
 		<script src="{{url()}}/js/jquery.js"></script>
 		<script src="{{url()}}/js/bootstrap.min.js"></script>
 		<script src="{{url()}}/js/freewall.min.js"></script>

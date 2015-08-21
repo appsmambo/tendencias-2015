@@ -134,7 +134,8 @@ footer{
 	width: 100%;
 	padding: 12px 0;
 	background: #000;
-	position: relative;
+	position:fixed;
+	bottom:0;
 	z-index:999;
 }
 footer a{
