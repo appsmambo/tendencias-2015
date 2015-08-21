@@ -10,10 +10,10 @@
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}/"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                     

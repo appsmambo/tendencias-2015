@@ -58,7 +58,8 @@
     font-style: normal;
 }
 body{
-	 font-family: 'bentonsansbold';
+	padding-bottom:48px;
+	font-family: 'bentonsansbold';
 }
 a:hover{
 	text-decoration: none;

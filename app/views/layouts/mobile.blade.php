@@ -60,8 +60,8 @@ if (!isset($itemactive))
                             <li><a href=""><i class="icon-instagram"></i></a></li>
                         </ul>
                     </div>
-                </nav>  
-            </div>                     
+                </nav>
+            </div>
             <div class="menu">
                 <div class="menu-movil boton-movil">
                     <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
@@ -72,7 +72,7 @@ if (!isset($itemactive))
             </div> 
                 @yield('content')
             <footer style="bottom:0;">
-                <a href=""><img src="{{url()}}/images/logo-footer.png" alt=""></a>
+                <a href="{{url()}}"><img src="{{url()}}/images/logo-footer.png" alt=""></a>
             </footer> 
         </div> 
         <script src="{{url()}}/js/mobile/jquery-1.11.1.min.js" ></script>
