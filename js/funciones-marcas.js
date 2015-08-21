@@ -60,6 +60,7 @@ function onPlayerReady2(event) {
 }
 
 $(document).ready(function () {
+	$('a').smoothScroll();
 	// Inject YouTube API script
 	var tag = document.createElement('script');
 	tag.src = "//www.youtube.com/player_api";

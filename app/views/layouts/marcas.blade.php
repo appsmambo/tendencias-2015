@@ -108,6 +108,7 @@ if (!isset($itemactive))
 		<script src="{{url()}}/js/jquery.js"></script>
 		<script src="{{url()}}/js/bootstrap.min.js"></script>
 		<script src="{{url()}}/js/freewall.min.js"></script>
+		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/funciones-marcas.js"></script>
 		<script>
 			$(document).ready(function () {
