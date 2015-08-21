@@ -21,7 +21,7 @@
 	<img src="{{url()}}/img/marcas/4.jpg" width="1788" height="1235" usemap="#Map4"  class="maped img-responsive" alt="Elige tu Marca" />
 	<map name="Map4" id="Map4">
 		<area shape="rect" coords="3,2,857,719" href="{{url()}}/marcas/river-island" />
-		<area shape="rect" coords="2,721,857,1235" href="{{url()}}/marcas/espirit" />
+		<area shape="rect" coords="2,721,857,1235" href="{{url()}}/marcas/esprit" />
 		<area shape="rect" coords="859,-1,1785,1231" href="{{url()}}/marcas/veromoda" />
 	</map>
 	<img src="{{url()}}/img/marcas/5.jpg" width="1788" height="1386" usemap="#Map5" class="maped img-responsive" alt="Elige tu Marca" />

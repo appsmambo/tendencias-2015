@@ -307,6 +307,7 @@ footer a{
     margin: 0 !important;
     right: 0;
     float: right;
+	max-width: 625px;
 }
 .bx-wrapper li{
 	left: 0;
@@ -1012,6 +1013,7 @@ footer a{
 	width: 65%;
 	float: right;
 	padding-left: 15px;
+	max-width: 625px;
 }
 @-moz-document url-prefix() {
 	.item{
@@ -1028,9 +1030,21 @@ footer a{
 }
 }
 .item{
-		width: 20%\9\0;/*Only works in IE9*/
+		width: 19.7%\9\0;/*Only works in IE9*/
 		margin-right: 0.5%\9\0;/*Only works in IE9*/
+}
+.item.col-sm-6{
+		width: 39.4%\9\0;/*Only works in IE9*/
+}
+@media (max-width: 1400px) {
+	.detalle-item img{
+		max-width: 150px\9\0;
 	}
-	.item.col-sm-6{
-		width: 40%\9\0;/*Only works in IE9*/
+}
+@media all and (-ms-high-contrast:none) {
+	@media (max-width: 1400px) {
+		.detalle-item img{
+			max-width: 150px;
+		}
 	}
+}
