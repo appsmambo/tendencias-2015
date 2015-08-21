@@ -2,6 +2,9 @@
 @section('content')
 <div id="marcas">
 	<img src="{{url()}}/img/marcas/elige-tu-marca.jpg" width="1788" height="930" class="img-responsive center-block" alt="Elige tu Marca" />
+	<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+	</a>
 	<img src="{{url()}}/img/marcas/1.jpg" width="1788" height="1434" usemap="#Map" class="maped img-responsive" alt="Elige tu Marca" />
 	<map name="Map" id="Map">
 		<area shape="rect" coords="3,3,1084,1431" href="{{url()}}/marcas/marquis" />
