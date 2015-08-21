@@ -79,8 +79,9 @@ footer{
 .oculto{display: none !important;}
 .oculto-simple{display: none ;}
 .mostrar{display: block;}
-.menu-movil-total .active{background: #000; color: #fff !important;}
-.menu-movil-total .active {}
+
+.menu-movil-total .active{background: #000;}
+.menu-movil-total .active a{color: #fff !important;}
 
 .mfp-bg {opacity: 1 !important;}
 .mfp-iframe-holder .mfp-close {

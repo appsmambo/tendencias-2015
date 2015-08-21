@@ -6,14 +6,14 @@ $accesorios = array(
         "marca" => 'barbados.png',
         "nombre" => "Vestido a rayas<br/> frunce",
         "sku" => "cod.93728639",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">$ 79.9</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 79.9</span>',
         "imagen" => 'Sandalia-Tabihebi-marquis.jpg',
         ),
    "2" => array(
         "marca" => 'barbados.png',
         "nombre" => "Zapato Iris",
         "sku" => "cod.16909255",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">$99.9</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
         "imagen" => 'Zapato-Iris-marquis.jpg',
         ),
    "3" => array(
@@ -27,8 +27,15 @@ $accesorios = array(
         "marca" => 'barbados.png',
         "nombre" => "Sandalia Rafaella",
         "sku" => "cod.16829389",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99,9</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
         "imagen" => 'Sandalia-Rafaella-barbados.jpg',
+        ),
+	"5" => array(
+        "marca" => 'marquis.png',
+        "nombre" => "Carteras Malena",
+        "sku" => "cod.16900629",
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
+        "imagen" => 'Carteras-Malena.jpg',
         ),
    "7" => array(
         "marca" => 'marquis.png',
@@ -48,7 +55,7 @@ $accesorios = array(
         "marca" => 'marquis.png',
         "nombre" => "Alpargata Sonia",
         "sku" => "cod.16912774",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89,9</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89.9</span>',
         "imagen" => 'Alpargata-Sonia-marquis.jpg',
         ),
    "10" => array(
@@ -62,14 +69,14 @@ $accesorios = array(
         "marca" => 'marquis.png',
         "nombre" => "Alpargata Sonia",
         "sku" => "cod.16912774",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89,9</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89.9</span>',
         "imagen" => 'Alpargata-Sonia-marquis.jpg',
         ),
    "12" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia Franca",
         "sku" => "cod.17017645",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 139</span>',
+        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 149</span>',
         "imagen" => 'Sandalia-franca-marquis.jpg',
         )
    );
