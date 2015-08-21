@@ -51,7 +51,13 @@ switch ($id) {
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
 		$imagen = 'Sandalia-Rafaella-barbados.jpg';
 		break;
-
+	case 5:
+		$marca = 'barbados.png';
+		$nombre = "Sandalia Rafaella";
+		$sku = "cod.16829389";
+		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
+		$imagen = 'Sandalia-Rafaella-barbados.jpg';
+		break;
 	case 7:
 		$marca = 'marquis.png';
 		$nombre = "Sandalia Dalia";

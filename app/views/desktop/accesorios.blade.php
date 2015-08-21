@@ -12,7 +12,7 @@
                     </div>
                     <div class="row no-gutter accesorios-content">
                         <div class="col-sm-4">
-                            <img src="{{url()}}/img/accesorios/1.jpg" class="img-responsive" alt="Accesorios" />
+							<a href="{{url()}}/accesorios/1" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/1.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
                             <a href="{{url()}}/accesorios/2" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/2.jpg" class="img-responsive" alt="Accesorios" /></a>
