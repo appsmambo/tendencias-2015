@@ -11,6 +11,9 @@
 			<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/barbados&media=http://modaripley.com/tendencias/img/Compartir-barbados.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/marcas/barbados" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
+		<a href="#freewall" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 	<p class="hidden">
 		Perú - Chile<br>
@@ -20,7 +23,7 @@
 		flecos, flores, flare, kimonos.
 	</p>
 	<div id="freewall" class="free-wall">
-		<div class="item-marca w5">
+		<div class="item-marca w5" id="barbados-1">
 			<img src="{{url()}}/img/marcas/barbados/1.jpg" alt="" />
 		</div>
 		<div class="item-marca w3">

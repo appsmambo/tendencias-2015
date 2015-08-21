@@ -185,7 +185,7 @@ footer a{
 	position: relative;
 	color: #000100;
 }
-#sarah .bajar, #marcas .bajar, #banner-accesorios .bajar {
+#sarah .bajar, #marcas .bajar, #banner-accesorios .bajar, .banner-marca .bajar {
 	position:absolute;
 	width:49px;
 	height:40px;

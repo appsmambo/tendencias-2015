@@ -11,6 +11,9 @@
 			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/pepejeans&media={{url()}}/img/Compartir-pepejeans.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/pepejeans" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
+		<a href="#freewall" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 	<p class="hidden">
 		Londres<br>

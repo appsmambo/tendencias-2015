@@ -52,7 +52,7 @@
                         </div> 
                         <div class="lookbook-abajo">
                             <div class="lookbook-abajo-interno">
-                                <p class="lookbook-precio">Precio Normal</p>
+                                <p class="lookbook-precio">Precio</p>
                                 <p class="lookbook-monto">S/. {{$producto[0]->precio}}</p>
                             </div>
                         </div>                       

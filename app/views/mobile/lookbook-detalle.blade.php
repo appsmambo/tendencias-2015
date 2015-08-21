@@ -57,7 +57,7 @@
                         </div> 
                         <div class="lookbook-abajo">
                             <div class="lookbook-abajo-interno">
-                                <p class="lookbook-precio">Precio Normal</p>
+                                <p class="lookbook-precio">Precio</p>
                                 <p class="lookbook-monto">S/. 79.90</p>
                             </div>
                         </div>                       

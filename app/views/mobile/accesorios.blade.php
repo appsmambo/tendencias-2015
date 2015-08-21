@@ -34,7 +34,7 @@ $accesorios = array(
         "marca" => 'marquis.png',
         "nombre" => "Carteras Malena",
         "sku" => "cod.16900629",
-        "precio" => '<span>PRECIO NORMAL</span><br><span class="red">S/. 99.90</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 99.90</span>',
         "imagen" => 'Carteras-Malena.jpg',
         ),
    "7" => array(

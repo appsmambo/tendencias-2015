@@ -27,28 +27,28 @@ switch ($id) {
         $marca = 'barbados.png';
         $nombre = "Vestido a rayas<br/> frunce";
         $sku = "cod.93728639";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 79.9</span>';
+        $precio = '<span>PRECIO </span><br><span class="red">S/. 79.9</span>';
         $imagen = 'Sandalia-Tabihebi-marquis.jpg';
         break;
     case 2:
         $marca = 'barbados.png';
         $nombre = "Zapato Iris";
         $sku = "cod.16909255";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99.9</span>';
+        $precio = '<span>PRECIO </span><br><span class="red">S/. 99.9</span>';
         $imagen = 'Zapato-Iris-marquis.jpg';
         break;
     case 3:
         $marca = 'marquis.png';
         $nombre = "Sandalia Tabihebi";
         $sku = "cod.16872543";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 189</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 189</span>';
         $imagen = 'Sandalia-Tabihebi-marquis.jpg';
         break;
     case 4:
         $marca = 'barbados.png';
         $nombre = "Sandalia Rafaella";
         $sku = "cod.16829389";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99.9</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 99.9</span>';
         $imagen = 'Sandalia-Rafaella-barbados.jpg';
         break;
 	
@@ -56,7 +56,7 @@ switch ($id) {
 		$marca = 'marquis.png';
 		$nombre = "Carteras Malena";
 		$sku = "cod.16900629";
-		$precio = '<span>PRECIO NORMAL</span><span class="red">S/. 99.9</span>';
+		$precio = '<span>PRECIO </span><br><span class="red">S/. 99.9</span>';
 		$imagen = 'Carteras-Malena.jpg';
 		break;
 
@@ -64,7 +64,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Sandalia Dalia";
         $sku = "cod.16997246";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 139</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 139</span>';
         $imagen = 'Sandalia-Dalia-marquis.jpg';
         break;
 
@@ -72,7 +72,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Sandalia Apli";
         $sku = "cod.16872517";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 259</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 259</span>';
         $imagen = 'Sandalia-Apli-marquis.jpg';
         break;
 
@@ -80,7 +80,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Alpargata Sonia";
         $sku = "cod.16912774";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 89.9</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 89.9</span>';
         $imagen = 'Alpargata-Sonia-marquis.jpg';
         break;
 
@@ -88,7 +88,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Sandalia alberca";
         $sku = "cod.17020357";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 149</span>';
         $imagen = 'Sandalia-alberca-marquis.jpg';
         break;
 
@@ -96,7 +96,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Alpargata Sonia";
         $sku = "cod.16912774";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 89.9</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 89.9</span>';
         $imagen = 'Alpargata-Sonia-marquis.jpg';
         break;
 
@@ -104,7 +104,7 @@ switch ($id) {
         $marca = 'marquis.png';
         $nombre = "Sandalia Franca";
         $sku = "cod.17017645";
-        $precio = '<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
+        $precio = '<span>PRECIO  </span><br><span class="red">S/. 149</span>';
         $imagen = 'Sandalia-franca-marquis.jpg';
         break;
 }

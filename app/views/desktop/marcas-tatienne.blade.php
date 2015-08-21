@@ -11,6 +11,9 @@
 			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/tatienne&media={{url()}}/img/Compartir-tatienne.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/tatienne" target="_blank"><img src="{{url()}}/img/google-blanco.png" alt="google plus" /></a>
 		</div>
+		<a href="#freewall" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 	<p class="hidden">
 		Chile<br>

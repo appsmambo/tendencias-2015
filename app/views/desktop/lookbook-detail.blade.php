@@ -28,7 +28,7 @@
 				<h3 class="titulo">{{$producto[0]->nombrelook}}</h3>
 				<span class="sku">cod.{{$producto[0]->sku}}</span>
 				<p class="precio">
-					PRECIO NORMAL 
+					PRECIO  
 					<span>S/. {{$producto[0]->precio}}</span>
 				</p>
 				<div class="descripcion ">
