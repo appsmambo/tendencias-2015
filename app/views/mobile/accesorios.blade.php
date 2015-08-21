@@ -84,10 +84,10 @@ $accesorios = array(
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href=""><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}/"><img src="images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href=""><img src="images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>                    
                     <div class="panel-elije-tu-marca clearfix" id="elije-tu-marca">
@@ -130,7 +130,7 @@ $accesorios = array(
             <?php if (array_key_exists($indice, $accesorios)) : ?>
             <div class="item" id="popup-accesorios-pos-<?php echo  $i; ?>">
                 <div class="panel-accesorio-imagen">
-                    <img src="{{url()}}/img/accesorios/<?php echo $accesorios[$indice]['imagen']; ?>" alt="" class="img-responsive">
+                    <img src="{{url()}}/img/accesorios/<?php echo $i; ?>.jpg" alt="" class="img-responsive">
                 </div>
                 <div class="panel-accesorio-texto">
                     <div class="panel-accesorio-titulo"><img src="{{url()}}/img/accesorios/<?php echo $accesorios[$indice]['marca']; ?>" class="img-responsive"></div>

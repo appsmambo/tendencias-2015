@@ -26,11 +26,11 @@
                             <a href="{{url()}}/marcas"><img src="{{url()}}/images/boton-regresar-marcas.gif" alt="" class="img-responsive"></a>
                         </div>
                         <div class="compartir-galeria">
-                             <img src="{{url()}}/images/sarah/compartelo.png" alt="">
+                             <img src="{{url()}}/images/sarah/compartelo-b.png" alt="">
                              <div class="compartir-galeria-redes">
                                  <ul>
-                                     <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/tatienne" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a></li>
-                                     <li><a href="https://twitter.com/home?status=Tatienne%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1Nc7FWf" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a></li>
+                                     <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/tatienne" target="_blank"><img src="{{url()}}/img/facebook-b.png" alt="facebook" /></a></li>
+                                     <li><a href="https://twitter.com/home?status=Tatienne%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1Nc7FWf" target="_blank"><img src="{{url()}}/img/twitter-b.png" alt="twitter" /></a></li>
                                  </ul>
                              </div>
                          </div>
