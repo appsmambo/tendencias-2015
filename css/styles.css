@@ -1003,3 +1003,15 @@ footer a{
 .negro {
 	color:#000
 }
+@-moz-document url-prefix() {
+	.item{
+		width: 20%;
+		margin-right: 0.5%;
+	}
+	.item.col-sm-6{
+		width: 40%;
+	}
+	.detalle-item img{
+		max-width: 150px;
+	}
+}
