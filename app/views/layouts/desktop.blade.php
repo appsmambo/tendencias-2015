@@ -114,6 +114,7 @@ if (!isset($producto)){
 				<a onclick="ga('send', 'social', 'pinterest');" href="https://www.pinterest.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/pinterest.png" class="img-responsive" alt="pinterest" /></a>
 				<a onclick="ga('send', 'social', 'google+');" href="https://plus.google.com/+ripleyperu/posts" target="_blank"><img src="{{url()}}/img/google.png" class="img-responsive" alt="google plus" /></a>
 				<a onclick="ga('send', 'social', 'instagram');" href="https://instagram.com/ripleyperu/" target="_blank"><img src="{{url()}}/img/instagram.png" class="img-responsive" alt="instagram" /></a>
+				<a onclick="ga('send', 'social', 'youtube');" href="https://www.youtube.com/user/TiendasRipleyPeru" target="_blank"><img src="{{url()}}/img/youtube.png" class="img-responsive" alt="youtube" /></a>
 			</div>
 		</section>
 		<div id="wrapper-content">
