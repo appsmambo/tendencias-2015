@@ -83,7 +83,7 @@ nav.header.left-margin{
 	margin-left: 15px;
 }
 nav.header img.bar-toogle{
-	margin-bottom: 25.5%;
+	margin-bottom:12px;
 	cursor: pointer;
 	margin-left: 14px;
 	display: block;
@@ -147,11 +147,11 @@ footer a{
 	margin-left:5%;
 }*/
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+	padding-right:0;
+	padding-left:0;
 }
 .menu-list{
-	margin:0 0 0 17px;
+	margin:18px 0 0 16px;
 }
 .navs{
 	position: fixed;
@@ -1047,11 +1047,11 @@ footer a{
 }
 }
 .item{
-		width: 19.7%\9\0;/*Only works in IE9*/
-		margin-right: 0.5%\9\0;/*Only works in IE9*/
+	width: 19.7%\9\0;/*Only works in IE9*/
+	margin-right: 0.5%\9\0;/*Only works in IE9*/
 }
 .item.col-sm-6{
-		width: 39.4%\9\0;/*Only works in IE9*/
+	width: 39.4%\9\0;/*Only works in IE9*/
 }
 @media (max-width: 1400px) {
 	.detalle-item img{
@@ -1064,4 +1064,7 @@ footer a{
 			max-width: 150px;
 		}
 	}
+}
+.ver-menu {
+	margin-left:10px
 }

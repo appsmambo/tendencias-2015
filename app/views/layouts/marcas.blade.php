@@ -41,7 +41,7 @@ if (!isset($itemactive))
 					maxTime:45000,
 					fadeOutTime:1000,
 					onComplete:function() {
-						setTimeout(function () {
+						setTimeout(function() {
 							$(".bar-toogle").trigger("click");
 						}, 3000);
 					}
@@ -53,6 +53,7 @@ if (!isset($itemactive))
 		<section class="navs yellow">
 			<nav class="header">
 				<img src="{{url()}}/img/bar-toogle.png" class="img-responsive bar-toogle" alt="Bar Menu" />
+				<img src="{{url()}}/img/ver-menu.png" class="img-responsive ver-menu" alt="" style="display:none" />
 				<div class="menu-list" style="display:none">
 					<a class="logo-ripley-header" href="{{url()}}/"><img src="{{url()}}/img/ripley-header.jpg" class="img-responsive" alt="Logo Ripley" /></a>
 					<ul class="list-unstyled">
