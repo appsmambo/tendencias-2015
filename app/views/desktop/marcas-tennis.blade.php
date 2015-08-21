@@ -7,9 +7,15 @@
 			La creatividad colombiana al servicio de la moda. Siempre a la vanguardia en diseño y en procesos de producción, se enfoca en un público joven, urbano, fresco y dinámico, tanto mujeres como hombres.
 		</p>
 		<a href="http://www.tennis.com.co/" target="_blank"><img src="{{url()}}/img/marcas/tennis/boton.jpg" class="img-responsive center-block" alt="Tennis" /></a>
+		<div class="clearfix"></div>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 </div>
+<div id="marca-contenido">
 <img src="{{url()}}/img/marcas/tennis/banner.jpg" class="img-responsive" alt="Tennis" />
+</div>
 @stop
 
 @section('metas')

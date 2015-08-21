@@ -7,9 +7,15 @@
 			Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks.
 		</p>
 		<a href="http://www.veromoda.com/?forcecountry=GB&customerGroupTrigger=mobile&redirected=1" target="_blank"><img src="{{url()}}/img/marcas/veromoda/boton.jpg" class="img-responsive center-block" alt="Vero Moda" /></a>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 </div>
-<img src="{{url()}}/img/marcas/veromoda/banner.jpg" class="img-responsive" alt="Vero Moda" />
+<div id="marca-contenido">
+	<img src="{{url()}}/img/marcas/veromoda/banner.jpg" class="img-responsive" alt="Vero Moda" />
+</div>
+
 @stop
 
 @section('metas')

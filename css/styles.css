@@ -193,6 +193,13 @@ footer a{
 	bottom:8%;
 	z-index:20
 }
+.marcas-nuevas .bajar {
+	position:relative;
+	width:auto;
+	height:40px;
+	z-index:20;
+	top: 20px;
+}
 #sarah .row.contenedor {
 	position:absolute;
 	width:100%;
@@ -967,10 +974,10 @@ footer a{
 	text-align: center;
 	font-family: 'bentonsans_bookregular';
 	font-size: 18px;
-	padding: 14% 0;
+	padding: 10% 0;
 }
 .marcas-nuevas p{
-	margin: 10% 0;
+	margin: 6% 0;
 	padding: 0;
 }
 .bx-wrapper .bx-controls-direction a {
@@ -997,6 +1004,7 @@ footer a{
 	bottom: 22px;
 	width:285px;
 	height: 55px;
+	display: none;
 }
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{

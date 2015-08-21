@@ -7,9 +7,14 @@
 			&nbsp;
 		</p>
 		<a href="http://www.espirit.com/" target="_blank"><img src="{{url()}}/img/marcas/espirit/boton.jpg" class="img-responsive center-block" alt="Esprit" /></a>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 </div>
-<img src="{{url()}}/img/marcas/espirit/banner.jpg" class="img-responsive" alt="Esprit" />
+<div id="marca-contenido">
+	<img src="{{url()}}/img/marcas/espirit/banner.jpg" class="img-responsive" alt="Esprit" />
+</div>
 @stop
 
 @section('metas')

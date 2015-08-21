@@ -7,9 +7,14 @@
 			Con actitud desde Dinamarca. Así se presenta esta marca obsesionada con todo lo denim. Sus colecciones respiran personalidad, vinculación con el mundo real y modernidad. Eso, sumado a unos atractivos diseños que cruzan fronteras, resultan en un éxito seguro.
 		</p>
 		<a href="http://only.com/?forcecountry=GB&redirected=1" target="_blank"><img src="{{url()}}/img/marcas/only/boton.jpg" class="img-responsive center-block" alt="Only" /></a>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 </div>
-<img src="{{url()}}/img/marcas/only/banner.jpg" class="img-responsive" alt="Only" />
+<div id="marca-contenido">
+	<img src="{{url()}}/img/marcas/only/banner.jpg" class="img-responsive" alt="Only" />
+</div>
 @stop
 
 @section('metas')

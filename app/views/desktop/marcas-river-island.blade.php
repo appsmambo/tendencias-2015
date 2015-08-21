@@ -1,13 +1,19 @@
 @extends('layouts.desktop')
 @section('content')
-	<div class="row">
+<div class="row">
 	<div class="col-sm-6 col-sm-offset-3 marcas-nuevas">
 		<img src="{{url()}}/img/marcas/riverisland/logo.png" class="img-responsive center-block" alt="River Island" />
 		<p>
 			&nbsp;
 		</p>
 		<a href="http://www.riverisland.com/" target="_blank"><img src="{{url()}}/img/marcas/riverisland/boton.jpg" class="img-responsive center-block" alt="River Island" /></a>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
+
+</div>
+<div id="marca-contenido">
 	<img src="{{url()}}/img/marcas/riverisland/banner.jpg" class="img-responsive" alt="River Island" />
 </div>
 @stop

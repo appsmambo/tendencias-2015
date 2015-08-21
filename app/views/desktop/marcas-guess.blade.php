@@ -7,9 +7,14 @@
 			Sexy, joven y atrevida. En todo el mundo se conoce esta marca ícono de la moda estadounidense. Su controvertido estilo y comunicación se ha expandido por todo el mundo desde su lanzamiento a comienzo de los años 80.
 		</p>
 		<a href="http://www.guess.com/" target="_blank"><img src="{{url()}}/img/marcas/guess/boton.jpg" class="img-responsive center-block" alt="Guess" /></a>
+		<a href="#marca-contenido" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+		</a>
 	</div>
 </div>
-<img src="{{url()}}/img/marcas/guess/banner.jpg" class="img-responsive" alt="Guess" />
+<div id="marca-contenido">
+	<img src="{{url()}}/img/marcas/guess/banner.jpg" class="img-responsive" alt="Guess" />
+</div>
 @stop
 
 @section('metas')
