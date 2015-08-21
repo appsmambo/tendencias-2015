@@ -142,6 +142,19 @@ if (!isset($producto)){
 		</script>
 		@endif
 		@if(Route::current()->getName() == 'home')
+		<script>
+			$(document).ready(function() {
+				$.fancybox({
+					type:'inline',
+					href:'#sjp-intro',
+					padding:8,
+					autoHeight:true,
+					autoWidth:true,
+					maxWidth:1184,
+					maxHeight:2094
+				});
+			});
+		</script>
 		@endif
 		<script>
 			function getWindowWidth(){
