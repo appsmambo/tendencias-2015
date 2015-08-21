@@ -64,7 +64,7 @@ a:hover{
 	text-decoration: none;
 }
 .navs.yellow.nav-ancho{
-	width: 15%;
+	width:200px;
 }
 .easeOutExpo{
 	 -moz-transition: all 1200ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -135,7 +135,7 @@ footer{
 	padding: 12px 0;
 	background: #000;
 	position: relative;
-	z-index:99999999;
+	z-index:999;
 }
 footer a{
 	margin-right: 20px;

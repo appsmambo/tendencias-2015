@@ -38,11 +38,12 @@
 <meta name="description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley" />
 
 <!-- Google -->
-<meta itemprop="name" content="Ripley, tendencias 2015">
-<meta itemprop="description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley">
-<meta itemprop="image" content="{{url()}}/img/Compartir-marcas.jpg">
+<meta itemprop="name" content="Ripley, tendencias 2015" />
+<meta itemprop="description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-marcas.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas" />
 <meta property="og:title" content="Ripley, tendencias 2015" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas" />

@@ -17,11 +17,12 @@
 <meta name="description" content="Sexy, joven y atrevida. En todo el mundo se conoce esta marca ícono de la moda estadounidense. Su controvertido estilo y comunicación se ha expandido por todo el mundo desde su lanzamiento a comienzo de los años 80." />
 
 <!-- Google -->
-<meta itemprop="name" content="Guess - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Sexy, joven y atrevida. En todo el mundo se conoce esta marca ícono de la moda estadounidense. Su controvertido estilo y comunicación se ha expandido por todo el mundo desde su lanzamiento a comienzo de los años 80.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-guess.jpg">
+<meta itemprop="name" content="Guess - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Sexy, joven y atrevida. En todo el mundo se conoce esta marca ícono de la moda estadounidense. Su controvertido estilo y comunicación se ha expandido por todo el mundo desde su lanzamiento a comienzo de los años 80." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-guess.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/guess" />
 <meta property="og:title" content="Guess - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/guess" />

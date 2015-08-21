@@ -17,11 +17,12 @@
 <meta name="description" content="Espirit Marca Alemana." />
 
 <!-- Google -->
-<meta itemprop="name" content="Esprit - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Espirit Marca Alemana.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-esprit.jpg">
+<meta itemprop="name" content="Esprit - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Espirit Marca Alemana." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-esprit.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/esprit" />
 <meta property="og:title" content="Esprit - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/esprit" />

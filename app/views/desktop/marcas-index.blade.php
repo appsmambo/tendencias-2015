@@ -73,11 +73,12 @@
 <meta name="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda." />
 
 <!-- Google -->
-<meta itemprop="name" content="Index - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-index.jpg">
+<meta itemprop="name" content="Index - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-index.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/index" />
 <meta property="og:title" content="Index - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/index" />

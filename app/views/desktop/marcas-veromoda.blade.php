@@ -17,11 +17,12 @@
 <meta name="description" content="Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks." />
 
 <!-- Google -->
-<meta itemprop="name" content="Vero Moda - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-veromoda.jpg">
+<meta itemprop="name" content="Vero Moda - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Es la mejor elección para la mujer joven e independiente a la que le importa la moda. Ofrece todo tipo de prendas de calidad, con precios asequibles, para quien le guste divertirse con sus looks." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-veromoda.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/veromoda" />
 <meta property="og:title" content="Vero Moda - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/veromoda" />

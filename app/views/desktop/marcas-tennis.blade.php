@@ -17,11 +17,12 @@
 <meta name="description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión." />
 
 <!-- Google -->
-<meta itemprop="name" content="Tennis - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-tennis.jpg">
+<meta itemprop="name" content="Tennis - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-tennis.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/tennis" />
 <meta property="og:title" content="Tennis - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/tennis" />

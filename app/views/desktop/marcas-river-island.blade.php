@@ -17,11 +17,12 @@
 <meta name="description" content="River Island Marca Inglesa." />
 
 <!-- Google -->
-<meta itemprop="name" content="River Island - Las mejores marcas en Ripley">
-<meta itemprop="description" content="River Island Marca Inglesa.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-riverisland.jpg">
+<meta itemprop="name" content="River Island - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="River Island Marca Inglesa." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-riverisland.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/river-island" />
 <meta property="og:title" content="River Island - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/river-island" />

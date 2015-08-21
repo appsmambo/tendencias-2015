@@ -51,11 +51,12 @@
 <meta name="description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado." />
 
 <!-- Google -->
-<meta itemprop="name" content="Cacharel - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-cacharel.jpg">
+<meta itemprop="name" content="Cacharel - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-cacharel.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/cacharel" />
 <meta property="og:title" content="Cacharel - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/cacharel" />

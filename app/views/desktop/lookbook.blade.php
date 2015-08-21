@@ -324,15 +324,16 @@
 <meta name="description" content="Descubre las últimas temporadas de las mejores marcas: Marquis, Cacharel, Tatienne, Index, Barbados, Navigata y Pepe Jeans" />
 
 <!-- Google -->
-<meta itemprop="name" content="Lookbook Primavera Verano 2015 - 2016.">
-<meta itemprop="description" content="Descubre las últimas temporadas de las mejores marcas: Marquis, Cacharel, Tatienne, Index, Barbados, Navigata y Pepe Jeans">
-<meta itemprop="image" content="{{url()}}/img/Compartir-index.jpg">
+<meta itemprop="name" content="Lookbook Primavera Verano 2015 - 2016." />
+<meta itemprop="description" content="Descubre las últimas temporadas de las mejores marcas: Marquis, Cacharel, Tatienne, Index, Barbados, Navigata y Pepe Jeans" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-lookbook.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/lookbook" />
 <meta property="og:title" content="Lookbook Primavera Verano 2015 - 2016." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/lookbook" />
-<meta property="og:image" content="{{url()}}/img/Compartir-index.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-lookbook.jpg" />
 <meta property="og:description" content="Descubre las últimas temporadas de las mejores marcas: Marquis, Cacharel, Tatienne, Index, Barbados, Navigata y Pepe Jeans" />
 <meta property="og:site_name" content="Lookbook Primavera Verano 2015 - 2016." />
 <meta property="fb:admins" content="100008010128050" />

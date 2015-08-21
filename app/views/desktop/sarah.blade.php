@@ -43,12 +43,12 @@
 <meta name="description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda." />
 
 <!-- Google -->
-<meta itemprop="name" content="Sarah Jessica Parker, la nueva imagen de Ripley">
-<meta itemprop="description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda.">
-<meta itemprop="image" content="{{url()}}/img/Compartir-sjp.jpg">
+<meta itemprop="name" content="Sarah Jessica Parker, la nueva imagen de Ripley" />
+<meta itemprop="description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-sjp.jpg" />
 
 <!-- Open Graph data -->
-<link rel='canonical' href='{{url()}}' />
+<link rel="canonical" href="{{url()}}/sjp" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Sarah Jessica Parker, la nueva imagen de Ripley" />
 <meta property="og:type" content="website" />

@@ -56,11 +56,12 @@
 <meta name="description" content="Urbana y actual, esta marca celebra su máxima expresión a través de jeans, kimonos y casacas" />
 
 <!-- Google -->
-<meta itemprop="name" content="Barbados - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Urbana y actual, esta marca celebra su máxima expresión a través de jeans, kimonos y casacas">
-<meta itemprop="image" content="{{url()}}/img/Compartir-barbados.jpg">
+<meta itemprop="name" content="Barbados - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Urbana y actual, esta marca celebra su máxima expresión a través de jeans, kimonos y casacas" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-barbados.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/barbados" />
 <meta property="og:title" content="Barbados - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/barbados" />

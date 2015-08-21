@@ -57,11 +57,12 @@
 <meta name="description" content="Para la mujer femenina y práctica que busca el equilibrio entre lo clásico y lo contemporáneo, a través de líneas y estampados diferentes" />
 
 <!-- Google -->
-<meta itemprop="name" content="Navigata - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Para la mujer femenina y práctica que busca el equilibrio entre lo clásico y lo contemporáneo, a través de líneas y estampados diferentes">
-<meta itemprop="image" content="{{url()}}/img/Compartir-navigata.jpg">
+<meta itemprop="name" content="Navigata - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Para la mujer femenina y práctica que busca el equilibrio entre lo clásico y lo contemporáneo, a través de líneas y estampados diferentes" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-navigata.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/navigata" />
 <meta property="og:title" content="Navigata - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/navigata" />

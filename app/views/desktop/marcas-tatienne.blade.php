@@ -54,11 +54,12 @@
 <meta name="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
 
 <!-- Google -->
-<meta itemprop="name" content="Tattiene - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés">
-<meta itemprop="image" content="{{url()}}/img/Compartir-tatienne.jpg">
+<meta itemprop="name" content="Tattiene - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-tatienne.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/tatienne" />
 <meta property="og:title" content="Tattiene - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/tatienne" />

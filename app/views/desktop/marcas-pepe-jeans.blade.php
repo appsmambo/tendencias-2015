@@ -38,11 +38,12 @@
 <meta name="description" content="Inspirada en la moda urbana, esta marca es para la mujer que disfruta ama el denim" />
 
 <!-- Google -->
-<meta itemprop="name" content="Pepe Jeans - Las mejores marcas en Ripley">
-<meta itemprop="description" content="Inspirada en la moda urbana, esta marca es para la mujer que disfruta ama el denim">
-<meta itemprop="image" content="{{url()}}/img/Compartir-pepejeans.jpg">
+<meta itemprop="name" content="Pepe Jeans - Las mejores marcas en Ripley" />
+<meta itemprop="description" content="Inspirada en la moda urbana, esta marca es para la mujer que disfruta ama el denim" />
+<meta itemprop="image" content="{{url()}}/img/Compartir-pepejeans.jpg" />
 
 <!-- Open Graph data -->
+<link rel="canonical" href="{{url()}}/marcas/pepejeans" />
 <meta property="og:title" content="Pepe Jeans - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/pepejeans" />
