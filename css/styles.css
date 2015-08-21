@@ -1058,6 +1058,11 @@ footer a{
 		max-width: 150px\9\0;
 	}
 }
+@media (max-width: 1400px) {
+	.detalle-item img{
+		max-width: 150px\9\0;
+	}
+}
 @media all and (-ms-high-contrast:none) {
 	@media (max-width: 1400px) {
 		.detalle-item img{
@@ -1067,4 +1072,18 @@ footer a{
 }
 .ver-menu {
 	margin-left:10px
+}
+@media (max-width: 1200px) {
+	nav.header {
+		margin-top: 30px;
+	}
+	nav.header ul{
+		font-size: 14px;
+	}
+	nav.header ul li ul{
+		font-size: 12px;
+	}
+	nav.header ul li ul li a{
+		padding-top: 3px;
+	}
 }
