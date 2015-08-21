@@ -417,17 +417,23 @@ footer a{
 	cursor: pointer;
 	height: auto;
 	float: left;
-	margin: 0 0.7% 12px 0;
+	margin: 0 0 12px 0;
 	border: 0;
 	padding: 0;
 	opacity: 0;
+	width: 20%;
 }
-.item.last{
-	margin-right: 0;
+.item.col-sm-6{
+	width: 40%;
+}
+.item.last .content-item{
+	width: 100%;
 }
 .content-item{
 	padding-right: 0%;
 	border: 0;
+	position: relative;
+	width: 98%;
 }
 .redes-look{
 	position: absolute;
