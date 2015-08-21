@@ -375,6 +375,9 @@ footer a{
 	color: #000;
 	font-size: 10px;
 	text-transform: uppercase;
+	line-height: 16px;
+	height: 16px;
+	display: inline-flex;
 }
 .botones-paginado a:hover{
 	color: #000;
@@ -685,7 +688,7 @@ footer a{
 	height: 55px;
 	display: table;
 	text-align: center;
-	width: 30%;
+	width: 26%;
 	float: left;
 }
 .precio-accesorios .columna-precio p{
@@ -702,6 +705,7 @@ footer a{
 	font-size: 11px;
 	font-family: 'bentonsansregular';
 	text-transform: uppercase;
+	width:38%
 }
 .accesorios-centro p {
 	display:table-cell;

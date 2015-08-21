@@ -41,7 +41,7 @@
 				</p>
 				<div class="botones-paginado">
 					<a href="{{url()}}/lookbook/{{$ant[0]->idlook}}/{{$ant[0]->idlookbook}}/{{Str::slug($ant[0]->nombrelook)}}"><img src="{{url()}}/img/lookbook/prev.png"  alt="prev" /></a>
-					<img src="{{url()}}/img/lookbook/border.jpg"  />
+					<a href="#"><img src="{{url()}}/img/lookbook/border.jpg" /></a>
 					<a href="{{url()}}/lookbook/{{$sig[0]->idlook}}/{{$sig[0]->idlookbook}}/{{Str::slug($sig[0]->nombrelook)}}"><img src="{{url()}}/img/lookbook/next.png"  alt="next" /> siguiente prenda</a>
 
 				</div>
