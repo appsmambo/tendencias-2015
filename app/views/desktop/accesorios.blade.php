@@ -9,8 +9,11 @@
 		<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/accesorios&media=http://modaripley.com/tendencias/img/Compartir-accesorios.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 		<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/accesorios" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 	</div>
+	<a href="#accesorios-content" class="bajar">
+			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
+	</a>
 </div>
-<div class="row no-gutter accesorios-content">
+<div class="row no-gutter accesorios-content" id="accesorios-content">
 	<div class="col-sm-4">
 		<a href="{{url()}}/accesorios/1" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/1.jpg" class="img-responsive" alt="Accesorios" /></a>
 	</div>

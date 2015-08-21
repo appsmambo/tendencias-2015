@@ -185,7 +185,7 @@ footer a{
 	position: relative;
 	color: #000100;
 }
-#sarah .bajar {
+#sarah .bajar, #marcas .bajar, #banner-accesorios .bajar {
 	position:absolute;
 	width:49px;
 	height:40px;
@@ -683,6 +683,9 @@ footer a{
 	font-family: 'bentonsansmedium';
 	text-transform: uppercase;
 	font-size: 10px;
+}
+#banner-accesorios .compartir-accesorios{
+	bottom: 21%;
 }
 .compartir-accesorios div{
 	margin: 0 0 10px 0;
