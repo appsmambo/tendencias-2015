@@ -109,7 +109,7 @@
                         </div>
                         
     </div>
-    <div class="row row-eq-height">
+    <div class="row row-eq-height" data-columns="15">
                         
                         <div class="item col-sm-6">
                             <?php 

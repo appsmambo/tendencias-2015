@@ -402,6 +402,7 @@ footer a{
     display: -ms-flexbox;
     display: flex;
     margin: 0;
+	-moz-box-flex: number      /* Mozilla */
 }
 .row-eq-height:first-child .item{
 	opacity: 1 !important;
@@ -417,14 +418,10 @@ footer a{
 	cursor: pointer;
 	height: auto;
 	float: left;
-	margin: 0 0 12px 0;
+	margin: 0 0.7% 12px 0;
 	border: 0;
 	padding: 0;
 	opacity: 0;
-	width: 20%;
-}
-.item.col-sm-6{
-	width: 40%;
 }
 .item.last .content-item{
 	width: 100%;
@@ -432,8 +429,6 @@ footer a{
 .content-item{
 	padding-right: 0%;
 	border: 0;
-	position: relative;
-	width: 98%;
 }
 .redes-look{
 	position: absolute;
