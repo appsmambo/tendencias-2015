@@ -8,7 +8,7 @@
 			<p>Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/marquis" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Marquis%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1Ewx70n" target="_blank"><img src="{{url()}}/img/twitter-blanco.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/marquis&media={{url()}}/img/marcas/marquis/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/marquis&media={{url()}}/img/Compartir-marquis.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/marquis" target="_blank"><img src="{{url()}}/img/google-blanco.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -71,13 +71,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Marquis - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión.">
-<meta itemprop="image" content="{{url()}}/img/marcas/marquis/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-marquis.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Marquis - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/marquis" />
-<meta property="og:image" content="{{url()}}/img/marcas/marquis/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-marquis.jpg" />
 <meta property="og:description" content="Para la mujer independiente y segura de sí misma, que busca vestir con estilo en cualquier ocasión." />
 <meta property="og:site_name" content="Marquis - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

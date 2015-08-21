@@ -8,7 +8,7 @@
 			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/cacharel" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Cacharel%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1UMZYH5" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/cacharel&media={{url()}}/img/marcas/cacharel/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/cacharel&media={{url()}}/img/Compartir-cacharel.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/cacharel" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -53,13 +53,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Cacharel - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado.">
-<meta itemprop="image" content="{{url()}}/img/marcas/cacharel/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-cacharel.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Cacharel - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/cacharel" />
-<meta property="og:image" content="{{url()}}/img/marcas/cacharel/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-cacharel.jpg" />
 <meta property="og:description" content="Para la mujer que busca verse femenina y sofisticada con un estilo más clásico y relajado." />
 <meta property="og:site_name" content="Cacharel - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

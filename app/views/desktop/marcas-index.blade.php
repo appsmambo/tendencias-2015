@@ -8,7 +8,7 @@
 			<p>Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Index%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1JllOPW" target="_blank"><img src="{{url()}}/img/twitter-blanco.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/index&media={{url()}}/img/marcas/index/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/index&media={{url()}}/img/Compartir-index.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/google-blanco.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -75,13 +75,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Index - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda.">
-<meta itemprop="image" content="{{url()}}/img/marcas/index/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-index.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Index - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/index" />
-<meta property="og:image" content="{{url()}}/img/marcas/index/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-index.jpg" />
 <meta property="og:description" content="Para una chica divertida, fresca, dinámica, versátil ysiempre con una actitud positiva frente a la vida.Se divierte y se inspira a través de la moda." />
 <meta property="og:site_name" content="Index - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

@@ -19,13 +19,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Only - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Con actitud desde Dinamarca. Así se presenta esta marca obsesionada con todo lo denim. Sus colecciones respiran personalidad, vinculación con el mundo real y modernidad. Eso, sumado a unos atractivos diseños que cruzan fronteras, resultan en un éxito seguro.">
-<meta itemprop="image" content="{{url()}}/img/marcas/only/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-only.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Only - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/only" />
-<meta property="og:image" content="{{url()}}/img/marcas/only/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-only.jpg" />
 <meta property="og:description" content="Con actitud desde Dinamarca. Así se presenta esta marca obsesionada con todo lo denim. Sus colecciones respiran personalidad, vinculación con el mundo real y modernidad. Eso, sumado a unos atractivos diseños que cruzan fronteras, resultan en un éxito seguro." />
 <meta property="og:site_name" content="Only - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

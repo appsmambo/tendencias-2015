@@ -8,7 +8,7 @@
 			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/navigata" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Navigata%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1DYyk5y" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/navigata&media={{url()}}/img/marcas/navigata/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/navigata&media={{url()}}/img/Compartir-navigata.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/navigata" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -59,13 +59,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Navigata - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para la mujer femenina y práctica que busca el equilibrio entre lo clásico y lo contemporáneo, a través de líneas y estampados diferentes">
-<meta itemprop="image" content="{{url()}}/img/marcas/navigata/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-navigata.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Navigata - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/navigata" />
-<meta property="og:image" content="{{url()}}/img/marcas/navigata/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-navigata.jpg" />
 <meta property="og:description" content="Para la mujer femenina y práctica que busca el equilibrio entre lo clásico y lo contemporáneo, a través de líneas y estampados diferentes" />
 <meta property="og:site_name" content="Navigata - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

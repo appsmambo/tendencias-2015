@@ -51,10 +51,21 @@ if (!isset($producto)){
 					maxTime:45000,
 					fadeOutTime:1000,
 					onComplete:function() {
+						@if(Route::current()->getName() == 'home')
+						$.fancybox({
+							type:'inline',
+							href:'#sjp-intro',
+							padding:8,
+							autoHeight:true,
+							autoWidth:true,
+							maxWidth:1184,
+							maxHeight:2094
+						});
+						@endif
 						@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook' or Route::current()->getName() == 'detallelook')
 						setTimeout(function () {
 							$(".bar-toogle").trigger("click");
-						}, 5000);
+						}, 3000);
 						@endif
 					}
 				});
@@ -139,21 +150,6 @@ if (!isset($producto)){
 				$('nav.header').addClass('left-margin');
 				$('.bar-toogle').addClass('active');
 				$('.navs .menu-list').delay(250).fadeIn('slow');
-			});
-		</script>
-		@endif
-		@if(Route::current()->getName() == 'home')
-		<script>
-			$(document).ready(function() {
-				$.fancybox({
-					type:'inline',
-					href:'#sjp-intro',
-					padding:8,
-					autoHeight:true,
-					autoWidth:true,
-					maxWidth:1184,
-					maxHeight:2094
-				});
 			});
 		</script>
 		@endif

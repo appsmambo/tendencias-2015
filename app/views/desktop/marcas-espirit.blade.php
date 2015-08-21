@@ -19,14 +19,14 @@
 <!-- Google -->
 <meta itemprop="name" content="Esprit - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Espirit Marca Alemana.">
-<meta itemprop="image" content="{{url()}}/img/marcas/espirit/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-esprit.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Esprit - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}/marcas/marquis" />
-<meta property="og:image" content="{{url()}}/img/marcas/espirit/banner.jpg" />
+<meta property="og:url" content="{{url()}}/marcas/esprit" />
+<meta property="og:image" content="{{url()}}/img/Compartir-esprit.jpg" />
 <meta property="og:description" content="Esprit Marca Alemana." />
-<meta property="og:site_name" content="Marquis - Las mejores marcas en Ripley" />
+<meta property="og:site_name" content="Esprit - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />
 @stop

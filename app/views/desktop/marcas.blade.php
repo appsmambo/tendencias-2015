@@ -35,19 +35,19 @@
 
 @section('metas')
 <title>Ripley, tendencias 2015</title>
-<meta name="description" content="Ripley, tendencias 2015" />
+<meta name="description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley" />
 
 <!-- Google -->
 <meta itemprop="name" content="Ripley, tendencias 2015">
-<meta itemprop="description" content="Ripley, tendencias 2015">
-<meta itemprop="image" content="{{url()}}/ripley-tendencias-2015.jpg">
+<meta itemprop="description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley">
+<meta itemprop="image" content="{{url()}}/img/Compartir-marcas.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Ripley, tendencias 2015" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}" />
-<meta property="og:image" content="{{url()}}/ripley-tendencias-2015.jpg" />
-<meta property="og:description" content="Ripley, tendencias 2015" />
+<meta property="og:url" content="{{url()}}/marcas" />
+<meta property="og:image" content="{{url()}}/img/Compartir-marcas.jpg" />
+<meta property="og:description" content="Yo elijo las mejores marcas. Sarah Jessica Parker elige Ripley" />
 <meta property="og:site_name" content="Ripley, tendencias 2015" />
 <meta property="fb:admins" content="100008010128050" />
 @stop

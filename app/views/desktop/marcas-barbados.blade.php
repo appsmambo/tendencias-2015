@@ -8,7 +8,7 @@
 			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/barbados" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Barbados%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1Nc7FWf" target="_blank"><img src="{{url()}}/img/twitter.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/barbados&media=http://modaripley.com/tendencias/img/marcas/barbados/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url=http://modaripley.com/tendencias/marcas/barbados&media=http://modaripley.com/tendencias/img/Compartir-barbados.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url=http://modaripley.com/tendencias/marcas/barbados" target="_blank"><img src="{{url()}}/img/google.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -58,13 +58,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Barbados - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Urbana y actual, esta marca celebra su máxima expresión a través de jeans, kimonos y casacas">
-<meta itemprop="image" content="{{url()}}/img/marcas/barbados/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-barbados.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Barbados - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/barbados" />
-<meta property="og:image" content="{{url()}}/img/marcas/barbados/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-barbados.jpg" />
 <meta property="og:description" content="Urbana y actual, esta marca celebra su máxima expresión a través de jeans, kimonos y casacas" />
 <meta property="og:site_name" content="Barbados - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />

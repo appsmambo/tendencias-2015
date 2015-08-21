@@ -43,7 +43,7 @@ if (!isset($itemactive))
 					onComplete:function() {
 						setTimeout(function () {
 							$(".bar-toogle").trigger("click");
-						}, 5000);
+						}, 3000);
 					}
 				});
 			});

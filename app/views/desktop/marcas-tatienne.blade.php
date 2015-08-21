@@ -8,7 +8,7 @@
 			<p>Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/tatienne" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>
 			<a href="https://twitter.com/home?status=Tatienne%20-%20Las%20mejores%20marcas%20en%20Ripley%20http://bit.ly/1IWRMMV" target="_blank"><img src="{{url()}}/img/twitter-blanco.png" alt="twitter" /></a>
-			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/tatienne&media={{url()}}/img/marcas/tatienne/banner.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
+			<a href="https://pinterest.com/pin/create/button/?url={{url()}}/marcas/tatienne&media={{url()}}/img/Compartir-tatienne.jpg&description=" target="_blank"><img src="{{url()}}/img/pinterest-blanco.png" alt="pinterest" /></a>
 			<a href="https://plus.google.com/share?url={{url()}}/marcas/tatienne" target="_blank"><img src="{{url()}}/img/google-blanco.png" alt="google plus" /></a>
 		</div>
 	</div>
@@ -56,13 +56,13 @@
 <!-- Google -->
 <meta itemprop="name" content="Tattiene - Las mejores marcas en Ripley">
 <meta itemprop="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés">
-<meta itemprop="image" content="{{url()}}/img/marcas/tatienne/banner.jpg">
+<meta itemprop="image" content="{{url()}}/img/Compartir-tatienne.jpg">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Tattiene - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/tatienne" />
-<meta property="og:image" content="{{url()}}/img/marcas/tatienne/banner.jpg" />
+<meta property="og:image" content="{{url()}}/img/Compartir-tatienne.jpg" />
 <meta property="og:description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
 <meta property="og:site_name" content="Tattiene - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />
