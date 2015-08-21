@@ -3,6 +3,7 @@
 <div id="marcas-interna">
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/index/banner.jpg" class="img-responsive" alt="INDEX" />
+		<a href="{{url()}}/marcas" class="boton-regresar"><img src="{{url()}}/img/marcas/boton-regresar-marcas.gif" alt="" /></a>
 		<div class="sociales-marcas">
 			<p>Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/index" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>
@@ -38,9 +39,6 @@
 		</div>
 		<div class="item-marca w5">
 			<img src="{{url()}}/img/marcas/index/4.jpg" alt="" />
-		</div>
-		<div class="item-marca w8">
-			<img src="{{url()}}/img/marcas/index/5.jpg" alt="" />
 		</div>
 		<div class="item-marca w4">
 			<img src="{{url()}}/img/marcas/index/6.jpg" alt="" />

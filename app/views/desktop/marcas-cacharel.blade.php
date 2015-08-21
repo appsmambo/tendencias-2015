@@ -3,6 +3,7 @@
 <div id="marcas-interna">
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/cacharel/banner.jpg" class="img-responsive" alt="CACHAREL" />
+		<a href="{{url()}}/marcas" class="boton-regresar"><img src="{{url()}}/img/marcas/boton-regresar-marcas.gif" alt="" /></a>
 		<div class="sociales-marcas">
 			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/cacharel" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>
@@ -24,6 +25,7 @@
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
 			<img src="{{url()}}/img/marcas/cacharel/1.jpg" alt="" />
+			
 		</div>
 		<div class="item-marca w3">
 			<img src="{{url()}}/img/marcas/cacharel/2.jpg" alt="" />
@@ -33,9 +35,6 @@
 		</div>
 		<div class="item-marca w5">
 			<img src="{{url()}}/img/marcas/cacharel/4.jpg" alt="" />
-		</div>
-		<div class="item-marca w8">
-			<img src="{{url()}}/img/marcas/cacharel/5.jpg" alt="" />
 		</div>
 		<div class="item-marca w4">
 			<img src="{{url()}}/img/marcas/cacharel/6.jpg" alt="" />

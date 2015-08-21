@@ -3,6 +3,7 @@
 <div id="marcas-interna" >
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/pepejeans/banner.jpg" class="img-responsive" alt="PEPE JEANS" />
+		<a href="{{url()}}/marcas" class="boton-regresar"><img src="{{url()}}/img/marcas/boton-regresar-marcas.gif" alt="" /></a>
 		<div class="sociales-marcas">
 			<p class="negro">Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/pepejeans" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a>

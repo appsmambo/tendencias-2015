@@ -3,6 +3,7 @@
 <div id="marcas-interna">
 	<div class="banner-marca">
 		<img src="{{url()}}/img/marcas/tatienne/banner.jpg" class="img-responsive" alt="TATIENNE" />
+		<a href="{{url()}}/marcas" class="boton-regresar"><img src="{{url()}}/img/marcas/boton-regresar-marcas.gif" alt="" /></a>
 		<div class="sociales-marcas">
 			<p>Compartir</p>
 			<a href="https://www.facebook.com/sharer/sharer.php?u={{url()}}/marcas/tatienne" target="_blank"><img src="{{url()}}/img/facebook-blanco.png" alt="facebook" /></a>

@@ -980,6 +980,13 @@ footer a{
 .prenda-precio div.descripcion{
 	display: none;
 }
+.boton-regresar{
+	position: absolute;
+	left: 33px;
+	bottom: 22px;
+	width:285px;
+	height: 55px;
+}
 @media (max-width: 1400px) {
 	.precio-accesorios .columna-precio:first-child{
 		font-size: 13px;
