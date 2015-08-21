@@ -3,9 +3,9 @@
 <div class="row">
 	<div class="col-sm-6 col-sm-offset-3 marcas-nuevas">
 		<img src="{{url()}}/img/marcas/espirit/logo.png" class="img-responsive center-block" alt="Esprit" />
-		<!--p>
-			Espirit Marca Alemana.
-		</p-->
+		<p>
+			&nbsp;
+		</p>
 		<a href="http://www.espirit.com/" target="_blank"><img src="{{url()}}/img/marcas/espirit/boton.jpg" class="img-responsive center-block" alt="Esprit" /></a>
 	</div>
 </div>
