@@ -7,7 +7,7 @@
 		<div class="row ">
 			<div class="col-sm-9 slider-prenda">
 				<div class="clearfix">
-					<a href="{{url()}}/lookbook" class="pull-left"><img src="{{url()}}/img/lookbook/volver.png"  alt="volver" /></a>
+					<a href="{{url()}}/lookbook" class="pull-left"><img src="{{url()}}/img/lookbook/volver.jpg"  alt="volver" /></a>
 					<img src="{{url()}}/img/lookbook/{{$producto[0]->imagenmarca}}" class="pull-right" alt="" />
 				</div>
 				<div class="galeria-slider clearfix">
