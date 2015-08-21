@@ -1,18 +1,18 @@
 @extends('layouts.desktop')
 @section('content')
 <div id="marcas">
-	<img src="{{url()}}/img/marcas/elige-tu-marca.jpg" width="1788" height="930" class="img-responsive center-block" alt="Elige tu Marca" />
-	<a href="#mapa-1" class="bajar">
+	<div class="contenedor">
+		<img src="{{url()}}/img/marcas/elige-tu-marca.jpg" width="1788" height="930" class="img-responsive center-block" alt="Elige tu Marca" />
+		<a href="#contenido-marca" class="bajar">
 			<img src="{{url()}}/img/bajar.png" class="img-responsive center-block" alt="" />
-	</a>
-	<div id="mapa-1">
-	<img src="{{url()}}/img/marcas/1.jpg" width="1788" height="1434" usemap="#Map" class="maped img-responsive" alt="Elige tu Marca" />
+		</a>
+	</div>
+	<img id="contenido-marca" src="{{url()}}/img/marcas/1.jpg" width="1788" height="1434" usemap="#Map" class="maped img-responsive" alt="Elige tu Marca" />
 	<map name="Map" id="Map">
 		<area shape="rect" coords="3,3,1084,1431" href="{{url()}}/marcas/marquis" />
 		<area shape="rect" coords="1088,4,1785,425" href="{{url()}}/marcas/navigata" />
 		<area shape="rect" coords="1089,428,1784,1431" href="{{url()}}/marcas/index" />
 	</map>
-	</div>
 	<img src="{{url()}}/img/marcas/2.jpg" width="1788" height="1285" usemap="#Map2" class="maped img-responsive" alt="Elige tu Marca" />
 	<map name="Map2" id="Map2">
 		<area shape="rect" coords="3,4,893,1282" href="{{url()}}/marcas/barbados" />
