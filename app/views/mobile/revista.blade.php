@@ -44,24 +44,23 @@
 @stop
 
 @section('metas')
-<title>Sarah Jessica Parker, la nueva imagen de Ripley</title>
-<meta name="description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda." />
+<title>Yo elijo las mejores marcas - Tendencias 2015 - Ripley</title>
+<meta name="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
 
 <!-- Google -->
-<meta itemprop="name" content="Sarah Jessica Parker, la nueva imagen de Ripley">
-<meta itemprop="description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda.">
-<meta itemprop="image" content="{{url()}}/img/sarah/1.jpg">
+<meta itemprop="name" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />
+<meta itemprop="description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
+<meta itemprop="image" content="{{url()}}/img/Compartir-home.jpg" />
 
 <!-- Open Graph data -->
-<link rel='canonical' href='{{url()}}' />
+<link rel="canonical" href="{{url()}}/revista" />
 <meta property="og:locale" content="es_ES" />
-<meta property="og:title" content="Sarah Jessica Parker, la nueva imagen de Ripley" />
+<meta property="og:title" content="Yo elijo las mejores marcas - Tendencias 2015 - Ripley" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{url()}}/sjp" />
-<meta property="og:image" content="{{url()}}/img/sarah/1.jpg" />
-<meta property="og:description" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda." />
-<meta property="og:site_name" content="Sarah Jessica Parker nos muestra su lado mas cercano y nos enseña todo lo que sabe sobre su pasión: La Moda." />
+<meta property="og:url" content="{{url()}}/revista" />
+<meta property="og:image" content="{{url()}}/img/Compartir-home.jpg" />
+<meta property="og:description" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
+<meta property="og:site_name" content="Descubre las últimas tendencias de la moda, temporada Primavera Verano 2015 - 2016, solo en Ripley." />
 <meta property="fb:admins" content="100008010128050" />
 <meta property="fb:app_id" content="843141755772705" />
-
 @stop
