@@ -1007,6 +1007,11 @@ footer a{
 .negro {
 	color:#000
 }
+.content-lookbook-detalle{
+	width: 65%;
+	float: right;
+	padding-left: 15px;
+}
 @-moz-document url-prefix() {
 	.item{
 		width: 20%;
@@ -1021,3 +1026,10 @@ footer a{
 	}
 }
 }
+.item{
+		width: 20%\9\0;/*Only works in IE9*/
+		margin-right: 0.5%\9\0;/*Only works in IE9*/
+	}
+	.item.col-sm-6{
+		width: 40%\9\0;/*Only works in IE9*/
+	}

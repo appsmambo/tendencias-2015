@@ -6,10 +6,11 @@
 		<a href="#" class="next"><img src="{{url()}}/img/lookbook/next.png" class="img-responsive" alt="next" /></a>
 		<div class="row ">
 			<div class="col-sm-9 slider-prenda">
-				<div class="clearfix">
+				<div class="clearfix content-lookbook-detalle" >
 					<a href="{{url()}}/lookbook" class="pull-left"><img src="{{url()}}/img/lookbook/volver.jpg"  alt="volver" /></a>
 					<img src="{{url()}}/img/lookbook/{{$producto[0]->imagenmarca}}" class="pull-right" alt="" />
 				</div>
+				<div class="clearfix"></div>
 				<div class="galeria-slider clearfix">
 					<ul class="bxslider">
 						@for($i = 1; $i <= $producto[0]->numeroimagenes; $i++)
