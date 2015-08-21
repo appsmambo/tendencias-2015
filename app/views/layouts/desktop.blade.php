@@ -58,8 +58,7 @@ if (!isset($producto)){
 							padding:8,
 							autoHeight:true,
 							autoWidth:true,
-							maxWidth:1184,
-							maxHeight:2094
+							maxWidth:860
 						});
 						@endif
 						@if(Route::current()->getName() == 'marcas' or Route::current()->getName() == 'lookbook' or Route::current()->getName() == 'detallelook')
