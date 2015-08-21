@@ -4,79 +4,79 @@
 $accesorios = array(
     "1" => array(
         "marca" => 'barbados.png',
-        "nombre" => "Vestido a rayas<br/> frunce",
-        "sku" => "cod.93728639",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 79.9</span>',
+        "nombre" => "Mochila Icono",
+        "sku" => "cod.16921511",
+        "precio" => '<span>PRECIO</span><br><span class="red">S/.139</span>',
         "imagen" => 'Sandalia-Tabihebi-marquis.jpg',
         ),
    "2" => array(
         "marca" => 'barbados.png',
         "nombre" => "Zapato Iris",
         "sku" => "cod.16909255",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 99.90</span>',
         "imagen" => 'Zapato-Iris-marquis.jpg',
         ),
    "3" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia Tabihebi",
         "sku" => "cod.16872543",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 189</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 189</span>',
         "imagen" => 'Sandalia-Tabihebi-marquis.jpg',
         ),
    "4" => array(
         "marca" => 'barbados.png',
         "nombre" => "Sandalia Rafaella",
         "sku" => "cod.16829389",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 99.90</span>',
         "imagen" => 'Sandalia-Rafaella-barbados.jpg',
         ),
 	"5" => array(
         "marca" => 'marquis.png',
         "nombre" => "Carteras Malena",
         "sku" => "cod.16900629",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 99.9</span>',
+        "precio" => '<span>PRECIO NORMAL</span><br><span class="red">S/. 99.90</span>',
         "imagen" => 'Carteras-Malena.jpg',
         ),
    "7" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia Dalia",
         "sku" => "cod.16997246",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 139</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 139</span>',
         "imagen" => 'Sandalia-Dalia-marquis.jpg',
         ),
    "8" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia Apli",
         "sku" => "cod.16872517",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 259</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 259</span>',
         "imagen" => 'Sandalia-Apli-marquis.jpg',
         ),
    "9" => array(
         "marca" => 'marquis.png',
         "nombre" => "Alpargata Sonia",
         "sku" => "cod.16912774",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89.9</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 89.90</span>',
         "imagen" => 'Alpargata-Sonia-marquis.jpg',
         ),
    "10" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia alberca",
         "sku" => "cod.17020357",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 149</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 149</span>',
         "imagen" => 'Sandalia-alberca-marquis.jpg',
         ),
    "11" => array(
         "marca" => 'marquis.png',
-        "nombre" => "Alpargata Sonia",
-        "sku" => "cod.16912774",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 89.9</span>',
+        "nombre" => "Cartera Male Mini 3",
+        "sku" => "cod.16721421",
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 99.90</span>',
         "imagen" => 'Alpargata-Sonia-marquis.jpg',
         ),
    "12" => array(
         "marca" => 'marquis.png',
         "nombre" => "Sandalia Franca",
         "sku" => "cod.17017645",
-        "precio" => '<span>PRECIO NORMAL </span><br><span class="red">S/. 149</span>',
+        "precio" => '<span>PRECIO</span><br><span class="red">S/. 149</span>',
         "imagen" => 'Sandalia-franca-marquis.jpg',
         )
    );
@@ -91,10 +91,10 @@ $accesorios = array(
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}"><img src="images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>                    
                     <div class="panel-elije-tu-marca clearfix" id="elije-tu-marca">
@@ -141,7 +141,7 @@ $accesorios = array(
                 </div>
                 <div class="panel-accesorio-texto">
                     <div class="panel-accesorio-titulo"><img src="{{url()}}/img/accesorios/<?php echo $accesorios[$indice]['marca']; ?>" class="img-responsive"></div>
-                    <div class="panel-accesorio-codigo"><p><?php echo $accesorios[$indice]['nombre']; ?></p><p><?php echo $accesorios[$indice]['sku']; ?></p></div>
+                    <div class="panel-accesorio-codigo"><p class="codigo-titulo"><?php echo $accesorios[$indice]['nombre']; ?></p><p><?php echo $accesorios[$indice]['sku']; ?></p></div>
                     <div class="panel-accesorio-precio">
                         <?php echo $accesorios[$indice]['precio']; ?>
                     </div>
