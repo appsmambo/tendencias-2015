@@ -24,7 +24,7 @@
                             <a href="{{url()}}/accesorios/4" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/4.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <img src="{{url()}}/img/accesorios/5.jpg" class="img-responsive" alt="Accesorios" />
+                            <a href="{{url()}}/accesorios/5" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/5.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
                             <img src="{{url()}}/img/accesorios/6.jpg" class="img-responsive" alt="Accesorios" />
@@ -42,7 +42,7 @@
                             <a href="{{url()}}/accesorios/10" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/10.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
-                            <img src="{{url()}}/img/accesorios/11.jpg" class="img-responsive" alt="Accesorios" />
+                            <a href="{{url()}}/accesorios/11" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/11.jpg" class="img-responsive" alt="Accesorios" /></a>
                         </div>
                         <div class="col-sm-4">
                             <a href="{{url()}}/accesorios/12" data-fancybox-type="ajax" class="fancybox fancybox.ayax"><img src="{{url()}}/img/accesorios/12.jpg" class="img-responsive" alt="Accesorios" /></a>

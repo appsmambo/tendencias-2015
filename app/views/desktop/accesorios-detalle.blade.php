@@ -25,10 +25,10 @@
 switch ($id) {
 	case 1:
 		$marca = 'barbados.png';
-		$nombre = "Vestido a rayas<br/> frunce";
-		$sku = "cod.93728639";
-		$precio = '<span>PRECIO NORMAL </span><span class="red">$ 79.9</span>';
-		$imagen = 'Sandalia-Tabihebi-marquis.jpg';
+		$nombre = "Mochila Ikono";
+		$sku = "cod.16921511";
+		$precio = '<span>PRECIO NORMAL </span><span class="red">$ 139</span>';
+		$imagen = 'Mochila-Ikono.jpg';
 		break;
 	case 2:
 		$marca = 'barbados.png';
@@ -52,11 +52,11 @@ switch ($id) {
 		$imagen = 'Sandalia-Rafaella-barbados.jpg';
 		break;
 	case 5:
-		$marca = 'barbados.png';
-		$nombre = "Sandalia Rafaella";
-		$sku = "cod.16829389";
+		$marca = 'marquis.png';
+		$nombre = "Carteras Malena";
+		$sku = "cod.16900629";
 		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
-		$imagen = 'Sandalia-Rafaella-barbados.jpg';
+		$imagen = 'Carteras-Malena.jpg';
 		break;
 	case 7:
 		$marca = 'marquis.png';
@@ -92,17 +92,17 @@ switch ($id) {
 
 	case 11:
 		$marca = 'marquis.png';
-		$nombre = "Alpargata Sonia";
-		$sku = "cod.16912774";
-		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 89,9</span>';
-		$imagen = 'Alpargata-Sonia-marquis.jpg';
+		$nombre = "Cartera Male Mini 3";
+		$sku = "cod.16721421";
+		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 99,9</span>';
+		$imagen = 'Cartera-Male-Mini-3.jpg';
 		break;
 
 	case 12:
 		$marca = 'marquis.png';
 		$nombre = "Sandalia Franca";
 		$sku = "cod.17017645";
-		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 139</span>';
+		$precio = '<span>PRECIO NORMAL </span><span class="red">S/. 149</span>';
 		$imagen = 'Sandalia-franca-marquis.jpg';
 		break;
 }
