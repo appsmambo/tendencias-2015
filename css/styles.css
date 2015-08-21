@@ -426,6 +426,10 @@ footer a{
 .item.last .content-item{
 	width: 100%;
 }
+.item.last{
+	margin-right: 0;
+	float: right;
+}
 .content-item{
 	padding-right: 0%;
 	border: 0;
@@ -1011,7 +1015,9 @@ footer a{
 	.item.col-sm-6{
 		width: 40%;
 	}
+@media (max-width: 1400px) {
 	.detalle-item img{
 		max-width: 150px;
 	}
+}
 }

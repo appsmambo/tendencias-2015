@@ -1,96 +1,123 @@
+<?php
+if (!isset($itemactive))
+    $itemactive = 0;
+?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="http://modaripley.com/favicon.ico">
+        @yield('metas')
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="{{url()}}/css/mobile/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="{{url()}}/js/mobile/vendor/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="{{url()}}/js/mobile/vendor/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="{{url()}}/js/mobile/vendor/flexcroll/flexcrollstyles.css">
+        <link rel="stylesheet" href="{{url()}}/js/mobile/vendor/magnific-popup/magnific-popup.css">
+        <link href="{{url()}}/css/jquery.fancybox.css" rel="stylesheet" />
+        <link href="{{url()}}/css/fontello.css" rel="stylesheet" />        
+        <link href="{{url()}}/css/stylesm.css" rel="stylesheet" />
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Celularte</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage very simple demo." />
-	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
-	<meta name="Resource-type" content="Document" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="{{url()}}/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="{{url()}}/css/galleriffic-2.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="{{url()}}/css/styles-mobile.css" />
-	<link rel="stylesheet" href="{{url()}}/js/file-upload/css/jquery.fileupload.css" />
-	<script type="text/javascript" src="{{url()}}/js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="{{url()}}/js/blockui.js"></script>
-	<script type="text/javascript" src="{{url()}}/js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="{{url()}}/js/jquery.galleriffic.js"></script>
-	<script type="text/javascript" src="{{url()}}/js/jquery.opacityrollover.js"></script>
-	<script src="{{url()}}/js/file-upload/js/load-image.min.js"></script>
-    <script src="{{url()}}/js/file-upload/js/canvas-to-blob.min.js"></script>
-	<script src="{{url()}}/js/file-upload/js/vendor/jquery.ui.widget.js"></script>
-	<script src="{{url()}}/js/file-upload/js/jquery.iframe-transport.js"></script>
-	<script src="{{url()}}/js/file-upload/js/jquery.fileupload.js"></script>
-	<script src="{{url()}}/js/file-upload/js/jquery.fileupload-process.js"></script>
-	<script src="{{url()}}/js/file-upload/js/jquery.fileupload-image.js"></script>
-	<script src="{{url()}}/js/file-upload/js/jquery.fileupload-validate.js"></script>
-
-	@if(Route::current()->getName() == 'participa')
-		<script language="javascript">
-			baseUrl='{{url()}}/';	
-		</script>
-		<script src="{{url()}}/js/exif.js"></script>
-	    <script type="text/javascript" src="{{url()}}/js/jquery.screwdefaultbuttonsV2.min.js"></script>
-    	<script type="text/javascript" src="{{url()}}/js/funciones-registro.js"></script>
-	@else
-		
-	@endif	
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row clearfix">
-				<div class="col-xs-7">
-					<a href="{{url()}}/"><img src="{{url()}}/img/logo-mobile.jpg" alt="logo" class="img-responsive"/></a>
-				</div>
-				<div class="col-xs-5">
-					<img src="{{url()}}/img/barra-menu.jpg" alt="barra-menu" class="barra-menu active img-responsive pull-right"/>
-				</div>
-			</div>
-		</div>
-	</header>
-	<nav>
-		<div class="container">
-			<div class="row clearfix">
-				<ul class="col-xs-12">
-					<li class="selfie"><a href="{{url()}}/galeria/1">#selfie</a></li>
-					<li class="gastronomia"><a href="{{url()}}/galeria/2">#Gastronomia</a></li>
-					<li class="vidacotidiana"><a href="{{url()}}/galeria/3">#vidacotidiana</a></li>
-					<li class="arte"><a href="{{url()}}/galeria/4">#Arte</a></li>
-					<li class="mundoverde"><a href="{{url()}}/galeria/5">#Mundoverde</a></li>
-					<li class="participa"><a href="{{url()}}/participa">#Participa</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<div id="wrapper">
-		@yield('content')
-	</div>
-
-		@if(Route::current()->getName() == 'galeria')
-		<div id="fb-root"></div>
         <script>
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId: '1426453467683394',
-                    cookie: true, xfbml: true,
-                    channelUrl: 'http://www.tribecamediaperu.pe/facebook/ripley/mundial/facebook/channel.php',
-                    status: true,
-                    oauth: true
-                });
-            };
-            (function() {
-                var e = document.createElement('script');
-                e.async = true;
-                e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
-                document.getElementById('fb-root').appendChild(e);
-            }());
-		</script>
-		<script type="text/javascript" src="{{url()}}/js/funcionesm.js"></script>
-		<script type="text/javascript" src="{{url()}}/js/funciones-votar.js"></script>
-		@endif
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</body>
+          ga('create', 'UA-50197344-2', 'auto');
+          ga('require', 'displayfeatures');
+          ga('send', 'pageview');
+
+        </script>
+
+    </head>
+    <body>
+        <div class="solo-vertical oculto">
+            <div class="solo-vertical-interno">  
+                <img src="{{url()}}/images/rotame.png" alt="" class="">
+            </div>
+        </div>
+        <div class="externo">
+            <div id="navigation">
+                <nav class="menu-total">
+                    <div class="menu-movil boton-movil">
+                        <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
+                    </div>
+                    <ul class="menu-movil-total">
+                        <li class="menu-logo-top"><a href="{{url()}}/" class="menu-logo"><img class="img-responsive" alt="" src="{{url()}}/images/ripley-header.jpg"></a></li>
+                        <li><a href="{{url()}}/sjp" @if(Route::current()->getName() == 'sarah') class="active" @endif>Sarah Jessica</a></li>
+                        <li><a href="{{url()}}/marcas" @if(Route::current()->getName() == 'marcas') class="active" @endif>Marcas</a></li>
+                        <li><a href="{{url()}}/lookbook" @if(Route::current()->getName() == 'lookbook') class="active" @endif>LookBook</a></li>
+                        <li><a href="{{url()}}/accesorios" @if(Route::current()->getName() == 'accesorios') class="active" @endif>Accesorios</a></li>
+                        <li><a href="{{url()}}/revista" @if(Route::current()->getName() == 'revista') class="active" @endif>Revista</a></li>
+                    </ul>
+                    <div class="menu-redes-sociales">
+                        <ul>
+                            <li><a href=""><i class="icon-facebook"></i></a></li>
+                            <li><a href=""><i class="icon-twitter"></i></a></li>
+                            <li><a href=""><i class="icon-pinterest"></i></a></li>
+                            <li><a href=""><i class="icon-gplus"></i></a></li>
+                            <li><a href=""><i class="icon-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>  
+            </div>                     
+            <div class="menu">
+                <div class="menu-movil boton-movil">
+                    <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
+                </div>
+            </div>
+            <div class="redes-sociales">
+                
+            </div> 
+                @yield('content')
+            <footer style="bottom:0;">
+                <a href=""><img src="{{url()}}/images/logo-footer.png" alt=""></a>
+            </footer> 
+        </div> 
+        <script src="{{url()}}/js/mobile/jquery-1.11.1.min.js" ></script>
+        <script src="{{url()}}/js/mobile/bootstrap.min.js"></script>
+        <script src="{{url()}}/js/mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="{{url()}}/js/mobile/PxLoader.js"></script>  
+        <script src="{{url()}}/js/mobile/PxLoaderImage.js"></script> 
+        <script src="{{url()}}/js/mobile/vendor/jquery.easing.1.3.js"></script>
+        <script src="{{url()}}/js/mobile/vendor/imagesloaded.3.1.8.min.js"></script>
+        <script src="{{url()}}/js/mobile/vendor/jquery.masonry.3.2.1.min.js"></script>
+        <script src="{{url()}}/js/mobile/vendor/owl-carousel/owl.carousel.min.js"></script>
+        <script src="{{url()}}/js/mobile/vendor/magnific-popup/jquery.magnific-popup.js"></script>        
+        <script src="{{url()}}/js/mobile/vendor/flexcroll/flexcroll.js"></script>
+        <script src="{{url()}}/js/jquery.fancybox.js"></script>
+        <script src="{{url()}}/js/mobile/blockui.js"></script>
+        <script src="{{url()}}/js/funcionesm.js"></script>
+        
+        
+        @if(Route::current()->getName() == 'revista')
+            <style type="text/css">
+                footer{
+                    position: fixed;
+                    bottom: 0;
+                }
+                .absolute-revista{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+                .content-a{
+                    display: table;
+                    height: 100%;
+                }
+                .content-b{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            </style>
+        @endif
+        <script>
+          function getWindowWidth(){
+              return $( window ).width();
+          }
+          </script>
+    </body>
 </html>

@@ -31,14 +31,14 @@
 </div>
 <div class="absolute-revista">
     <div class="content-a">
-    <div class="content-b">
-        <div class="embed-responsive embed-responsive-16by9">
-                              <iframe class="embed-responsive-item" src="//e.issuu.com/embed.html#0/14907484" ></iframe>
-        </div>
-    </div>
+		<div class="content-b">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="//e.issuu.com/embed.html#0/14907484" ></iframe>
+			</div>
+		</div>
     </div>
                              
-                    </div>  
+ </div>  
 @stop
 
 @section('metas')
