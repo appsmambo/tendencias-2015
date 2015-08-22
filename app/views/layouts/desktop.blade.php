@@ -103,7 +103,7 @@ if (!isset($producto)){
 							<ul @if(Route::current()->getName() == 'lookbook' or $catelook!="" )class="listas-desplegadas" @endif>
 								<li><a href="{{url()}}/lookbook/45/1/casaca-varadero" <?php if($catelook=="CASACAS"){?>class="active"<?php }?>>CASACAS</a></li>
 								<li><a href="{{url()}}/lookbook/46/2/blusa-cool" <?php if($catelook=="TOPS"){?>class="active"<?php }?>>TOPS</a></li>
-								<li><a href="{{url()}}/lookbook/37/3/pantalones-ciore" <?php if($catelook=="PANTALONES"){?>class="active"<?php }?>>PANTALONES</a></li>
+								<li><a href="{{url()}}/lookbook/37/3/pantalon-ciore" <?php if($catelook=="PANTALONES"){?>class="active"<?php }?>>PANTALONES</a></li>
 								<li><a href="{{url()}}/lookbook/43/4/vestido-cierre" <?php if($catelook=="VESTIDOS"){?>class="active"<?php }?>>VESTIDOS</a></li>
 								<li><a href="{{url()}}/lookbook/42/5/short-cuna" <?php if($catelook=="FALDAS Y SHORTS"){?>class="active"<?php }?>>FALDAS Y SHORTS</a></li>
 							</ul>
