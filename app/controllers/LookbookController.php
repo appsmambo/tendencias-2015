@@ -16,10 +16,12 @@ class LookbookController extends BaseController {
 
 	public function index() {
 
-		$productos = DB::table('looks')->where('looks.estado', '=', 1)->orderBy('looks.orden', 'asc')
-				->join('lookbook', 'lookbook.idlookbook', '=', 'looks.idlookbook')
-				->select('looks.*', 'lookbook.nombre')
-				->get();
+		$productos = DB::table('looks')
+			->where('looks.estado', '=', 1)
+			->orderBy('looks.orden', 'asc')
+			->join('lookbook', 'lookbook.idlookbook', '=', 'looks.idlookbook')
+			->select('looks.*', 'lookbook.nombre')
+			->get();
 
 		$count = count($productos);
 
@@ -54,25 +56,35 @@ class LookbookController extends BaseController {
 
 	public function detail($idLook, $categoria, $name) {
 
-		$producto = DB::table('looks')->where('looks.idlook', $idLook)->where('looks.estado', '=', 1)
+		$producto = DB::table('looks')->where('looks.idlook', $idLook)->where('looks.estado', '>=', 1)
 				->join('lookbook', 'lookbook.idlookbook', '=', 'looks.idlookbook')
 				->select('looks.*', 'lookbook.nombre')
 				->get();
 
 		$subcate = $producto[0]->subcategoria;
-		$ordensuperior = $producto[0]->orden + 1;
-		$ordeninferior = $producto[0]->orden - 1;
-		if ($ordensuperior >= 72)
+
+		$ordensuperior = $producto[0]->orden2 + 1;
+		$ordeninferior = $producto[0]->orden2 - 1;
+
+		$numregistros = DB::table('looks')
+		->where('looks.idlookbook', $categoria)
+		->count();
+
+		if ($ordensuperior > $numregistros)
 			$ordensuperior = 1;
 		if ($ordeninferior <= 1)
-			$ordeninferior = 72;
+			$ordeninferior = $numregistros;
 
-		$prodsiguiente = DB::table('looks')->where('looks.orden', $ordensuperior)->where('looks.estado', '=', 1)
+		$prodsiguiente = DB::table('looks')->where('looks.orden2', $ordensuperior)
+				->where('looks.estado', '>=', 1)
+				->where('looks.idlookbook', $categoria)
 				->select('looks.idlook','looks.nombrelook','looks.idlookbook')
 				->take(1)
 				->get();
 
-		$prodanterior = DB::table('looks')->where('looks.orden', $ordeninferior)->where('looks.estado', '=', 1)
+		$prodanterior = DB::table('looks')->where('looks.orden2', $ordeninferior)
+				->where('looks.estado', '>=', 1)
+				->where('looks.idlookbook', $categoria)
 				->select('looks.idlook','looks.nombrelook','looks.idlookbook')
 				->take(1)
 				->get();
@@ -82,10 +94,8 @@ class LookbookController extends BaseController {
 				->where('looks.idlookbook', '=', $categoria)
 				->where('looks.estado', '=', 1)
 				->where('looks.idlook', '!=', $idLook)
-				->where('looks.subcategoria', '=', $subcate)
 				->select('looks.*')
-				->take(4)
-				->orderBy(DB::raw('RAND()'))
+				->orderBy('looks.orden2')
 				->get();
 
 		$isMobile = Agent::isMobile();

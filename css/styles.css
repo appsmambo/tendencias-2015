@@ -314,7 +314,7 @@ footer a{
     left: 0 !important;
     background: none !important;
 }   
-.bx-wrapper {
+.galeria-slider .bx-wrapper {
     position: relative !important;
     width: 65%  !important;
     margin: 0 !important;
@@ -994,11 +994,17 @@ footer a{
 	height:54px ;
 	margin: -27px 0 0 0;
 }
-.bx-wrapper .bx-prev{
+.bx-wrapper .bx-prev, .bx-wrapper .bx-prev:hover{
 	background: url(../img/lookbook/prev-slider.png) no-repeat;
+	opacity: 1;
+	z-index: 5 !important;
+	left:-40px;
 }
-.bx-wrapper .bx-next{
+.bx-wrapper .bx-next,.bx-wrapper .bx-next:hover{
 	background: url(../img/lookbook/next-slider.png) no-repeat;
+	opacity: 1;
+	z-index: 5 !important;
+	right:-40px;
 }
 .compartir-lookbook{
 	display: block;

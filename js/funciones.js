@@ -147,6 +147,13 @@ $(document).ready(function () {
 		controls: false
 	});
 	
+	$('.slider-carrousel').bxSlider({
+		slideWidth: 980,
+		minSlides: 4,
+		maxSlides: 4,
+		slideMargin: 30
+	  });
+	
 	$(window).scroll(function () {
 		/* Check the location of each desired element */
 		$('.item').each(function (i) {
