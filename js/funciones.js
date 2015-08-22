@@ -143,7 +143,8 @@ $(document).ready(function () {
 	});
 	$('.bxslider').bxSlider({
 		pagerCustom: '#bx-pager',
-		mode: 'fade'
+		mode: 'fade',
+		controls: false
 	});
 	
 	$(window).scroll(function () {

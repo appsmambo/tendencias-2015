@@ -992,7 +992,7 @@ footer a{
 .bx-wrapper .bx-controls-direction a {
 	width:22px ;
 	height:54px ;
-	margin: -27px 0 0 -11px;
+	margin: -27px 0 0 0;
 }
 .bx-wrapper .bx-prev{
 	background: url(../img/lookbook/prev-slider.png) no-repeat;
