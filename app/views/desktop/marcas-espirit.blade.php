@@ -4,7 +4,7 @@
 	<div class="col-sm-6 col-sm-offset-3 marcas-nuevas">
 		<img src="{{url()}}/img/marcas/espirit/logo.png" class="img-responsive center-block" alt="Esprit" />
 		<p>
-			&nbsp;
+			Marca de ropa de calidad internacional que representa un estilo relajado y auténtico. La filosofía de Esprit: moda responsable en armonía con el medio ambiente, fusionadas con la actitud propia de la soleada California. ¡Esprit es una actitud, no una edad, un estilo de vida, no una tendencia!
 		</p>
 		<a href="http://www.espirit.com/" target="_blank"><img src="{{url()}}/img/marcas/espirit/boton.jpg" class="img-responsive center-block" alt="Esprit" /></a>
 		<a href="#marca-contenido" class="bajar">
