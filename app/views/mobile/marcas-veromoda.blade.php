@@ -10,15 +10,15 @@
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                     
                     <div class="panel-yo-elijo clearfix" id="panel-yo-elijo">
-                        <a href="">
+                        <a href="http://www.veromoda.com" target="_blank">
                             <img src="{{url()}}/images/marcas/veromoda/principal.jpg" alt="" class="img-responsive">
                             
                         </a>
@@ -26,7 +26,7 @@
                             <a href="{{url()}}/marcas"><img src="{{url()}}/images/boton-regresar-marcas.gif" alt="" class="img-responsive"></a>
                         </div>
                         <div class="compartir-galeria">
-                             <img src="{{url()}}/images/sarah/compartelo.png" alt="">
+                             <img src="{{url()}}/images/sarah/compartelo.png">
                              <div class="compartir-galeria-redes">
                                  <ul>
                                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/veromoda" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a></li>

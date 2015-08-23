@@ -10,15 +10,15 @@
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                     
                     <div class="panel-yo-elijo clearfix" id="panel-yo-elijo">
-                        <a href="">
+                        <a href="#">
                             <img src="{{url()}}/images/marcas/cacharel/principal.jpg" alt="" class="img-responsive">
                             
                         </a>
@@ -29,7 +29,7 @@
                             <a href="{{url()}}/marcas"><img src="{{url()}}/images/boton-regresar-marcas.gif" alt="" class="img-responsive"></a>
                         </div>
                         <div class="compartir-galeria">
-                             <img src="{{url()}}/images/sarah/compartelo.png" alt="">
+                             <img src="{{url()}}/images/sarah/compartelo.png" alt="" alt="">
                              <div class="compartir-galeria-redes">
                                  <ul>
                                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/cacharel" target="_blank"><img src="{{url()}}/img/facebook.png" alt="facebook" /></a></li>
@@ -38,18 +38,18 @@
                              </div>
                          </div>
                     </div>
-                    <!--<div class="panel-marcas clearfix" id="panel-marcas">
-                        <a href=""><img src="{{url()}}/images/marcas/cacharel/video-1.jpg" alt="" class="img-responsive">
+                    <div class="panel-marcas clearfix" id="panel-marcas">
+                        <a href="http://www.youtube.com/watch?v=grJ0ic7vbBA" class="popup-youtube"><img src="{{url()}}/images/marcas/cacharel/preview-cacharel.jpg" alt="" class="img-responsive">
                             
                         </a>
-                    </div>-->
+                    </div>
                     <div class="panel-lookbook-index">
-                        <a href=""><img src="{{url()}}/images/marcas/cacharel/foto.jpg" alt="" class="img-responsive">
+                        <a href="#"><img src="{{url()}}/images/marcas/cacharel/foto.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>
                     <!--<div class="panel-accesorios-index">
-                        <a href=""><img src="{{url()}}/images/marcas/cacharel/video-2.jpg" alt="" class="img-responsive">
+                        <a href="http://www.youtube.com/watch?v=crKUcZio0-M" class="popup-youtube"><img src="{{url()}}/images/marcas/cacharel/video-2.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>-->

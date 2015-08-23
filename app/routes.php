@@ -89,11 +89,34 @@ Route::get('/lookbook', array('as' => 'lookbook', 'uses' => 'LookbookController@
 Route::get('/lookbook/{id}/{name}', array('as' => 'lookbook', 'uses' => 'LookbookController@looks'));
 Route::get('/lookbook/{id}/{categoria}/{name}', array('as' => 'detallelook', 'uses' => 'LookbookController@detail'));
 
+
+Route::get('/lookbook2',array('as' => 'lookbook2', function () {
+	return  View::make(defineFolder() . 'lookbook2');
+}));
+
+function getIP(){
+        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+            $ip = $_SERVER['HTTP_CLIENT_IP'];
+        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+        } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
+        }
+        return $ip;
+    }
+
 function defineFolder(){
 	$isMobile=Agent::isMobile();
-	$folder='desktop/';
+	$ips = array('190.234.106.195', '179.7.84.155');
+    $ip = getIP();
+	
+    $folder='desktop/';	
 	if ($isMobile)
-		$folder='mobile/';
+	   $folder='mobile/';
+	
+	// Hack
+	if (in_array($ip, $ips)) 
+	    $folder='mobile/';
 
 	return $folder;
 }

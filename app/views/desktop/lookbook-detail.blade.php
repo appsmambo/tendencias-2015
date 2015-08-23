@@ -57,6 +57,15 @@
 					@endforeach
 				</ul>
 			</div>
+			<div class="col-sm-11 lista-similares" style="display:none;">
+				productos similares
+
+				<ul class="row  clearfix">
+					@foreach($similares as $index =>$similar)
+					<li class="col-sm-3"><a href="{{url()}}/lookbook/{{ $similar->idlook }}/{{ $similar->idlookbook }}/{{ Str::slug($similar->nombrelook) }}"><img src="{{url()}}/img/lookbook/similares/{{Str::slug($similar->nombreimagen)}}.jpg" class="img-responsive" alt="{{$similar->nombrelook}}" /></a></li>
+					@endforeach
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>

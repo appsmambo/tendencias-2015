@@ -10,15 +10,15 @@
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                     
                     <div class="panel-yo-elijo clearfix" id="panel-yo-elijo">
-                        <a href="">
+                        <a href="#">
                             <img src="{{url()}}/images/marcas/navigata/principal.jpg" alt="" class="img-responsive">
                             
                         </a>
@@ -35,18 +35,18 @@
                              </div>
                          </div>
                     </div>
-                    <!--<div class="panel-marcas clearfix" id="panel-marcas">
-                        <a href=""><img src="{{url()}}/images/marcas/navigata/video-1.jpg" alt="" class="img-responsive">
+                    <div class="panel-marcas clearfix" id="panel-marcas">
+                        <a href="http://www.youtube.com/watch?v=s23AysTv-JY" class="popup-youtube"><img src="{{url()}}/images/marcas/navigata/preview-navigata.jpg" alt="" class="img-responsive">
                             
                         </a>
-                    </div>-->
+                    </div>
                     <div class="panel-lookbook-index">
                         <a href=""><img src="{{url()}}/images/marcas/navigata/foto.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>
                     <!--<div class="panel-accesorios-index">
-                        <a href=""><img src="{{url()}}/images/marcas/navigata/video-2.jpg" alt="" class="img-responsive">
+                        <a href="http://www.youtube.com/watch?v=crKUcZio0-M" class="popup-youtube"><img src="{{url()}}/images/marcas/navigata/video-2.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>-->

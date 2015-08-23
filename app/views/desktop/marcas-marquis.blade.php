@@ -31,37 +31,36 @@
 	</p>
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/marquis/1.jpg" alt="" />
-			<!--a class="play" href="#" id="video-1" data-embed="embed-video-1">
-				<img src="{{url()}}/img/marcas/marquis/1.jpg" alt="" />
+			<a class="play" href="#" id="video-1" data-embed="embed-video-1">
+				<img src="{{url()}}/img/marcas/marquis/1.jpg" alt="" width="100%" />
 			</a>
 			<div id="embed-video-1" class="embed-video-marcas embed-responsive embed-responsive-16by9" style="display:none">
-				<iframe class="embed-responsive-item" src="//www.youtube.com/embed/8x5AazICdr4?rel=0&enablejsapi=1" id="iframe-video-1"></iframe>
-			</div-->
+				<iframe class="embed-responsive-item" src="//www.youtube.com/embed/xbgCjEjsrgY?rel=0&enablejsapi=1" id="iframe-video-1"></iframe>
+			</div>
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/marquis/2.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/2.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/marquis/3.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/3.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/marquis/4.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/4.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/marquis/6.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/6.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/marquis/7.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/7.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/marquis/8.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/8.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/marquis/9.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/9.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/marquis/10.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/marquis/10.jpg" alt="" width="100%" />
 		</div>
 	</div>
 </div>

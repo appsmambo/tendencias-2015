@@ -89,13 +89,22 @@ class LookbookController extends BaseController {
 				->take(1)
 				->get();
 
-		
-		$similares = DB::table('looks')
+		/*$similares = DB::table('looks')
 				->where('looks.idlookbook', '=', $categoria)
 				->where('looks.estado', '=', 1)
 				->where('looks.idlook', '!=', $idLook)
 				->select('looks.*')
 				->orderBy('looks.orden2')
+				->take(4)
+				->get();*/
+				
+				$similares = DB::table('looks')
+				->where('looks.idlookbook', '=', $categoria)
+				->where('looks.estado', '>=', 1)
+				->where('looks.idlook', '!=', $idLook)
+				->where('looks.subcategoria', $subcate)
+				->select('looks.*')
+				->orderBy(DB::raw('RAND()'))
 				->get();
 
 		$isMobile = Agent::isMobile();

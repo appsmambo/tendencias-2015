@@ -19,15 +19,22 @@ if (!isset($itemactive))
         <link href="{{url()}}/css/stylesm.css" rel="stylesheet" />
 
         <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-50197344-2', 'auto');
-          ga('require', 'displayfeatures');
-          ga('send', 'pageview');
-
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-66587720-1', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '118880601776827');
+            fbq('track', 'PageView');
         </script>
 
     </head>
@@ -42,6 +49,9 @@ if (!isset($itemactive))
                 <nav class="menu-total">
                     <div class="menu-movil boton-movil">
                         <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
+                    </div>
+                    <div class="menu-movil-cerrar boton-movil">
+                        <a class="btn-menu-movil-cerrar boton"><i class="icon-cancel"></i></a>
                     </div>
                     <ul class="menu-movil-total">
                         <li class="menu-logo-top"><a href="{{url()}}/" class="menu-logo"><img class="img-responsive" alt="" src="{{url()}}/images/ripley-header.jpg"></a></li>
@@ -60,8 +70,8 @@ if (!isset($itemactive))
                             <li><a href=""><i class="icon-instagram"></i></a></li>
                         </ul>
                     </div>
-                </nav>
-            </div>
+                </nav>  
+            </div>                     
             <div class="menu">
                 <div class="menu-movil boton-movil">
                     <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
@@ -72,7 +82,7 @@ if (!isset($itemactive))
             </div> 
                 @yield('content')
             <footer style="bottom:0;">
-                <a href="{{url()}}"><img src="{{url()}}/images/logo-footer.png" alt=""></a>
+                <a href=""><img src="{{url()}}/images/logo-footer.png" alt=""></a>
             </footer> 
         </div> 
         <script src="{{url()}}/js/mobile/jquery-1.11.1.min.js" ></script>

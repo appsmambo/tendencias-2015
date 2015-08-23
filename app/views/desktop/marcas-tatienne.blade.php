@@ -25,49 +25,54 @@
 	</p>
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/tatienne/1.jpg" alt="" />
+			<a class="play" href="#" id="video-1" data-embed="embed-video-1">
+				<img src="{{url()}}/img/marcas/tatienne/1.jpg" alt="" />
+			</a>
+			<div id="embed-video-1" class="embed-video-marcas embed-responsive embed-responsive-16by9" style="display:none">
+				<iframe class="embed-responsive-item" src="//www.youtube.com/embed/z0ThuCbUjs0?rel=0&enablejsapi=1" id="iframe-video-1"></iframe>
+			</div>
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/tatienne/2.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/2.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/tatienne/3.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/3.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/tatienne/4.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/4.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/tatienne/5.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/5.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/tatienne/6.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/6.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/tatienne/7.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/7.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/tatienne/8.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/tatienne/8.jpg" alt="" width="100%" />
 		</div>
 	</div>
 </div>
 @stop
 
 @section('metas')
-<title>Tattiene - Las mejores marcas en Ripley</title>
+<title>Tatienne - Las mejores marcas en Ripley</title>
 <meta name="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
 
 <!-- Google -->
-<meta itemprop="name" content="Tattiene - Las mejores marcas en Ripley" />
+<meta itemprop="name" content="Tatienne - Las mejores marcas en Ripley" />
 <meta itemprop="description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
 <meta itemprop="image" content="{{url()}}/img/Compartir-tatienne.jpg" />
 
 <!-- Open Graph data -->
 <link rel="canonical" href="{{url()}}/marcas/tatienne" />
-<meta property="og:title" content="Tattiene - Las mejores marcas en Ripley" />
+<meta property="og:title" content="Tatienne - Las mejores marcas en Ripley" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{url()}}/marcas/tatienne" />
 <meta property="og:image" content="{{url()}}/img/Compartir-tatienne.jpg" />
 <meta property="og:description" content="Para la mujer de espíritu libre, bohemio y romántico, que busca la combinación perfecta a través de estampados, encajes y macramés" />
-<meta property="og:site_name" content="Tattiene - Las mejores marcas en Ripley" />
+<meta property="og:site_name" content="Tatienne - Las mejores marcas en Ripley" />
 <meta property="fb:admins" content="100008010128050" />
 @stop

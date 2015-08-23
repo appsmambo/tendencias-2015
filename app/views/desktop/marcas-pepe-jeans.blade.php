@@ -21,16 +21,21 @@
 	</p>
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/pepejeans/1.jpg" alt="" />
+			<a class="play" href="#" id="video-1" data-embed="embed-video-1">
+				<img src="{{url()}}/img/marcas/pepejeans/1.jpg" alt="" />
+			</a>
+			<div id="embed-video-1" class="embed-video-marcas embed-responsive embed-responsive-16by9" style="display:none">
+				<iframe class="embed-responsive-item" src="//www.youtube.com/embed/1AJa8etS7WU?rel=0&enablejsapi=1" id="iframe-video-1"></iframe>
+			</div>
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/pepejeans/2.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/pepejeans/2.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/pepejeans/3.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/pepejeans/3.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/pepejeans/4.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/pepejeans/4.jpg" alt="" width="100%" />
 		</div>
 	</div>
 </div>

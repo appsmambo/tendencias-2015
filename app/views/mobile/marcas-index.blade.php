@@ -10,15 +10,15 @@
                             <a class="btn-menu-movil boton"><i class="icon-menu-1"></i></a>
                         </div>
                         <div class="tema">
-                            <a href="{{url()}}"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/logo.png" alt="" class="img-responsive"></a>
                         </div>
                         <div class="logo">
-                            <a href="{{url()}}"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
+                            <a href="{{url()}}/"><img src="{{url()}}/images/ripley-header.jpg" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                     
                     <div class="panel-yo-elijo clearfix" id="panel-yo-elijo">
-                        <a href="">
+                        <a href="#">
                             <img src="{{url()}}/images/marcas/index/principal.jpg" alt="" class="img-responsive">
                             
                         </a>
@@ -26,7 +26,7 @@
                             <a href="{{url()}}/marcas"><img src="{{url()}}/images/boton-regresar-marcas.gif" alt="" class="img-responsive"></a>
                         </div>
                         <div class="compartir-galeria">
-                             <img src="{{url()}}/images/sarah/compartelo-b.png" alt="">
+                             <img src="{{url()}}/images/sarah/compartelo-b.png" alt="" alt="">
                              <div class="compartir-galeria-redes">
                                  <ul>
                                      <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://modaripley.com/tendencias/marcas/index" target="_blank"><img src="{{url()}}/img/facebook-b.png" alt="facebook" /></a></li>
@@ -35,18 +35,18 @@
                              </div>
                          </div>
                     </div>
-                    <!--<div class="panel-marcas clearfix" id="panel-marcas">
-                        <a href=""><img src="{{url()}}/images/marcas/index/video-1.jpg" alt="" class="img-responsive">
+                    <div class="panel-marcas clearfix" id="panel-marcas">
+                        <a href="http://www.youtube.com/watch?v=uBMM9zdbz0Y" class="popup-youtube"><img src="{{url()}}/images/marcas/index/preview-index.jpg" alt="" class="img-responsive">
                             
                         </a>
-                    </div>-->
+                    </div>
                     <div class="panel-lookbook-index">
-                        <a href=""><img src="{{url()}}/images/marcas/index/foto-1.jpg" alt="" class="img-responsive">
+                        <a href="#"><img src="{{url()}}/images/marcas/index/foto-1.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>
                     <div class="panel-accesorios-index">
-                        <a href=""><img src="{{url()}}/images/marcas/index/video-2.jpg" alt="" class="img-responsive">
+                        <a href="#"><img src="{{url()}}/images/marcas/index/video-2.jpg" alt="" class="img-responsive">
                             
                         </a>
                     </div>

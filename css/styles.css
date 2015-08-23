@@ -425,9 +425,9 @@ footer a{
 .row-eq-height:nth-child(2) .item{
 	opacity: 1 !important;
 }
-.row-eq-height:nth-child(14) .item, .row-eq-height:nth-child(15) .item, .row-eq-height:nth-child(16) .item{
+/*.row-eq-height:nth-child(14) .item, .row-eq-height:nth-child(15) .item, .row-eq-height:nth-child(16) .item{
 	display: none !important;
-}
+}*/
 .item{
 	position: relative;
 	cursor: pointer;
@@ -1078,6 +1078,9 @@ footer a{
 }
 .ver-menu {
 	margin-left:10px
+}
+.bx-clone{
+	display: none;
 }
 @media (max-width: 1200px) {
 	nav.header {

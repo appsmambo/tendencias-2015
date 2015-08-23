@@ -10,7 +10,7 @@ if (!isset($itemactive))
 		@yield('metas')
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="{{url()}}/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="{{url()}}/css/styles.css" rel="stylesheet" />
+		<link href="{{url()}}/css/styles.css?v=1" rel="stylesheet" />
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -111,18 +111,18 @@ if (!isset($itemactive))
 		<script src="{{url()}}/js/jquery.smooth-scroll.min.js"></script>
 		<script src="{{url()}}/js/funciones-marcas.js"></script>
 		<script>
+			var cellWidth;
 			$(document).ready(function () {
 				$('.navs.yellow').addClass('nav-ancho easeOutExpo animated');
 				$('nav.header').addClass('left-margin');
 				$('.bar-toogle').addClass('active');
 				$('.navs .menu-list').delay(250).fadeIn('slow');
-				
 				var wall = new freewall("#freewall");
 				wall.reset({
 					selector:'.item-marca',
 					animate:true,
 					cellW:function(width) {
-						var cellWidth = width / 8;
+						cellWidth = width / 8;
 						return cellWidth;
 					},
 					cellH:'auto',

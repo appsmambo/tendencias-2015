@@ -2,6 +2,8 @@
 @section('content')
 <div id="lookbooks" >
 <?php 
+
+	//$numreg=46;
     $numitemsxPatron=14;
     $numpatron=intval($numreg/14)+1;
 

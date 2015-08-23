@@ -27,23 +27,27 @@
 	</p>
 	<div id="freewall" class="free-wall">
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/cacharel/1.jpg" alt="" />
-			
+			<a class="play" href="#" id="video-1" data-embed="embed-video-1">
+				<img src="{{url()}}/img/marcas/cacharel/1.jpg" alt="" />
+			</a>
+			<div id="embed-video-1" class="embed-video-marcas embed-responsive embed-responsive-16by9" style="display:none">
+				<iframe class="embed-responsive-item" src="//www.youtube.com/embed/grJ0ic7vbBA?rel=0&enablejsapi=1" id="iframe-video-1"></iframe>
+			</div>
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/cacharel/2.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/2.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w3">
-			<img src="{{url()}}/img/marcas/cacharel/3.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/3.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w5">
-			<img src="{{url()}}/img/marcas/cacharel/4.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/4.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/cacharel/6.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/6.jpg" alt="" width="100%" />
 		</div>
 		<div class="item-marca w4">
-			<img src="{{url()}}/img/marcas/cacharel/7.jpg" alt="" />
+			<img src="{{url()}}/img/marcas/cacharel/7.jpg" alt="" width="100%" />
 		</div>
 	</div>
 </div>
